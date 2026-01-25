@@ -1,0 +1,73 @@
+# Shared config for build_profile.py and digest_arxiv.py
+
+# Cache for seen arXiv IDs and output markdown digest
+cache_path: "cache/seen.json"
+digest_out: "cache/last_digest.md"
+include_seen: false  # if true, include already-seen papers in digest
+
+# arXiv query settings
+arxiv:
+  categories: ["hep-ph", "hep-th", "gr-qc", "astro-ph.CO", "astro-ph.HE", "hep-ex"]
+  extra_query: ""           # optional arXiv query fragment, e.g. 'ti:"neutrino"'
+  days_back: 2               # include papers updated or published within this many workdays
+  max_results: 120           # max records to request from arXiv API
+
+# Group profile and preference settings
+profile:
+  group_name: "Group"
+  profile_path: "profiles/group_profile.json"   # output of build_profile.py
+  preferences_path: "config/preferences.json"   # optional JSON merged into preferences
+  keywords: ["ultralight", "neutrino", "floquet", "superradiance"]
+  negative_keywords: []
+  top_k_keywords: 40          # used by build_profile.py
+  top_k_bigrams: 25           # used by build_profile.py
+  min_bigram_count: 3         # used by build_profile.py
+  keyword_df_ratio_max: 0.10  # drop tokens appearing in >10% of docs
+  keyword_df_min: 2           # drop tokens appearing in fewer than 2 docs
+  bigram_df_ratio_max: 0.25   # drop bigrams appearing in >25% of titles
+  recency_tau_years: 4.0
+  years_back: 10
+  years_back_hard: true
+  preferences:
+    favorite_authors: ["A. Author", "B. Author"]          # strong boost
+    avoid_authors: ["C. Author"]                          # strong downrank
+    favorite_categories: ["hep-ph", "hep-th"]            # boost if paper has these categories
+    avoid_categories: ["q-bio", "cs.CV"]                  # downrank
+    interest_tags: ["neutrino", "ultralight", "floquet"] # boost if appears in title/abstract
+    avoid_tags: ["protein", "diffusion"]                 # downrank if appears
+    ranking_hints:
+      core_definition: ""                                  # optional free text
+      adjacent_definition: ""                              # optional free text
+      special_instructions:
+        - "Prefer phenomenology over pure formalism"
+    weights:
+      author_boost: 8
+      author_penalty: 8
+      cat_boost: 4
+      cat_penalty: 6
+      tag_boost: 2
+      tag_penalty: 4
+
+# INSPIRE-HEP profile builder settings
+inspire:
+  query: 'a "Gilad Perez"'
+  sort: "mostrecent"
+  pages: 10
+  page_size: 25
+  max_records: 200
+
+# Gemini model settings
+gemini:
+  model: "gemini-2.5-flash-lite"
+  temperature: 0.2
+  max_output_tokens: 2500
+
+# Digest output settings
+output:
+  title: "arXiv Daily (Group)"
+  n_core: 6
+  n_adjacent: 6
+  abstract_snippet_chars: 500
+  max_candidates_to_send_to_gemini: 80
+  n_highly_relevant: 10
+  n_inspiring: 10

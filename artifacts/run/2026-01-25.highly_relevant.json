@@ -1,0 +1,118 @@
+{
+  "run_date": "2026-01-25",
+  "source": "arxiv",
+  "config_path": "config/config.yaml",
+  "profile_path": "profiles/group_profile.json",
+  "query": "cat:hep-ph OR cat:hep-th OR cat:gr-qc OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:hep-ex",
+  "fetched_at": "2026-01-25T16:23:00.803975+00:00",
+  "papers": [
+    {
+      "arxiv_id": "2508.15891v2",
+      "title": "Constraining light dark matter in vector-scalar portals with COSI and AMEGO-X",
+      "authors": [
+        "Maíra Dutra",
+        "Clarissa Siqueira",
+        "Tonia M. Venters"
+      ],
+      "abstract": "Detecting gamma-ray signals that could be due to dark matter (DM) particles would give us invaluable information about the nature of DM. In particular, gamma-ray lines could provide a way to measure the DM mass. The excellent energy resolution of the upcoming Compton Spectrometer and Imager (COSI) will allow us to probe underexplored regions of the DM parameter space while being sensitive to distinctive spectral features of potential DM signals. In this work, we consider a fermionic sub-GeV DM charged under a new U(1) gauge symmetry. Both the DM and the new gauge boson $Z'$ acquire mass from a new singlet scalar. The masses of the new particles in this class of vector-scalar portal models are naturally at the MeV scale, enabling detectable gamma-ray lines in the bandpasses of COSI and proposed missions such as the All-sky Medium Energy Gamma-ray Observatory eXplorer (AMEGO-X). We estimate the sensitivities of COSI and AMEGO-X to sub-GeV DM in this context, considering a B-L and a purely axial $Z'$ as benchmark examples. We find regions of the parameter space where COSI will provide leading constraints, beyond the strong CMB limits. On the other hand, AMEGO-X would probe most of the viable parameter space leading to continuum gamma rays. The implementation of our generic vector-scalar portal model in the Hazma toolkit is available at GitHub.",
+      "link": "https://arxiv.org/abs/2508.15891v2",
+      "published": "2025-08-21T18:00:01+00:00",
+      "updated": "2026-01-22T18:47:17+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "relevance_score": 83.0,
+      "why": "This paper directly addresses constraining light dark matter with vector-scalar portals, aligning with 'dark matter', 'new light particles', and 'beyond standard model' keywords. The use of gamma-ray detectors like COSI and AMEGO-X provides a concrete observational approach.",
+      "must_read": false,
+      "tags": [
+        "light dark matter",
+        "vector-scalar portal",
+        "gamma-ray astronomy",
+        "dark matter detector"
+      ]
+    },
+    {
+      "arxiv_id": "2601.16165v1",
+      "title": "Reanalyzing DESI DR1: 4. Percent-Level Cosmological Constraints from Combined Probes and Robust Evidence for the Normal Neutrino Mass Hierarchy",
+      "authors": [
+        "Mikhail M. Ivanov",
+        "James M. Sullivan",
+        "Shi-Fan Chen",
+        "Anton Chudaykin",
+        "Mark Maus",
+        "Oliver H. E. Philcox"
+      ],
+      "abstract": "We present cosmological parameters measurements from the full combination of DESI DR1 galaxy clustering data described with large-scale structure effective field theory. By incorporating additional datasets (photometric galaxies and CMB lensing cross-correlations) and extending the bispectrum likelihood to smaller scales using a consistent one-loop theory computation, we achieve substantial gains in constraining power relative to previous analyses. Combining with the latest DESI baryon acoustic oscillation data and using cosmic microwave background (CMB) priors on the power spectrum tilt and baryon density, we obtain tight constraints on the $Λ$CDM model, finding the Hubble constant $H_0=69.08\\pm 0.37~\\mathrm{km}\\,\\mathrm{s}^{-1}\\mathrm{Mpc}^{-1}$, the matter density fraction $Ω_m=0.2973\\pm 0.0050$, and the mass fluctuation amplitude $σ_8 = 0.815\\pm 0.016$ (or the lensing parameter $S_8\\equivσ_8\\sqrt{Ω_m/0.3}=0.811\\pm 0.016$), corresponding to $0.6\\%$, $1.7\\%$, and $2\\%$ precision respectively. Adding the Pantheon+ supernova sample (SNe), we find a preference of $2.6σ$ for the $w_0w_a$ dynamical dark energy model from low-redshift data alone, which increases to $2.8σ$ when exchanging the SNe with Planck CMB data. Combining full-shape data with BAO, CMB, and SNe likelihoods, we improve the dark energy figure-of-merit by $18\\%$ and bound the sum of the neutrino masses to $M_ν<0.057$ eV in $Λ$CDM and $M_ν<0.095$ eV in the $w_0w_a$ dynamical dark energy model (both at 95\\% CL). This represents an improvement of $25\\%$ over the background expansion constraints and the strongest bound on neutrino masses in $w_0w_a$CDM to date. Our results suggest that the preference for the normal ordering of neutrino mass states holds regardless of the cosmological background model, and is robust in light of tensions between cosmological datasets.",
+      "link": "https://arxiv.org/abs/2601.16165v1",
+      "published": "2026-01-22T18:10:50+00:00",
+      "updated": "2026-01-22T18:10:50+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "hep-ex",
+        "hep-ph",
+        "hep-th"
+      ],
+      "relevance_score": 78.5,
+      "why": "This paper provides cosmological constraints, including robust evidence for the normal neutrino mass hierarchy, directly matching 'neutrino mass' and 'beyond the standard model' keywords. It uses galaxy clustering data and combines probes, indicating a precision cosmology approach.",
+      "must_read": false,
+      "tags": [
+        "neutrino mass hierarchy",
+        "cosmology",
+        "galaxy clustering",
+        "DESI"
+      ]
+    },
+    {
+      "arxiv_id": "2501.02286v2",
+      "title": "Constraining electromagnetic couplings of ultralight scalars from compact stars",
+      "authors": [
+        "Tanmay Kumar Poddar",
+        "Amol Dighe"
+      ],
+      "abstract": "If an ultralight scalar interacts with the electromagnetic fields of a compact rotating star, then a long-range scalar field is developed outside the star. The Coulomb-like profile of the scalar field to the leading order is equivalent to an effective scalar charge on the star. In a binary star system, the scalar-induced charge would result in a long-range force between the stars, with the scalar field acting as the mediator. The scalar-photon interactions would modify Maxwell's equations for electromagnetic fields in vacuum, resulting in a modified dispersion relation. This could be observed as an apparent redshift for photons emitted by such sources. The scalar field would also induce additional electric and magnetic fields and hence affect the electromagnetic energy radiated from such compact objects. A scalar field sourced by time-varying electromagnetic fields can also carry away energy from a compact star in the form of radiation, and hence contribute to its spin-down luminosity. We constrain the scalar-photon coupling from the measurements of the electromagnetic radiation of a compact star and from its spin-down luminosity, using the Crab pulsar, the soft gamma repeater SGR 1806-20, and the gamma ray burst GRB 080905A. We also project the prospective bounds on the coupling from future measurements of the long-range force between two compact stars in a binary such as PSR J0737-3039, and from the apparent redshifts of compact stars. Future advances in precision-clock sensitivity and targeted observations of stars with strong surface magnetic fields, large radii, and low-frequency emission can substantially tighten these coupling limits.",
+      "link": "https://arxiv.org/abs/2501.02286v2",
+      "published": "2025-01-04T13:29:51+00:00",
+      "updated": "2026-01-22T17:13:46+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "relevance_score": 87.0,
+      "why": "This paper investigates constraints on ultralight scalars interacting with electromagnetic fields from compact stars, directly matching 'ultralight dark matter', 'dark matter scalar', and 'beyond the standard model' keywords. It proposes a specific interaction mechanism and observational constraints.",
+      "must_read": true,
+      "tags": [
+        "ultralight scalar",
+        "dark matter",
+        "compact stars",
+        "electromagnetic interaction"
+      ]
+    },
+    {
+      "arxiv_id": "2601.16129v1",
+      "title": "One-Loop QCD Corrections to $\\bar{B}\\to X_c \\ell \\barν_\\ell$ in and Beyond the Standard Model",
+      "authors": [
+        "Alexandre Carvunis",
+        "Gael Finauri"
+      ],
+      "abstract": "We compute one-loop QCD corrections to the triple differential width of the inclusive decay $\\bar{B} \\to X_c \\ell \\barν_\\ell$ including contributions from all relevant dimension-six operators in the Weak Effective Theory (WET), at leading power in heavy quark expansion. Furthermore we derive for the first time up to order $\\mathcal{O}(α_s)$ analytic expressions for the first three moments of the distribution in the lepton energy, hadronic invariant mass and dilepton invariant mass, in the presence of beyond the Standard Model contributions from the WET.",
+      "link": "https://arxiv.org/abs/2601.16129v1",
+      "published": "2026-01-22T17:28:51+00:00",
+      "updated": "2026-01-22T17:28:51+00:00",
+      "categories": [
+        "hep-ph"
+      ],
+      "relevance_score": 75.0,
+      "why": "This paper computes one-loop QCD corrections to B decays in and beyond the Standard Model, directly matching 'beyond the standard model' and 'new physics' keywords. It focuses on inclusive decays and includes dimension-six operators, indicating a precision calculation relevant to BSM physics.",
+      "must_read": false,
+      "tags": [
+        "beyond standard model",
+        "QCD corrections",
+        "B decays",
+        "dimension-six operators"
+      ]
+    }
+  ]
+}

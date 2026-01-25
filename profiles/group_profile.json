@@ -1,0 +1,164 @@
+{
+  "group_name": "Group",
+  "source": {
+    "kind": "inspirehep",
+    "query": "a \"Perez, Gilad\"",
+    "fetched_records": 55,
+    "raw_hits_fetched": 162,
+    "min_year": 2016,
+    "years_back": 10,
+    "years_back_hard": true,
+    "fetched_at": "2026-01-25T15:45:08.187680+00:00"
+  },
+  "keywords": [
+    "new physics",
+    "cp violation",
+    "oscillation",
+    "beyond standard model",
+    "dark matter",
+    "dark matter scalar",
+    "axionlike particles",
+    "dark matter density",
+    "signature",
+    "neutrino mass",
+    "new light particles",
+    "atom",
+    "nucleus",
+    "naturalness",
+    "supersymmetry",
+    "axion dark matter",
+    "dark matter detector",
+    "neutrino oscillation",
+    "cern lhc coll upgrade",
+    "beyond the standard model",
+    "quantum chromodynamics axion",
+    "axion",
+    "mixing",
+    "quality",
+    "hierarchy",
+    "bound state",
+    "model axion",
+    "mixing angle",
+    "back reaction",
+    "cern lhc coll",
+    "higgs physics",
+    "experimental methods",
+    "effective field theory",
+    "electroweak interaction",
+    "higgs particle coupling",
+    "phenomenological models",
+    "operator higherdimensional",
+    "scale electroweak interaction",
+    "cosmology of theories beyond the sm",
+    "ion"
+  ],
+  "bigrams": [
+    "ultralight dark",
+    "new physics",
+    "scalar dark",
+    "neutrino oscillations"
+  ],
+  "trigrams": [
+    "ultralight dark matter",
+    "scalar dark matter",
+    "axion dark matter",
+    "oscillating scalar dark",
+    "probing relaxed relaxion",
+    "isotope shift spectroscopy"
+  ],
+  "structured_phrases": [
+    "new physics",
+    "cp violation",
+    "oscillation",
+    "beyond standard model",
+    "dark matter",
+    "dark matter scalar",
+    "axionlike particles",
+    "dark matter density",
+    "signature",
+    "neutrino mass",
+    "new light particles",
+    "atom",
+    "nucleus",
+    "naturalness",
+    "supersymmetry",
+    "axion dark matter",
+    "dark matter detector",
+    "neutrino oscillation",
+    "cern lhc coll upgrade",
+    "beyond the standard model",
+    "quantum chromodynamics axion",
+    "axion",
+    "mixing",
+    "quality",
+    "hierarchy"
+  ],
+  "negative_keywords": [],
+  "seed_papers": [
+    {
+      "title": "Is the Conventional Picture of Coherence Time Complete? Dark Matter Recoherence",
+      "year": 2026,
+      "arxiv": "2601.00955",
+      "inspire_id": "3097825"
+    },
+    {
+      "title": "Search for a solar-bound axion halo using the Global Network of Optical Magnetometers for Exotic physics searches",
+      "year": 2025,
+      "arxiv": "2512.10221",
+      "inspire_id": "3092242"
+    },
+    {
+      "title": "Effective Field Theory Perspective On King Non-linearity",
+      "year": 2025,
+      "arxiv": "2512.03157",
+      "inspire_id": "3088956"
+    },
+    {
+      "title": "Natural Ultralight Dark Matter: The Quadratic Twin",
+      "year": 2025,
+      "arxiv": "2507.12514",
+      "inspire_id": "2948360"
+    },
+    {
+      "title": "Probing new forces with nuclear clocks",
+      "year": 2025,
+      "arxiv": "2503.02932",
+      "inspire_id": "2897079"
+    },
+    {
+      "title": "Momentum and Matter Matter for Axion Dark Matter Matters on Earth",
+      "year": 2025,
+      "arxiv": "2502.04455",
+      "inspire_id": "2877665"
+    },
+    {
+      "title": "Searching for hadronic scale baryonic and dark forces at (g − 2)$_{μ}$’s lattice-vs-dispersion front",
+      "year": 2024,
+      "arxiv": "2412.12266",
+      "inspire_id": "2860343"
+    },
+    {
+      "title": "Sensitivity of nuclear clocks to new physics",
+      "year": 2024,
+      "arxiv": "2407.17526",
+      "inspire_id": "2811007"
+    },
+    {
+      "title": "Searching for Dark Matter with the Nuclear Lineshape from Laser Spectroscopy",
+      "year": 2024,
+      "arxiv": "2407.15924",
+      "inspire_id": "2921397"
+    },
+    {
+      "title": "Nelson-Barr ultralight dark matter",
+      "year": 2024,
+      "arxiv": "2405.06744",
+      "inspire_id": "2785950"
+    }
+  ],
+  "scoring": {
+    "mode": "tfidf",
+    "recency_tau_years": 4.0,
+    "contrast_enabled": false
+  }
+}

@@ -1,0 +1,56 @@
+Group profile (compact JSON):
+{{GROUP_PROFILE_JSON}}
+
+Paper cards (JSON list):
+{{PAPERS_JSON}}
+
+You are a high-energy phenomenology PI/postdoc acting as a red-team idea scout.
+Goal: select papers that are NOT close to our core domain, but are likely to yield transferable ideas/tools.
+
+For each candidate, score:
+Q1 Readability (0-100): Can a hep-ph person plausibly extract the main idea from title+snippet alone? 
+- 90: clear problem statement + method + claims; 50: partially clear; 10: opaque/jargon-only.
+
+Q2 Domain distance (0-100): Distance from our profile. 
+- 0: same sub-subfield; 50: adjacent domain; 90: far (different community/tech stack).
+
+Q3 Inspiration (0-100): Novel mechanism/technique/angle that could change how we think in our domain.
+- Must be specific: name the transferable item (e.g., “Floquet-style treatment”, “effective operator mapping”, “new constraint strategy”, “inference technique”, “simulation trick”).
+
+Q4 Actionability (0-100): If we read it, probability of extracting something usable within 1–2 days.
+- High only if the transferable item is concrete and the paper seems structured.
+
+Hard penalties (apply before final score):
+- If snippet is too generic to identify *any* mechanism/tool, cap Q3<=30 and Q4<=30.
+- If it looks like pure experimental status/updates without a method/tool, cap Q3<=40 unless it introduces a new analysis technique.
+- If it is purely in our core domain (distance < 25), move it to not_inspiring (this list is for “distance but useful”).
+
+Compute:
+inspiring_score = 0.45*Q3 + 0.25*Q1 + 0.20*Q4 - 0.20*Q2, clamp 0..100.
+
+Selection:
+- Return up to N items (N is implied by the caller; if many, pick highest inspiring_score).
+- Prefer precision: exclude borderline items. If fewer than N qualify, return fewer.
+
+Output STRICT JSON only:
+{
+  "inspiring": [
+    {
+      "arxiv_id": "...",
+      "readability": 0-100,
+      "distance": 0-100,
+      "inspiration": 0-100,
+      "actionability": 0-100,
+      "inspiring_score": 0-100,
+      "why": "<=2 sentences; must explicitly state the transferable idea/tool and why it’s plausible>"
+    }
+  ],
+  "not_inspiring": [
+    {"arxiv_id": "...", "reason": "<=1 sentence; be concrete, e.g. 'no identifiable mechanism/tool from snippet'>"}
+  ]
+}
+
+Rules:
+- Exclude IDs already selected as highly_relevant (they are omitted from input).
+- Use only the provided paper cards; do not invent content.
+- No markdown, no extra keys.

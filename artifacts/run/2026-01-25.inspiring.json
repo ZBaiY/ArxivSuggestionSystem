@@ -1,0 +1,80 @@
+{
+  "run_date": "2026-01-25",
+  "source": "arxiv",
+  "config_path": "config/config.yaml",
+  "profile_path": "profiles/group_profile.json",
+  "query": "cat:hep-ph OR cat:hep-th OR cat:gr-qc OR cat:astro-ph.CO OR cat:astro-ph.HE OR cat:hep-ex",
+  "fetched_at": "2026-01-25T16:23:00.803975+00:00",
+  "papers": [
+    {
+      "arxiv_id": "2601.16197v1",
+      "title": "Constraining dark energy models using Jackknife and Bootstrap resampling",
+      "authors": [
+        "Roshna K",
+        "Nikhil Fernandes",
+        "P Praveen",
+        "V. Sreenath"
+      ],
+      "abstract": "Analyses of type Ia supernovae have helped us shed light on the existence and nature of dark energy. Most of these analyses have relied on Bayesian techniques. In this work, we rely on resampling techniques to analyse supernova data. In particular, we use the generalised least squares method together with Jackknife and Bootstrap techniques to estimate parameters of $Λ$CDM, flat $Λ$CDM, $w$CDM, flat $w$CDM, and flat $w_0\\,w_a$CDM models from the recent PantheonPlus and SH0ES data. For completeness, we also perform Bayesian analysis using Markov chain Monte Carlo (MCMC) and nested sampling algorithms, and compare the results. We note that resampling techniques can help highlight the limitations of the data. For instance, we see that the Jackknife method estimates a strong positive correlation between $h$ and $M$ and higher standard deviations for both. This may have significant implications for the Hubble tension. We conclude with a discussion of our results.",
+      "link": "https://arxiv.org/abs/2601.16197v1",
+      "published": "2026-01-22T18:49:41+00:00",
+      "updated": "2026-01-22T18:49:41+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "readability": 80,
+      "distance": 70,
+      "inspiration": 70,
+      "actionability": 70,
+      "inspiring_score": 65.5,
+      "why": "This paper applies Jackknife and Bootstrap resampling techniques to dark energy models. These statistical inference methods could be transferable to analyzing experimental data in our domain, especially for complex datasets or when assessing uncertainties."
+    },
+    {
+      "arxiv_id": "2510.12790v3",
+      "title": "Thermodynamics of quantum processes: An operational framework for free energy and reversible athermality",
+      "authors": [
+        "Himanshu Badhani",
+        "Dhanuja G. S.",
+        "Siddhartha Das"
+      ],
+      "abstract": "We explore the thermodynamics of quantum processes (quantum channels) by axiomatically introducing the free energy for channels, defined via the quantum relative entropy with an absolutely thermal channel whose fixed output is in equilibrium with a thermal reservoir. This definition finds strong support through its operational interpretations in designated quantum information and thermodynamic tasks. We construct a resource theory of athermality for quantum processes, where free operations are Gibbs preserving superchannels and golden units are unitary channels with respect to absolutely thermal channel having fully degenerate output Hamiltonian. We exactly characterize the one-shot distillation and formation of quantum channels using hypothesis-testing and max-relative entropy with respect to the absolutely thermal channel. These rates converge asymptotically to the channel free energy (up to a multiplicative factor of half the inverse temperature), establishing its operational meaning and proving the asymptotic reversibility of the athermality. We show the direct relation between the resource theory of athermality and quantum information tasks such as private randomness and purity distillation, and thermodynamic tasks of erasure and work extraction. Our work connects the core thermodynamic concepts of free energy, energy, entropy, and maximal extractable work of quantum processes to their information processing capabilities.",
+      "link": "https://arxiv.org/abs/2510.12790v3",
+      "published": "2025-10-14T17:58:01+00:00",
+      "updated": "2026-01-22T17:22:45+00:00",
+      "categories": [
+        "quant-ph",
+        "cond-mat.stat-mech",
+        "hep-th",
+        "math-ph"
+      ],
+      "readability": 70,
+      "distance": 60,
+      "inspiration": 60,
+      "actionability": 60,
+      "inspiring_score": 51.0,
+      "why": "It introduces an operational framework for free energy and athermality in quantum processes, using quantum relative entropy. This formal approach to thermodynamics in quantum systems might offer new perspectives on analyzing quantum field theory phenomena or detector responses."
+    },
+    {
+      "arxiv_id": "2601.16088v1",
+      "title": "Carrier envelope phase and pulse shape effects on vacuum pair production in asymmetric electric fields with bell-shaped envelopes",
+      "authors": [
+        "Abhinav Jangir",
+        "Anees Ahmed"
+      ],
+      "abstract": "We investigate the combined effects of carrier envelope phase and laser pulse shape on electron-positron pair production in the presence of an external time-dependent asymmetric electric field by solving the quantum Vlasov equation. We analyze how the pulse asymmetry, the envelope type (Gaussian, Lorentzian and Sauter), and the carrier envelope phase jointly influence the momentum distribution and the number density of created pairs. Our results show that pair production exhibits extreme sensitivity to both the degree of temporal asymmetry and the steepness of the envelope on either side of the pulse. These effects are qualitatively explained through a turning-point analysis, which, for the first time, is carried out for a non-analytic electric field using a regularization scheme. We observed that multiphoton pair production dominates the Schwinger mechanism in the case of a long falling-pulse asymmetry. For a short falling pulse with a flat-topped profile, pair production is further facilitated. We demonstrate that the number density can be enhanced by two to three orders of magnitude by choosing certain field parameters.",
+      "link": "https://arxiv.org/abs/2601.16088v1",
+      "published": "2026-01-22T16:36:00+00:00",
+      "updated": "2026-01-22T16:36:00+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "readability": 70,
+      "distance": 50,
+      "inspiration": 50,
+      "actionability": 50,
+      "inspiring_score": 42.0,
+      "why": "This paper investigates carrier envelope phase and pulse shape effects on vacuum pair production using the quantum Vlasov equation. The methodology for solving kinetic equations with complex field configurations could be adapted for simulating particle production or interactions in non-standard field backgrounds."
+    }
+  ]
+}
