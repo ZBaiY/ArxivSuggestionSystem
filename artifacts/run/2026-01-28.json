@@ -1,0 +1,1922 @@
+{
+  "run_date": "2026-01-28",
+  "source": "arxiv",
+  "config_path": "config/config.yaml",
+  "profile_path": "profiles/group_profile.json",
+  "query": "cat:hep-ph OR cat:gr-qc OR cat:astro-ph.HE OR cat:astro-ph.CO",
+  "fetched_at": "2026-01-28T08:58:59.983983+00:00",
+  "papers": [
+    {
+      "arxiv_id": "2601.19891v1",
+      "title": "Fading Echoes of Interaction: Probing Centuries of Mass-Loss in Four Old Type IIn Supernovae",
+      "authors": [
+        "Elizabeth Hillenkamp",
+        "Raphael Baer-Way",
+        "Poonam Chandra",
+        "Arkaprabha Sarangi",
+        "Roger Chevalier",
+        "Nayana A. J.",
+        "Annika Deutsch",
+        "Keiichi Maeda",
+        "Nathan Smith"
+      ],
+      "abstract": "Supernovae characterized by enduring narrow optical hydrogen emission lines (SNe IIn) are believed to result primarily from the core-collapse of massive stars undergoing sustained interaction with a dense circumstellar medium (CSM). While the properties of SN IIn progenitors have relatively few direct constraints, the ongoing ejecta-CSM interaction provides unique information about late-stage stellar mass-loss preceding core-collapse. We present late-time X-ray and radio observations of four $\\geq$3000 day-old SNe IIn: SN 2013L, SN 2014ab, SN 2015da, and KISS15s. The radio and X-ray emission from KISS15s indicate a mass-loss rate of $\\rm{\\dot M\\sim4\\times 10^{-3}~{M_{\\odot}\\,yr^{-1}}}$ at $\\sim$450 years pre-supernova -- 2 orders of magnitude below earlier optical estimates (which probed the mass-loss immediately preceding the supernova). We find hints of a spectral inversion in the radio SED of KISS15s; a possible signature of a secondary shock due to a binary system or the emergence of a pulsar wind. For SN 2013L, we obtain a mass-loss rate of $\\rm{\\dot M\\sim2 \\times 10^{-3}~\\rm{M_{\\odot}\\,yr^{-1}}}$ at $\\sim$400 years pre-explosion based on the X-ray detection. For SN 2014ab and SN 2015da, we find a upper limits on the mass-loss rates of $\\rm{\\dot M<2\\times10^{-3}~M_{\\odot}\\,yr^{-1}}$ explosion at $\\sim$ 250 and 300 years pre-explosion, respectively. All four objects display mass-loss rates lower than estimates from earlier optical analyses by at least 1-3 orders of magnitude, necessitating a rapidly evolving progenitor process over the last centuries pre-explosion. Our analysis reveals how X-ray and radio observations can elucidate progenitor evolution when these objects have faded at optical wavelengths.",
+      "link": "https://arxiv.org/abs/2601.19891v1",
+      "published": "2026-01-27T18:57:30+00:00",
+      "updated": "2026-01-27T18:57:30+00:00",
+      "categories": [
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19883v1",
+      "title": "A Comprehensive Effective Field Theory Framework for Coherent Elastic Neutrino-Nucleus Scattering",
+      "authors": [
+        "Gang Li",
+        "Chuan-Qiang Song",
+        "Feng-Jie Tang",
+        "Jiang-Hao Yu"
+      ],
+      "abstract": "Coherent elastic neutrino-nucleus scattering (CE$ν$NS) stands out as a pivotal process for precision tests of the Standard Model electroweak sector, investigations of neutrino properties, and searches for new physics (NP). Recent experimental measurements by COHERENT, CONUS+, and ton-scale xenon detectors--including PandaX-4T and XENONnT--underscore the need for a systematic theoretical framework to bridge high-energy physics scenarios with low-energy observational data. In this work, we develop a comprehensive end-to-end effective field theory (EFT) framework for CE$ν$NS, encompassing the complete energy scale hierarchy spanning the ultraviolet (UV) regime down to the nuclear sector. We consider the low-energy EFT (LEFT) operators up to dimension 8, incorporating their QCD renormalization group running effects, and employ the systematic spurion method to achieve the matching between these operators and the chiral Lagrangian. A full power counting analysis is performed, extending to nuclear response functions, which evaluates contributions from LEFT operators up to dimension 8 while accounting for the nucleon number enhancement effect intrinsic to CE$ν$NS. Moreover, we match the relevant LEFT operators for CE$ν$NS onto operators up to dimension 8 within the Standard Model EFT. By also providing their complete tree-level ultraviolet completions, this procedure establishes a consistent top-down theoretical workflow. Leveraging a broad suite of CE$ν$NS experimental data, this framework enables a combined analysis to extract constraints on the scales of EFT operators and neutrino non-standard interaction parameters.",
+      "link": "https://arxiv.org/abs/2601.19883v1",
+      "published": "2026-01-27T18:50:50+00:00",
+      "updated": "2026-01-27T18:50:50+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2509.26218v2",
+      "title": "Event Tokenization and Masked-Token Prediction for Anomaly Detection at the Large Hadron Collider",
+      "authors": [
+        "Ambre Visive",
+        "Polina Moskvitina",
+        "Clara Nellist",
+        "Roberto Ruiz de Austri",
+        "Sascha Caron"
+      ],
+      "abstract": "We propose a novel use of Large Language Models (LLMs) as unsupervised anomaly detectors in particle physics. Using lightweight LLM-like networks with encoder-based architectures trained to reconstruct background events via masked-token prediction, our method identifies anomalies through deviations in reconstruction performance, without prior knowledge of signal characteristics. Applied to searches for simultaneous four-top-quark production, this token-based approach shows competitive performance against established unsupervised methods and effectively captures subtle discrepancies in collider data, suggesting a promising direction for model-independent searches for new physics.",
+      "link": "https://arxiv.org/abs/2509.26218v2",
+      "published": "2025-09-30T13:19:00+00:00",
+      "updated": "2026-01-27T18:47:49+00:00",
+      "categories": [
+        "hep-ex",
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2505.24502v5",
+      "title": "From top quarks to enhanced quantum key distribution: A Framework for Optimal Predictability of Quantum Observables",
+      "authors": [
+        "Dennis I. Martínez-Moreno",
+        "Miguel Castillo-Celeita",
+        "Diego G. Bussandri"
+      ],
+      "abstract": "Predicting the outcomes of quantum measurements is a cornerstone of quantum information theory and a key resource for quantum technologies. Here, we introduce a comprehensive framework for quantifying the predictability of measurements on a bipartite quantum system using error measures inherited from statistical learning theory: the Bayes risk and inference variance. We derive analytical expressions for the optimal measurement that minimizes the prediction error for any arbitrary observable and any two-qubit state. We establish a direct, quantitative link between the ability to surpass the fundamental limit of local unpredictability and the presence of Einstein-Podolsky-Rosen steering. Additionally, by optimizing measurement choices according to the minimal Bayes risk, we propose a modified entanglement-based quantum key distribution protocol achieving higher secure key rates than the standard BB84 protocol, demonstrating enhanced resilience to noise. We apply our framework in two scenarios: perfect Bell states affected by local amplitude-damping noises, and top-antitop quark pairs produced in high-energy colliders. Our work offers a novel perspective on quantum correlations, connecting statistical inference, fundamental quantum phenomena, and cryptographic applications.",
+      "link": "https://arxiv.org/abs/2505.24502v5",
+      "published": "2025-05-30T12:03:59+00:00",
+      "updated": "2026-01-27T18:41:31+00:00",
+      "categories": [
+        "quant-ph",
+        "hep-ex",
+        "hep-ph",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2509.10601v2",
+      "title": "Active galactic nuclei do not exhibit strictly sinusoidal brightness variations",
+      "authors": [
+        "Kareem El-Badry",
+        "David W. Hogg",
+        "Hans-Walter Rix"
+      ],
+      "abstract": "Periodic variability in active galactic nuclei (AGN) light curves has been proposed as a signature of close supermassive black hole (SMBH) binaries. Recently, 181 candidate SMBH binaries were identified in Gaia DR3 based on apparently stable sinusoidal variability in their $\\sim$1000-day light curves. By supplementing Gaia photometry with longer-baseline light curves from the Zwicky Transient Facility (ZTF) and the Catalina Real Time Transient Survey (CRTS), we test whether the reported periodic signals persist beyond the Gaia DR3 time window. We find that in all 116 cases with available ZTF data, the Gaia-inferred periodic model fails to predict subsequent variability, which appears stochastic rather than periodic. The periodic candidates thus overwhelmingly appear to be false positives; red noise contamination appears to be the primary source of false detections. We conclude that truly periodic and sinusoidal AGN variability is exceedingly rare, with at most a few in $10^6$ AGN exhibiting it on 100 to 1000 day timescales. Models predict that the Gaia AGN light curve sample should contain dozens of true SMBH binaries with periods within the observational baseline, so the lack of strictly periodic light curves in the sample suggests that most short-period binary AGN do not have light curves dominated by simple sinusoidal periodicity.",
+      "link": "https://arxiv.org/abs/2509.10601v2",
+      "published": "2025-09-12T18:00:00+00:00",
+      "updated": "2026-01-27T18:37:31+00:00",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19863v1",
+      "title": "Prompt cusps in hierarchical dark matter halos: Implications for annihilation boost",
+      "authors": [
+        "Shin'ichiro Ando",
+        "Martin Moro",
+        "Youyou Li"
+      ],
+      "abstract": "Recent simulations have identified long-lived ``prompt cusps'' -- compact remnants of early density peaks with inner profiles $ρ\\propto r^{-3/2}$. They can survive hierarchical assembly and potentially enhance signals of dark matter annihilation. In this work, we incorporate prompt cusps into the semi-analytic substructure framework \\textsc{SASHIMI}, enabling a fully hierarchical, environment-dependent calculation of the annihilation luminosity that consistently tracks subhalos, sub-subhalos, and tidal stripping. We assign prompt cusps to first-generation microhalos and propagate their survival through the merger history, including an explicit treatment of cusps associated with stripped substructure. We find that the substructure hierarchy converges rapidly once a few levels are included, and that prompt cusps can raise the total annihilation boost of Milky-Way--size hosts at $z=0$ to $B\\sim O(10)$ for fiducial cusp-occupation assumptions, compared to a subhalo-only baseline of $B_{\\rm sh}\\sim\\mathrm{few}$. Across a wide range of host masses and redshifts, prompt cusps increase the normalization of $B(M_{\\rm host},z)$ while largely preserving its mass and redshift trends. Compared to universal-average, peak-based estimates, our fiducial boosts are lower by about an order of magnitude, primarily reflecting a correspondingly smaller inferred cusp abundance in host halos, highlighting the importance of unifying peak-based cusp formation with merger-tree evolution and environmental dependence.",
+      "link": "https://arxiv.org/abs/2601.19863v1",
+      "published": "2026-01-27T18:21:08+00:00",
+      "updated": "2026-01-27T18:21:08+00:00",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.CO",
+        "astro-ph.HE",
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19861v1",
+      "title": "Testing the Equivalence Principle in Galaxy Clusters",
+      "authors": [
+        "Enea Di Dio",
+        "Sveva Castello",
+        "Camille Bonvin"
+      ],
+      "abstract": "Clusters of galaxies have been used to measure a subtle effect predicted by Einstein: gravitational redshift. This signal encodes pristine information about our Universe, since it is sensitive to the depth of the clusters' gravitational potential wells. In this work, we show how gravitational redshift can be used to test a fundamental physical principle: the weak equivalence principle. This principle stipulates that all matter falls in the same way in a gravitational potential, regardless of its nature. By comparing the amplitude of the gravitational redshift signal with the velocity dispersion in galaxy clusters, we build a novel test of this principle targeted to the unknown dark matter. Our test is sensitive to any additional interaction that would alter the way dark matter falls in gravitational potentials, hence leading to a violation of the equivalence principle. We show that currently available data can constrain the presence of a fifth force in clusters at the level of 7-14%, while the newest surveys will reach a precision of a few percents. This demonstrates the crucial role played by galaxy clusters in testing fundamental properties of dark matter.",
+      "link": "https://arxiv.org/abs/2601.19861v1",
+      "published": "2026-01-27T18:18:23+00:00",
+      "updated": "2026-01-27T18:18:23+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19858v1",
+      "title": "Melvin--Bonnor and Bertotti--Robinson spacetimes with Baryonic charge",
+      "authors": [
+        "José Barrientos",
+        "Fabrizio Canfora",
+        "Adolfo Cisterna",
+        "Keanu Müller",
+        "Anibal Neira"
+      ],
+      "abstract": "Recently, a novel dictionary relating solutions of the Einstein--Scalar--Maxwell theory to solutions of gauged Skyrme--Maxwell--Einstein models in $(3+1)$ dimensions has been established. This development provides a clear and systematic route to constructing new configurations with nontrivial Baryonic charge and magnetic field, leveraging the fact that the Einstein--Scalar--Maxwell system is considerably more tractable, thanks to powerful solution-generating techniques. In this work, we exploit the framework that allows compact sources dressed by scalar fields to be consistently embedded in external electromagnetic backgrounds, and we construct their dual counterparts carrying Baryonic charge in the Skyrme sector. The resulting Baryonic charge is expressed directly in terms of the parameters characterizing the seed spacetime, and a corresponding quantization condition involving these parameters is explicitly derived. Consequently, the mass and the Baryonic charge are not independent parameters. These results provide a closed analytic formula for the black hole mass parameter in terms of the Baryonic charge and the magnetic field. This relation between the mass parameter and the Baryonic charge is linear for large values of the mass, while significant deviations from linearity arise if the mass takes intermediate values.",
+      "link": "https://arxiv.org/abs/2601.19858v1",
+      "published": "2026-01-27T18:13:57+00:00",
+      "updated": "2026-01-27T18:13:57+00:00",
+      "categories": [
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19854v1",
+      "title": "Banana Split: Improved Cosmological Constraints with Two Light-Curve-Shape and Color Populations Using Union3.1+UNITY1.8",
+      "authors": [
+        "David Rubin",
+        "Taylor Hoyt",
+        "Greg Aldering",
+        "Saul Perlmutter"
+      ],
+      "abstract": "SNe Ia have been used to provide key constraints on the equation-of-state parameter of dark energy. They are generally standardized under the assumption that they belong to a single population, with luminosities standardized in a continuous (roughly linear) fashion using the observed light-curve timescale. We update the Union3+UNITY1.5 SN cosmology analysis in light of increasing evidence for at least two core populations of SNe Ia and apply this \"UNITY1.8\" model to the updated \"Union3.1\" compilation (Hoyt et al. 2026). In addition to finding evidence for two different light-curve-shape (x1) distributions, we also find that the color distributions are different, that the light-curve-shape/magnitude standardization relations are different, and that these populations have different distributions across host-galaxy stellar mass and redshift. Importantly, we find that the residual host-mass luminosity step found in prior SN Ia cosmology analyses is now consistent with zero for unreddened SNe. We report a significantly tightened constraint on the split in the red-color standardization between SNe in low- and high-mass galaxies. We find that the estimated uncertainties shrink on cosmological parameters when fitting the same SNe assuming two modes versus one mode. We confirm similar trends in simulated data when running both versions of UNITY on the same (two-mode) simulations. For a flat LambdaCDM cosmology, we find Om = 0.334+0.025-0.024 from SNe alone; for a flat w0-wa cosmology, we find w0 = -0.760+0.084-0.082 and wa = -0.79+0.28-0.30 when including SNe, BAO, and CMB. In the 2D w0-wa plane, adding SNe to BAO and compressed CMB increases the tension with flat LambdaCDM from 2.1 sigma to 2.6 sigma.",
+      "link": "https://arxiv.org/abs/2601.19854v1",
+      "published": "2026-01-27T18:08:29+00:00",
+      "updated": "2026-01-27T18:08:29+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19844v1",
+      "title": "Oscillating Resonances: Imprints of ultralight dark matter at colliders",
+      "authors": [
+        "Martin Bauer",
+        "Sreemanti Chakraborti"
+      ],
+      "abstract": "In models where ultralight fields constitute dark matter, the misalignment mechanism leads to coherent, low-amplitude oscillations in fundamental constants. This effect arises from effective operators that couple dark matter to Standard Model fields. We present different models that can induce these effective operators by integrating out a mediator field. For mediator masses within the reach of collider searches, an alternative way to discover ultralight dark matter is to search for a resonance. Due to being a mediator to dark matter, the mass of the mediator oscillates. The resonance therefore, should not appear as a single isolated peak, but is smeared out once data is averaged over an oscillation cycle or more. Remarkably, the oscillation period and amplitude are in the range of current and future collider searches, even though constraints from atomic clocks probing variations of the fine-structure constant and the electron mass are very strong. We recast existing searches and projections from Belle II, LHCb and SHiP for an `oscillating resonance', and discuss how the periodicity of the signal can be used to reconstruct the peak from mass-binned data. We further show that time-stamped data would allow to unfold the signal via a fast Fourier transform and determine the significance of the signal for different background levels. The discovery of an oscillating resonance at a collider, with characteristics as predicted in ultralight dark matter scenarios, would constitute a powerful probe of dark matter's underlying nature.",
+      "link": "https://arxiv.org/abs/2601.19844v1",
+      "published": "2026-01-27T17:50:17+00:00",
+      "updated": "2026-01-27T17:50:17+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2512.24429v2",
+      "title": "Gravitational Holonomy in Sagnac Interferometry",
+      "authors": [
+        "Reza Javadinezhad",
+        "Ali Seraj"
+      ],
+      "abstract": "We analyze the influence of gravitational waves on a Sagnac interferometer formed by the interference of two counter-propagating beams traversing a closed spatial loop. In addition to the well-known Sagnac phase shift, we identify an additional contribution originating from a relative rotation in the polarization vectors. We formulate this effect as a gravitational holonomy associated to the internal Lorentz group. The magnitude of both effects is computed due to gravitational waves generated by a localized source far from the detector, at leading order in the inverse distance. For freely falling observers, the phase shift is zero and the polarization rotation becomes the dominant effect.",
+      "link": "https://arxiv.org/abs/2512.24429v2",
+      "published": "2025-12-30T19:19:49+00:00",
+      "updated": "2026-01-27T17:47:54+00:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2503.09773v2",
+      "title": "Constraining the neutron star-black hole merger rate",
+      "authors": [
+        "Ian Harry",
+        "Charlie Hoy"
+      ],
+      "abstract": "Current template-based gravitational-wave searches for compact binary mergers neglect the general relativistic phenomenon of spin-induced orbital precession. Owing to their asymmetric masses, gravitational-waves from neutron star-black hole (NSBH) binaries are prime candidates for displaying strong imprints of spin-precession. Current searches may therefore miss a significant fraction of the astrophysical population, and the detected NSBH population may be significantly suppressed or biased. Here we report the most sensitive search for NSBH binaries to date by including spin-precession for the first time. We analyze data from the entirety of the third LIGO--Virgo--KAGRA gravitational-wave observing run and show that when accounting for spin-precession, our search is up to 100% more sensitive than the search techniques currently adopted by the LIGO--Virgo--KAGRA collaboration (for systems with strong precessional effects). This allows us to more tightly constrain the rate of NSBH mergers in the local Universe. When focusing on a potentially precessing subpopulation of NSBH mergers, the lack of observed candidates allows us to place an upper limit on the merger rate of $R_{90} = 79\\, \\mathrm{Gpc}^{-3}\\mathrm{yr}^{-1}$ with 90% confidence. We then show that if there is no preferred direction of component spin, the overall rate of NSBH mergers is on average 16% smaller than previously believed. Finally, we report four new subthreshold NSBH candidates, all with strong imprints of spin precession, but note that these are most likely to be of terrestrial origin.",
+      "link": "https://arxiv.org/abs/2503.09773v2",
+      "published": "2025-03-12T19:19:09+00:00",
+      "updated": "2026-01-27T17:41:02+00:00",
+      "categories": [
+        "hep-ex",
+        "astro-ph.CO",
+        "astro-ph.HE",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19819v1",
+      "title": "Comment on \"Multidimensional arrow of time\" (arXiv:2601.14134)",
+      "authors": [
+        "Andrei Galiautdinov"
+      ],
+      "abstract": "In a recent preprint [arXiv:2601.14134v1], Rubin argues that the arrow of time originates from the monotonic growth of the volume of extra dimensions. While the identification of a geometric origin for time's arrow is compelling in the case of brane-world models, we point out a possible tension between the proposed volume growth and the observational stability of the effective four-dimensional Newton's gravitational constant, G, that may arise in Kaluza-Klein (KK) theory. In standard KK approaches, such volume growth induces a time-variation of G that exceeds Big Bang Nucleosynthesis (BBN) and Lunar Laser Ranging (LLR) bounds by many orders of magnitude. To resolve this tension while preserving the author's key insight in the Kaluza-Klein case, we propose an extension: the \"shape-dynamic arrow of time\". By utilizing the scale-invariant monotonicity of Perelman's nu-entropy under normalized Ricci flow, we demonstrate how an arrow of time can emerge from the geometric smoothing of extra dimensions at fixed volume, thereby satisfying observational constraints on fundamental constants.",
+      "link": "https://arxiv.org/abs/2601.19819v1",
+      "published": "2026-01-27T17:21:55+00:00",
+      "updated": "2026-01-27T17:21:55+00:00",
+      "categories": [
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19812v1",
+      "title": "An essential building block for cosmological zoom-in perturbation theory",
+      "authors": [
+        "Obinna Umeh"
+      ],
+      "abstract": "The evolution of large-scale structure within the standard model of cosmology is well posed only up to the onset of shell crossing, where particle trajectories appear to intersect. Beyond this point, the evolution equations become non-predictive and perturbative approaches break down. We show that in General Relativity, a matter horizon forms before caustics develop for a well-defined initial over-density on an expanding FLRW spacetime. The matter horizon was first identified by Ellis and Stoeger in 2010 as a dynamical causal boundary that encloses a sub-region of spacetime where structure formation actually takes place. We construct a multi-scale hierarchical framework for the propagation of geodesic congruences that avoids the shell-crossing singularity by cutting the spacetime at the matter horizon and glueing to another spacetime with opposite orientation. We identify a relationship between the multi-scale hierarchical framework and the cosmological zoom-in N-body simulation approach, and relate the local sub-region that decouples from the Hubble flow to the region of interest in cosmological zoom-in N-body simulations. Most importantly, the multi-scale hierarchical framework provides a more robust way of implementing boundary conditions, which could benefit cosmological zoom-in N-body simulation approaches.",
+      "link": "https://arxiv.org/abs/2601.19812v1",
+      "published": "2026-01-27T17:14:15+00:00",
+      "updated": "2026-01-27T17:14:15+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2511.22319v2",
+      "title": "The life of central radio galaxies in clusters: AGN-ICM studies of eRASS1 clusters in the ASKAP fields",
+      "authors": [
+        "Angie Veronica",
+        "Thomas H. Reiprich",
+        "Florian Pacaud",
+        "Marcus Brüggen",
+        "Bärbel Koribalski",
+        "Thomas Pasini",
+        "Tessa Vernstrom",
+        "Stefan W. Duchesne",
+        "Kathrin Böckmann",
+        "Jeremy S. Sanders",
+        "Y. Emre Bahar",
+        "Fabian Balzer",
+        "Lachlan J. Barnes",
+        "Esra Bulbul",
+        "Nicolas Clerc",
+        "Jessica E. M. Craig",
+        "Johan Comparat",
+        "Simon Dannhauer",
+        "Jakob Dietl",
+        "Klaus Dolag",
+        "Vittorio Ghirardini",
+        "Sebastian Grandis",
+        "Duy Hoang",
+        "Andrew M. Hopkins",
+        "Zsofi Igo",
+        "Matthias Kluge",
+        "Ang Liu",
+        "Konstantinos Migkas",
+        "Vanessa A. Moss",
+        "Miriam E. Ramos-Ceja",
+        "Chris Riseley",
+        "Lawrence Rudnick",
+        "Mara Salvato",
+        "Stanislav Shabala",
+        "Riccardo Seppi",
+        "Jacco van Loon",
+        "Tayyaba Zafar",
+        "Xiaoyuan Zhang"
+      ],
+      "abstract": "The mechanical feedback from the central AGNs can be crucial for balancing the radiative cooling of the intracluster medium at the cluster centre. We aim to understand the relationship between the power of AGN feedback and the cooling of gas in the centres of galaxy clusters by correlating the radio properties of the brightest cluster galaxies (BCGs) with the X-ray properties of their host clusters. We used catalogues from the first SRG/eROSITA All-Sky Survey (eRASS1) along with ASKAP radio data. In total, we identified 134 radio sources associated with BCGs of the 151 eRASS1 clusters located in the PS1, PS2, and SWAG-X ASKAP fields. Non-detections were treated as upper limits. We correlated BCG radio luminosity, largest linear size (LLS), and BCG offset with the integrated X-ray luminosity of their host clusters. To characterise cool cores (CCs) and non-cool cores (NCCs), we used the concentration parameter $c_{R_{500}}$ and combined it with the BCG offset to assess cluster dynamical state. We analysed the correlation between radio mechanical power and X-ray luminosity within the CC subsample. We observe a potential positive trend between LLS and BCG offset, suggesting an environmental effect on radio-source morphology. We find a weak trend where more luminous central radio galaxies are found in clusters with higher X-ray luminosity. Within the CC subsample, there is a positive but highly scattered relationship between the mechanical luminosity of AGN jets and the X-ray cooling luminosity. This finding is supported by bootstrap resampling and flux-flux analyses. The correlation indicates that AGN feedback is ineffective in high-luminosity (high-mass) clusters. At a cooling luminosity of $L_{\\mathrm{X},~r<R_\\mathrm{cool}}\\approx 5.50\\times10^{43}$ erg/s, on average, AGN feedback appears to contribute only about 13%-22% of the energy needed to offset the radiative losses in the ICM.",
+      "link": "https://arxiv.org/abs/2511.22319v2",
+      "published": "2025-11-27T10:47:32+00:00",
+      "updated": "2026-01-27T16:57:19+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19789v1",
+      "title": "Equation of State of Highly Asymmetric Neutron-Star Matter from Liquid Drop Model and Meson Polytropes",
+      "authors": [
+        "Elissaios Andronopoulos",
+        "Konstantinos N. Gourgouliatos"
+      ],
+      "abstract": "We present a unified description of dense matter and neutron-star structure based on simple but physically motivated models. Starting from the thermodynamics of degenerate Fermi gases, we construct an equation of state for cold, catalyzed matter by combining relativistic fermion statistics with the liquid drop model of nuclear binding. The internal stratification of matter in the outer crust is described by $β$-equilibrium, neutron drip and a gradual transition to supranuclear matter. Short-range repulsive interactions inspired by Quantum Hadrodynamics are incorporated at high densities in order to ensure stability and causality. The resulting equation of state is used as input to the Tolman--Oppenheimer--Volkoff equations, yielding self-consistent neutron-star models. We compute macroscopic stellar properties including the mass-radius relation, compactness and surface redshift that can be compared with recent observational data. Despite the simplicity of the underlying microphysics, the model produces neutron-star masses and radii compatible with current observational constraints from X-ray timing and gravitational-wave measurements. This work demonstrates that physically transparent models can already capture the essential features of neutron-star structure and provide valuable insight into the connection between dense-matter physics and astrophysical observables while they can also be used as easy to handle models to test the impact of more complicated phenomena and variations in neutron stars.",
+      "link": "https://arxiv.org/abs/2601.19789v1",
+      "published": "2026-01-27T16:51:32+00:00",
+      "updated": "2026-01-27T16:51:32+00:00",
+      "categories": [
+        "nucl-th",
+        "astro-ph.HE",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2512.17539v2",
+      "title": "Constraining black hole spin in PG 1535+547 amidst complex multi-layered absorption",
+      "authors": [
+        "A. Madathil-Pottayil",
+        "D. J. Walton",
+        "Jiachen Jiang",
+        "T. Dauser",
+        "Andrew Fabian",
+        "D. Stern",
+        "Luigi C. Gallo",
+        "Mark T. Reynolds",
+        "Emanuele Nardini",
+        "Javier A. Garcia"
+      ],
+      "abstract": "We present a spectroscopic analysis of XMM-Newton and NuSTAR observations of the 'complex' NLS1 PG 1535+547 at redshift $z=0.038$. These observations span three epochs: 2002 and 2006 with XMM-Newton alone, covering the $0.3-10$ keV energy range, and a coordinated XMM-Newton and NuSTAR observation in 2016, covering the $0.3-60$ keV energy range. The X-ray spectra across all epochs exhibit both neutral and ionized absorption, along with reflection features from the accretion disc, including a prominent Compton hump in the broadband data. Notably, the spectral shape varies across epochs. Our analysis suggests this variability is attributed to changes in both line-of-sight absorption and the intrinsic emission from PG 1535+547. The source is obscured by multiple layers of partially and/or fully covering neutral and ionized absorbers, with neutral column densities ranging from undetectable levels in the least obscured phase to $\\sim0.3-5\\times10^{23}\\mathrm{cm^{-2}}$ in the most obscured phase. A clear warm absorber is revealed during the least obscured phase. The continuum remains fairly consistent ($Γ\\approx 2.2\\pm0.1$) during the first two observations, followed by a substantial flux decrease (by a factor of $\\sim7$ in the $2-10$ keV band) in 2016 compared to 2006. The 2016 data indicates the source is in a reflection-dominated state during this epoch, with a reflection fraction of $R>7$ and an X-ray source located at a height $\\leq 1.72r_g$. Simultaneous fitting of the multi-epoch data suggests a rapidly rotating black hole with a spin parameter, $a>0.99$. These findings imply that strong light-bending effects may account for the observed continuum flux reduction.",
+      "link": "https://arxiv.org/abs/2512.17539v2",
+      "published": "2025-12-19T13:02:18+00:00",
+      "updated": "2026-01-27T16:29:46+00:00",
+      "categories": [
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2511.00649v3",
+      "title": "Quantum Complexity of Nonlocal Field Theories",
+      "authors": [
+        "Mohan sai Balusu",
+        "Gaurav Katoch",
+        "Sanhita Parihar",
+        "Shubho R. Roy"
+      ],
+      "abstract": "Entanglement entropy for nonlocal field theories displays a universal ``volume law\" scaling \\cite{Barbon:2008ut, Karczmarek:2013xxa, Shiba:2013jja, Pang:2014tpa} as opposed to the ``area law\" scaling for local field theories. The aim of this work is to determine whether complexity displays any such an universal scaling laws. The field theories considered here are obtained by deforming $\\mathcal{N}=4$ SYM theory by higher dimension operators introducing nonlocality, namely a dipole deformation and noncommutativity (NCSYM) by turning on world volume Kalb-Ramond $B$ field. The dual gravity backgrounds have a running dilaton, in addition to the $B$-field background, which alter AdS asymptotics. Our results capture nonlocality in the hyperscaling behavior for complexity. We also compute the subregion complexity which display phase transitions in the nonlocal field theories with the transition point being the same as that for the phase transition of entanglement entropy \\cite{Karczmarek:2013xxa}. These new results dovetail nicely with our findings from our previous works \\cite{Chakraborty:2020fpt, Katoch:2022hdf, Bhattacharyya:2022ren} on other lower dimensional nonlocal field theories such as little string theories (LSTs) and warped conformal field theories (WCFTs).",
+      "link": "https://arxiv.org/abs/2511.00649v3",
+      "published": "2025-11-01T18:08:16+00:00",
+      "updated": "2026-01-27T16:22:18+00:00",
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2507.10372v2",
+      "title": "Stellar properties indicating the presence of hyperons in neutron stars",
+      "authors": [
+        "Andreas Bauswein",
+        "Aristeidis Nikolaidis",
+        "Georgios Lioutas",
+        "Hristijan Kochankovski",
+        "Prasanta Char",
+        "Chiranjib Mondal",
+        "Micaela Oertel",
+        "Laura Tolos",
+        "Nicolas Chamel",
+        "Stephane Goriely"
+      ],
+      "abstract": "We describe distinctive stellar features indicating the presence of hyperons in neutron stars as compared to purely nucleonic systems. A strongly negative curvature of the mass-radius relation $R(M)$ is characteristic of hyperons, which can be determined from measurements of neutron stars with three different masses. Similarly, a reduced second derivative of the tidal deformability as function of mass λ(M) points to hyperonic degrees of freedom in NS matter. The slopes of such curves R(M) and λ(M) can distinguish a hyperonic equation of state from purely nucleonic models if they appear increased (decreased for λ(M)) relative to the maximum mass of neutron stars.",
+      "link": "https://arxiv.org/abs/2507.10372v2",
+      "published": "2025-07-14T15:12:59+00:00",
+      "updated": "2026-01-27T16:17:18+00:00",
+      "categories": [
+        "astro-ph.HE",
+        "nucl-th"
+      ]
+    },
+    {
+      "arxiv_id": "2510.10579v2",
+      "title": "Grey-body factors and absorption cross-sections of scalar and Dirac fields in the vicinity of dilaton-de Sitter black hole",
+      "authors": [
+        "Bekir Can Lütfüoğlu"
+      ],
+      "abstract": "We investigate the propagation of a massive scalar field and a massless Dirac field in the geometry of a dilaton--de Sitter black hole. Starting from the covariant perturbation equations, we present the corresponding effective potentials and analyze their dependence on the dilaton charge, field mass, and cosmological constant. Using the WKB approximation, we compute the grey-body factors and study the associated absorption cross-sections. The results show that increasing the field mass or dilaton charge raises the effective potential barrier, leading to a suppression of transmission at low frequencies, while a larger cosmological constant lowers the barrier and enhances transmission. The partial absorption cross-sections for different multipole numbers display the expected oscillatory structure, with the lowest multipoles dominating at small frequencies. After summation over multipoles, the oscillations average out and the total cross-section interpolates between strong suppression in the infrared regime and the geometric capture limit at high frequencies. These findings provide a systematic description of scattering and absorption properties of dilaton--de Sitter black holes for both scalar and fermionic perturbations.",
+      "link": "https://arxiv.org/abs/2510.10579v2",
+      "published": "2025-10-12T12:55:28+00:00",
+      "updated": "2026-01-27T16:01:50+00:00",
+      "categories": [
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19741v1",
+      "title": "Effect of noise characterization on the detection of mHz stochastic gravitational waves",
+      "authors": [
+        "Nikolaos Karnesis",
+        "Quentin Baghi",
+        "Jean-Baptiste Bayle",
+        "Nikiforos Galanis"
+      ],
+      "abstract": "Pulsar timing arrays' hint for a stochastic gravitational-wave background (SGWB) leverages the expectations of a future detection in the millihertz band, particularly with the LISA space mission. However, finding an SGWB with a single orbiting detector is challenging: It calls for cautious modelling of instrumental noise, which is also mainly stochastic. It was shown that agnostic noise reconstruction methods provide robustness in the detection process. We build on previous work to include more realistic instrumental simulations and additional degrees of freedom in the noise inference model and analyze the impact of LISA's sensitivity to SGWBs. Particularly, we model the two main types of noise sources with separate transfer functions and power spectral density spline fitting. We assess the detectability bounds and their dependence on the flexibility of the noise model and on the prior probability, allowing us to refine previously reported results.",
+      "link": "https://arxiv.org/abs/2601.19741v1",
+      "published": "2026-01-27T16:01:36+00:00",
+      "updated": "2026-01-27T16:01:36+00:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19737v1",
+      "title": "A two-mode model for black hole evaporation and information flow",
+      "authors": [
+        "Erfan Bayenat",
+        "Babak Vakili"
+      ],
+      "abstract": "We develop and analyze a two-oscillator model for black hole evaporation in which an effective geometric degree of freedom and a representative Hawking radiation mode are described by coupled harmonic oscillators with opposite signs in their free Hamiltonians. The normal-mode structure is obtained analytically and the corresponding modal amplitudes determine the pattern of energy exchange between the two sectors. To bridge the discrete and semiclassical pictures, we introduce smooth envelope functions that provide a continuous effective description along the geometric variable. Numerical simulations in a truncated Fock space show that the two oscillators exchange quanta in an approximately out-of-phase manner, consistent with an effective conservation of $\\langle n_x\\rangle - \\langle n_y\\rangle$. The reduced entropy $S_x(t)$ exhibits periodic growth, indicating entanglement generation. These results demonstrate that even a minimal two-mode framework can capture key qualitative features of energy transfer and information flow during evaporation.",
+      "link": "https://arxiv.org/abs/2601.19737v1",
+      "published": "2026-01-27T15:57:59+00:00",
+      "updated": "2026-01-27T15:57:59+00:00",
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19735v1",
+      "title": "Strong CP and the QCD Axion: Lecture Notes via Effective Field Theory",
+      "authors": [
+        "Francesco Sannino"
+      ],
+      "abstract": "These lecture notes provide a self-contained, graduate-level introduction to the strong $CP$ problem and QCD axion physics from an effective field theory (EFT) viewpoint. We review the construction of the chiral EFT of QCD yielding a $θ$-dependent potential, from which vacuum alignment, $θ$ periodicity and branch structure follow. We further show how the framework leads to the Witten-Veneziano relation highlighting the role of the pure-glue topological susceptibility in organizing $θ$-dependent hadronic observables. Using these tools, we show how to extract representative $CP$-odd mesonic and baryonic amplitudes, including the chiral estimate underlying the neutron EDM bound, and how to generalize the effective framework to confining SU(N) theories with fermions in arbitrary representations. We further show how to employ the Veneziano-Yankielowicz effective Lagrangian for N=1 supersymmetric Yang-Mills theory to extract salient information on the $θ$-dependent physics of one-flavour QCD via orientifold planar equivalence. We also revisit a recent no strong $CP$ claim based on an ordering of limits in the sum over topological sectors and show, in the EFT language, that it amounts to introducing an extra non-propagating axion-like degree of freedom not required by QCD. We then present the standard dynamical resolution to the strong $CP$ problem, i.e. the Peccei-Quinn mechanism, the resulting axion potential and mass from chiral EFT and briefly review associated time-honored UV completions, and the axion quality problem from gravitational corrections.",
+      "link": "https://arxiv.org/abs/2601.19735v1",
+      "published": "2026-01-27T15:55:37+00:00",
+      "updated": "2026-01-27T15:55:37+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-lat",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19734v1",
+      "title": "Towards an Action Principle Unifying the Standard Model and Gravity",
+      "authors": [
+        "Pedro D. Alvarez",
+        "Fernando Izaurieta",
+        "Cristian Quinzacara"
+      ],
+      "abstract": "A single geometric invariant fixes the relative normalization and structure of gravity, Yang-Mills theory, and fermion kinetic terms -- including ghost freedom in the gravitational sector -- without tuning. Our results establish a minimal geometric route to unification that does not rely on extra dimensions or symmetry breaking by hand. Unlike previous gauge-gravity constructions, the relative normalizations and ghost freedom emerge from a single Clifford-algebraic invariant, without explicit symmetry breaking.",
+      "link": "https://arxiv.org/abs/2601.19734v1",
+      "published": "2026-01-27T15:55:35+00:00",
+      "updated": "2026-01-27T15:55:35+00:00",
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "math-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19727v1",
+      "title": "Glueball mass from RGZ-inspired infrared gluodynamics: a Euclidean Bethe-Salpeter approach",
+      "authors": [
+        "Rodrigo Carmo Terin"
+      ],
+      "abstract": "We formulate and solve a Euclidean Bethe-Salpeter equation for the lightest scalar glueball (0++) in pure Yang-Mills theory, using the refined Gribov-Zwanziger gluon tree-level propagator as an infrared-complete input. In a minimal ladder truncation with an effective constant kernel strength g_C^2 and the dominant s-wave component, we extract scalar glueball masses in the range 1.7-2.3 GeV for representative values of g_C^2, with a preferred value around 1.9 GeV near g_C^2 = 0.54. The result is consistent with RGZ correlator-based infrared moment analyses and with lattice expectations, providing a cross-check of RGZ-inspired infrared gluodynamics from a bound-state viewpoint.",
+      "link": "https://arxiv.org/abs/2601.19727v1",
+      "published": "2026-01-27T15:50:09+00:00",
+      "updated": "2026-01-27T15:50:09+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-lat",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2507.22830v2",
+      "title": "The $1/N_c$ Operator Analysis of the Combined Octet and Decuplet Baryons Contact Interactions in SU(3) Chiral Effective Field Theory",
+      "authors": [
+        "Chindanai Bubpatate",
+        "Dominador F. Vaso,",
+        "Daris Samart"
+      ],
+      "abstract": "In this work, we construct the non-derivative four-point interactions for Octet and Decuplet baryons in the SU(3) Chiral Effective Field Theory (ChEFT) framework, and there are 104 coupling constant terms. The non-relativistic expansion of the baryon fields has been considered up to the Next-to-Leading Order (NLO) of the three-momentum expansion. We find 28 and 106 Low-Energy Constants (LECs) for Leading Order (LO) and NLO, respectively. Using the Hartree Hamiltonian of the $1/N_c$ expansion of the operator product up to Next-to-Next-to-Leading Order (NNLO), we can reduce the free parameters (LECs) of the ChEFT from 134 down to 24 up to NLO of the three-momentum expansion. Moreover, we will discuss the implications of the $1/N_c$ sum rules in $ΩΩ$ and $ΩN$ scatterings, where the future results from lattice QCD can be used to test our sum rules.",
+      "link": "https://arxiv.org/abs/2507.22830v2",
+      "published": "2025-07-30T16:43:44+00:00",
+      "updated": "2026-01-27T15:47:31+00:00",
+      "categories": [
+        "hep-ph",
+        "nucl-th"
+      ]
+    },
+    {
+      "arxiv_id": "2509.10505v7",
+      "title": "Template-Free Gravitational Wave Detection with CWT-LSTM Autoencoders: A Case Study of Run-Dependent Calibration Effects in LIGO Data",
+      "authors": [
+        "Jericho Cain"
+      ],
+      "abstract": "Gravitational wave detection requires sophisticated signal processing to identify weak astrophysical signals buried in instrumental noise. Traditional matched filtering approaches face computational challenges with diverse signal morphologies and non-stationary noise. This work presents an unsupervised deep learning methodology integrating CWT preprocessing with LSTM autoencoder architecture for template-free gravitational wave detection. The CWT time-frequency decomposition captures chirp evolution and transient characteristics essential for compact binary coalescence identification. We train and evaluate our model on LIGO H1 data comprising of detector noise and confirmed gravitational wave events from the GWTC-4.0 catalog. During development, we discovered that reconstruction errors from multi-run training (O1-O4) clustered by observing run rather than astrophysical parameters, revealing systematic batch effects from GWOSC's evolving calibration procedures. We adopted single-run (O4) training, which eliminated these batch effects and improved recall from 52% to 96% while maintaining 97% precision. The final model achieves strong performance on O4 test data: 97.0% precision, 96.1% recall, and ROC-AUC 0.994 (102 signals, 399 noise segments). The reconstruction error distribution shows clean unimodal separation between noise (mean 0.48) and signals (mean 0.77), with only 4 missed detections and 3 false alarms. This unsupervised, template-free approach demonstrates that anomaly detection can achieve performance competitive with supervised methods. While the template-free nature of this approach suggests sensitivity to signals outside existing template banks, this capability remains to be validated. Our identification and resolution of cross-run batch effects provides methodological guidance for future machine learning applications to multi-epoch gravitational wave datasets.",
+      "link": "https://arxiv.org/abs/2509.10505v7",
+      "published": "2025-09-01T21:45:32+00:00",
+      "updated": "2026-01-27T15:34:20+00:00",
+      "categories": [
+        "astro-ph.IM",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19703v1",
+      "title": "Approximate Decoherence, Recoherence and Records in Isolated Quantum Systems",
+      "authors": [
+        "Philipp Strasberg",
+        "Joseph Schindler",
+        "Jiaozi Wang",
+        "Andreas Winter"
+      ],
+      "abstract": "Using the framework of decoherent histories, we study which past events leave detectable records in isolated quantum systems under the realistic assumption that decoherence is approximate and not perfect. In the first part we establish -- asymptotically for a large class of (pseudo-)random histories -- that the number of reliable records can be much smaller than the number of possible events, depending on the degree of decoherence. In the second part we reveal a clear decoherence structure for long histories based on a numerically exact solution of a random matrix model that, as we argue, captures generic aspects of decoherence. We observe recoherence between histories with a small Hamming distance, for localized histories admitting a high purity Petz recovery state, and for maverick histories that are statistical outliers with respect to Born's rule. From the perspective of the Many Worlds Interpretation, the first part -- which views the self-location problem as a coherent version of quantum state discrimination -- reveals a \"branch selection problem\", and the second part sheds light on the emergence of Born's rule and the theory confirmation problem.",
+      "link": "https://arxiv.org/abs/2601.19703v1",
+      "published": "2026-01-27T15:29:15+00:00",
+      "updated": "2026-01-27T15:29:15+00:00",
+      "categories": [
+        "quant-ph",
+        "cond-mat.stat-mech",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19696v1",
+      "title": "Lensing without mixing: Probing Baryonic Acoustic Oscillations and other scale-dependent features in cosmic shear surveys",
+      "authors": [
+        "David Touzeau",
+        "Alexandre Barthélémy",
+        "Francis Bernardeau"
+      ],
+      "abstract": "Weak-gravitational lensing tends to wash out scale and time-dependent features of the clustering of matter, such as the Baryonic Acoustic Oscillations (BAO) which appear in the form of wiggles in the matter power spectrum but that disappear in the analogous lensing $C_\\ell$. This is a direct consequence of lensing being a projected effect. In this paper, we demonstrate how the noise complexity -- often deemed \"erasing the signal\" -- induced by a particular de-projection technique, the Bernardeau-Nishimichi-Taruya (BNT) transform arXiv:1312.0430, can be used to extract the BAO signal and non-gaussian aperture-mass-like properties at chosen physical scales. We take into account parts of the data vectors that should effectively be without cosmological signature and also introduce an additional re-weighting designed to specifically highlight clustering features -- both at the probe (summary statistics) or map (amplitude of the field) level. We thus demonstrate why weak-gravitational lensing by the large-scale structure of the Universe, though only in a tomographic setting, does not erase scale and time-dependent features of the dynamics of matter, while providing a tool to effectively extract them from actual galaxy-shapes measurements.",
+      "link": "https://arxiv.org/abs/2601.19696v1",
+      "published": "2026-01-27T15:21:42+00:00",
+      "updated": "2026-01-27T15:21:42+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2505.04625v2",
+      "title": "First Observations of Solar Halo Gamma Rays Over a Full Solar Cycle",
+      "authors": [
+        "Tim Linden",
+        "Jung-Tsung Li",
+        "Bei Zhou",
+        "Isabelle John",
+        "Milena Crnogorčević",
+        "Annika H. G. Peter",
+        "John F. Beacom"
+      ],
+      "abstract": "We analyze 15 years of Fermi-LAT data and produce a detailed model of the Sun's inverse-Compton scattering emission (solar halo), which is powered by interactions between ambient cosmic-ray electrons and positrons with sunlight. By developing a novel analysis method to analyze moving sources, we robustly detect the solar halo at energies between 31.6 MeV and 100 GeV, and angular extensions up to 45$^\\circ$ from the Sun, providing new insight into spatial regions where there are no direct measurements of the galactic cosmic-ray flux. The large statistical significance of our signal allows us to sub-divide the data and provide the first $γ$-ray probes into the time-variation and azimuthal asymmetry of the solar modulation potential, finding time-dependent changes in solar modulation both parallel and perpendicular to the ecliptic plane. Our results are consistent with (but with independent uncertainties from) local cosmic-ray measurements, unlocking new probes into both astrophysical and beyond-standard-model processes near the solar surface.",
+      "link": "https://arxiv.org/abs/2505.04625v2",
+      "published": "2025-05-07T17:59:59+00:00",
+      "updated": "2026-01-27T15:01:55+00:00",
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.SR",
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19679v1",
+      "title": "The leading Lyapunov exponent in the glasma",
+      "authors": [
+        "Pooja",
+        "Dana Avramescu",
+        "Tuomas Lappi"
+      ],
+      "abstract": "We show that small perturbations in the boost-invariant color fields of the glasma exhibit an exponential growth with the square root of time. We interpret this growth rate as a Lyapunov exponent, related to entropy production and the thermalization timescale in the earliest stage of heavy-ion collisions. Working in a regime that is linear in this perturbation, we extract the time dependence of this mode as $\\sim \\exp(0.4\\sqrt{g^2μτ})$ for SU($2$), where $g^2μ$ is proportional to the saturation scale and the square-root dependence is caused by the boost-invariant expansion of the system. We show that the growth rate of this mode is, unlike its amplitude, remarkably insensitive to the details of how the perturbations are initialized. In particular, we show that the unstable mode couples to all momentum scales present in the initial perturbation.",
+      "link": "https://arxiv.org/abs/2601.19679v1",
+      "published": "2026-01-27T14:58:53+00:00",
+      "updated": "2026-01-27T14:58:53+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-lat",
+        "nucl-th"
+      ]
+    },
+    {
+      "arxiv_id": "2409.02175v3",
+      "title": "Primordial black holes from an interrupted phase transition",
+      "authors": [
+        "Wen-Yuan Ai",
+        "Lucien Heurtier",
+        "Tae Hyun Jung"
+      ],
+      "abstract": "We propose a new mechanism of primordial black hole formation via an interrupted phase transition during the early matter-dominated stage of reheating after inflation. In reheating, induced by the decay of a pressureless fluid dominating the Universe at the end of inflation, dubbed as reheaton, the temperature of the radiation bath typically increases, reaching a maximum temperature $T_{\\rm max}$, and then decreases. We consider a first-order phase transition induced by the increase of the temperature that is aborted as $T_{\\rm max}$ is higher than the critical temperature but not sufficiently high for the bubble nucleation rate to overcome the expansion of the Universe. Although bubbles never fully occupy the space, some may be nucleated and expand until the temperature once again decreases to the critical temperature. We argue that these bubbles shrink and disappear as the temperature drops further, leaving behind macroscopic spherical regions with positive density perturbations. These perturbed regions accrete the surrounding matter (reheatons) and eventually collapse into primordial black holes whose mass continues to grow until the onset of radiation domination. We estimate the abundance of these primordial black holes in terms of the bubble nucleation rate at $T_{\\rm max}$, and demonstrate that the abundance can be significantly large from a phenomenological perspective.",
+      "link": "https://arxiv.org/abs/2409.02175v3",
+      "published": "2024-09-03T18:00:02+00:00",
+      "updated": "2026-01-27T14:58:31+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.17696v2",
+      "title": "The neutrino behavior in the Einstein$\\text{-}$Hilbert$\\text{-}$Bumblebee gravity around global monopole field",
+      "authors": [
+        "B. Q. Wang",
+        "S. R. Wu",
+        "Z. W. Long"
+      ],
+      "abstract": "In this work, we study the neutrino oscillation phase propagating along radial and non-radial paths in the Einstein$\\text{-}$Hilbert$\\text{-}$Bumblebee (EHB) gravity around global monopole field, by using the quantummechanical treatment, the expression of the corrected neutrino oscillation probability is obtained. Our results show that neutrino oscillation in the EHB gravity around global monopole field is different from that in Schwarzschild black hole, the Lorentz-violating parameter $a$ mainly affects the peak of the oscillation probability, and the global monopole $\\overline { μ}$ and the lightest neutrino mass both affect the frequency of the oscillations of probabilities, which means that studying the neutrino oscillation phenomenon in curved spacetime may not only become a new technology for probing the properties of compact celestial bodies, but also help deepen our understanding of neutrinos.",
+      "link": "https://arxiv.org/abs/2601.17696v2",
+      "published": "2026-01-25T05:04:03+00:00",
+      "updated": "2026-01-27T14:50:58+00:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2510.12263v2",
+      "title": "Is Milky Way gravitationally stable? A TNG50 view from cosmic noon to the present day",
+      "authors": [
+        "K. Aditya",
+        "Sandeep Kataria"
+      ],
+      "abstract": "We investigate the stability of Milky Way analogs (MWAs) in the \\texttt{TNG50} simulation against the growth of local axisymmetric instabilities, tracing their evolution from cosmic noon ($z=2.5$) to the present day ($z=0$). Using a two-component stability criterion that accounts for stars, gas, and the force field of the dark matter halo, we compute the net stability parameter ($Q_{T}$), the critical gas surface density ($Σ_{c}$), and the instability timescale ($τ$) for 10 barred and 10 unbarred MWAs. We find that these galaxies remain stable to axisymmetric instabilities at all epochs, with $Q_{T}^{\\min}>2$. The stability levels increase toward higher redshift, where enhanced gas velocity dispersion counterbalances the destabilizing effect of larger gas fractions. Further, the barred MWAs consistently show lower $Q_{T}^{\\min}$ than unbarred ones. The gas density remains subcritical ($Σ_{g}<Σ_{c}$) across radii and epochs, implying that local axisymmetric instabilities are not the primary channel for star formation. Growth timescales are short (a few Myr) in central regions but increase exponentially to several Gyr in the outer disc, naturally explaining the concentration of star formation toward galactic centers. We study the effect of gas dissipation and turbulence in ISM and find that while MWAs are stable against axisymmetric instabilities $(Q_{T}>1)$, a combination of gas dissipation and turbulence in ISM can destabilize the disc at small scales even when $Q_{T}>1$.",
+      "link": "https://arxiv.org/abs/2510.12263v2",
+      "published": "2025-10-14T08:13:51+00:00",
+      "updated": "2026-01-27T14:49:14+00:00",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2510.17413v3",
+      "title": "The inclusive Higgs boson cross-section in gluon-gluon fusion in soft-virtual approximation at fourth order in QCD",
+      "authors": [
+        "Goutam Das",
+        "Sven-Olaf Moch"
+      ],
+      "abstract": "We present precise results for the inclusive Higgs boson cross-section in gluon-gluon fusion at the LHC considering state-of-the-art fourth-order results in perturbative QCD arising from the dominant soft and virtual gluon emissions. Utilizing four-loop QCD results for the gluon-form factor, the splitting function and related anomalous dimensions, we study the effects of threshold enhanced soft gluon emissions and estimate their impact on the total cross-section at the fourth order. Our study highlights the role of these higher-order contributions in improving the perturbative convergence and in significantly reducing the renormalization and factorization scale uncertainties. The results provide strong evidence for the perturbative stability and reliability of Higgs boson cross-section predictions at the LHC, thereby reinforcing the robustness of theoretical inputs in precision Higgs phenomenology. We also provide cross-section predictions using a large set of available parton distribution functions and show that, together with the value of the strong coupling $α_s(m_Z)$, they cause the largest residual uncertainty for the Higgs boson cross-section in gluon-gluon fusion.",
+      "link": "https://arxiv.org/abs/2510.17413v3",
+      "published": "2025-10-20T10:55:35+00:00",
+      "updated": "2026-01-27T14:46:19+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2509.00748v6",
+      "title": "Thermodynamics of Kerr black hole: Tsallis-Cirto composition law and entropy quantization",
+      "authors": [
+        "G. E. Volovik"
+      ],
+      "abstract": "The processes of splitting and merging of black holes obey the composition law generated by the Tsallis-Cirto $δ=2$ statistics. The same composition law expresses the full entropy of the Reissner-Nordström black hole via the entropies of its outer and inner horizons. Here we apply this composition law to the thermodynamics of the Kerr black hole. As distinct from Reissner-Nordström black hole, where the full entropy depends only on mass $M$ and does not depend on its charge $Q$, the entropy of Kerr black hole is the sum of contributions from its mass $M$ and angular momentum $J$, i.e. $S(M,J)=S(M,0) + 4π\\sqrt{J(J+1)}$. Here $S(M,0)$ is the entropy of the Schwarzschild black hole. This demonstrates that when the Kerr black hole with $J\\gg 1$ absorbs or emits a massless particle with spin $s_z=\\pm 1/2$, its entropy changes by $|ΔS| = 2π$. We also considered the quantization of entropy suggested by the toy model, in which the black hole thermodynamics is represented by the ensemble of the Planck-scale black holes -- Planckons. The Tsallis-Cirto composition law is also extended to the thermodynamics of Kerr-Newman black hole.",
+      "link": "https://arxiv.org/abs/2509.00748v6",
+      "published": "2025-08-31T08:48:16+00:00",
+      "updated": "2026-01-27T14:42:53+00:00",
+      "categories": [
+        "gr-qc",
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19662v1",
+      "title": "A study of dark matter-dark energy interaction under the DESI DR2 data constraint",
+      "authors": [
+        "Amin Aboubrahim",
+        "Pran Nath"
+      ],
+      "abstract": "While $Λ$CDM provides a good fit to cosmological data, it fails to address many of the outstanding questions in contemporary cosmology. Chief among these are the Hubble tension and the apparent dynamical nature of dark energy as inferred from the recent DESI DR2 analysis. In this work, we analyze a field-theoretic description of cosmology where both dark energy and dark matter are interacting spin zero fields. We give a thorough study of a wide range of the interaction strength and demonstrate the effect on the dark energy equation of state and the Hubble tension. Using the recent cosmological data, we extract constraints on cosmological parameters including the free parameters of the model.",
+      "link": "https://arxiv.org/abs/2601.19662v1",
+      "published": "2026-01-27T14:40:52+00:00",
+      "updated": "2026-01-27T14:40:52+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2509.17129v2",
+      "title": "Decaying vector dark matter with low reheating temperature for KM3NeT signal and its impact on gravitational waves",
+      "authors": [
+        "Sarif Khan",
+        "Jongkuk Kim",
+        "Hyun Min Lee"
+      ],
+      "abstract": "We propose a new model to explain the KM3NeT neutrino event through a low reheating scenario with a suppression in the GW spectrum originating from cosmic string networks. To achieve this, we extend the SM gauge sector by an abelian gauge symmetry and a singlet scalar. Once the abelian gauge symmetry spontaneously breaks, the extra gauge boson acquires mass and becomes a suitable Dark Matter (DM) candidate. Due to the kinetic mixing with the hypercharge gauge group, DM can decay into SM particles. To explain the KM3NeT signal, we need $\\mathcal{O}(100)$ PeV DM, which can be produced in the correct order of DM density in a low reheating scenario. In this scenario, the overabundance issue of heavy DM can be tackled by diluting its abundance through the continuous injection of entropy when the matter-like inflaton decays into the SM bath. Using the low reheating scenario, we can obtain the correct value of DM density both for freeze-out and freeze-in mechanisms for super-heavy DM. Moreover, we have studied the Gravitational Waves (GWs) produced from cosmic strings, which fall within the detectable range of future proposed GW experiments. Additionally, the dominance of a quadratic inflaton potential before the reheating temperature changes the temperature-scale factor relation, which suppresses the GW spectrum at higher frequencies. Choosing an arbitrarily low reheating temperature provides only a tiny fraction of the DM density due to dilution from entropy injection. This fraction of the vector DM suggests that only the extragalactic contribution is relevant in the KM3NeT event because DM lifetime is shorter than the age of the Universe.",
+      "link": "https://arxiv.org/abs/2509.17129v2",
+      "published": "2025-09-21T15:41:41+00:00",
+      "updated": "2026-01-27T14:35:37+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19651v1",
+      "title": "From $B_c$ mesons to the baryon asymmetry: a unified $B$ Mesogenesis Framework",
+      "authors": [
+        "M. Burgos Marcos",
+        "A. Verheyden",
+        "K. K. Vos"
+      ],
+      "abstract": "$B$ mesogenesis offers an interesting mechanism to generate the baryon asymmetry of the universe by converting the CP violation of the Standard Model into a net baryon number asymmetry. In this work we refine and extend the $B$ mesogenesis framework by incorporating all relevant $B$ meson channels active after low-temperature reheating. We first update the known neutral-meson contribution using time-integrated decay rates. While the $B_s^0$ contribution remains essentially unchanged, we find a suppression of the $B_d^0$ term by a factor $\\sim 0.4$ with respect to previous analyses, alleviating the tension associated with its expected negative sign. We then perform a systematic study of $B_c^+$ decays, which are basically unexplored. We provide branching-ratio predictions using both leading-order factorization and a data-driven approach inspired by $D\\to M_1M_2$ decays. These estimates allow us to quantify two $B_c^+$ sources of mesogenesis: the previously discussed $B_c^+ \\to B^+ M^0$ channel and a new mechanism introduced in this work, $B_c^+ \\to B_q^0 M$, in which the asymmetry is generated by combining direct CP violation with neutral-meson oscillations. Interestingly, in these channels the charm quark decays. Therefore, these decays give access to {\\it charm CP violation} in modes with percent level branching ratios. With moderate assumptions, we find that $B_c^+$ mesogenesis can match or exceed the neutral contribution. Finally, we combine all three mechanisms and explore their viability in terms of the direct CP asymmetry, neutral-meson mixing parameters and early-universe fragmentation fractions. We find that successful baryogenesis can be achieved in a broad parameter space, showing the viability of $B$ mesogenesis. Future measurements of $B_c^+$ modes are thus highly anticipated to further probe the viability of unified $B$ mesogenesis.",
+      "link": "https://arxiv.org/abs/2601.19651v1",
+      "published": "2026-01-27T14:27:12+00:00",
+      "updated": "2026-01-27T14:27:12+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19645v1",
+      "title": "Discriminating QCD Compton and Quark-Antiquark Annihilation Processes in $γ$ + Jets Using Interpretable Machine Learning",
+      "authors": [
+        "Monalini Samal",
+        "Nihar Ranjan Sahoo"
+      ],
+      "abstract": "We investigate how effectively final-state jet substructure can discriminate between QCD Compton and quark-antiquark annihilation processes from photon-jet production in $pp$ collisions at $\\sqrt{s}=13$ TeV. Using infrared- and collinear-safe jet observables, multivariate classifiers -- boosted decision trees and multilayer perceptrons -- are trained on labeled quark- and gluon-initiated jets from dijet events and applied to photon-jet samples. Observables probing soft and wide-angle radiation, in particular jet multiplicity and jet girth, dominate the discrimination. The jet mass provides a complementary but weaker contribution, while the jet charge exhibits negligible discriminating power. A comparison of the two classifiers demonstrates that the achievable separation is limited primarily by QCD radiation effects rather than by classifier complexity. These findings quantify the extent to which information about the underlying hard process survives hadronization and realistic jet reconstruction, providing a physics-driven baseline for precision jet measurements in $pp$, $ep/$A, and heavy-ion collisions.",
+      "link": "https://arxiv.org/abs/2601.19645v1",
+      "published": "2026-01-27T14:20:34+00:00",
+      "updated": "2026-01-27T14:20:34+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "nucl-ex"
+      ]
+    },
+    {
+      "arxiv_id": "2503.15329v2",
+      "title": "Euclid Quick Data Release (Q1). LEMON -- Lens Modelling with Neural networks. Automated and fast modelling of Euclid gravitational lenses with a singular isothermal ellipsoid mass profile",
+      "authors": [
+        "Euclid Collaboration",
+        "V. Busillo",
+        "C. Tortora",
+        "R. B. Metcalf",
+        "J. W. Nightingale",
+        "M. Meneghetti",
+        "F. Gentile",
+        "R. Gavazzi",
+        "F. Zhong",
+        "R. Li",
+        "B. Clément",
+        "G. Covone",
+        "N. R. Napolitano",
+        "F. Courbin",
+        "M. Walmsley",
+        "E. Jullo",
+        "J. Pearson",
+        "D. Scott",
+        "A. M. C. Le Brun",
+        "L. Leuzzi",
+        "N. Aghanim",
+        "B. Altieri",
+        "A. Amara",
+        "S. Andreon",
+        "H. Aussel",
+        "C. Baccigalupi",
+        "M. Baldi",
+        "S. Bardelli",
+        "P. Battaglia",
+        "A. Biviano",
+        "E. Branchini",
+        "M. Brescia",
+        "J. Brinchmann",
+        "S. Camera",
+        "G. Cañas-Herrera",
+        "V. Capobianco",
+        "C. Carbone",
+        "V. F. Cardone",
+        "J. Carretero",
+        "S. Casas",
+        "M. Castellano",
+        "G. Castignani",
+        "S. Cavuoti",
+        "K. C. Chambers",
+        "A. Cimatti",
+        "C. Colodro-Conde",
+        "G. Congedo",
+        "C. J. Conselice",
+        "L. Conversi",
+        "Y. Copin",
+        "H. M. Courtois",
+        "M. Cropper",
+        "A. Da Silva",
+        "H. Degaudenzi",
+        "S. de la Torre",
+        "G. De Lucia",
+        "A. M. Di Giorgio",
+        "J. Dinis",
+        "H. Dole",
+        "F. Dubath",
+        "X. Dupac",
+        "S. Dusini",
+        "S. Escoffier",
+        "M. Farina",
+        "R. Farinelli",
+        "F. Faustini",
+        "S. Ferriol",
+        "F. Finelli",
+        "S. Fotopoulou",
+        "M. Frailis",
+        "E. Franceschi",
+        "S. Galeotta",
+        "K. George",
+        "W. Gillard",
+        "B. Gillis",
+        "C. Giocoli",
+        "J. Gracia-Carpio",
+        "B. R. Granett",
+        "A. Grazian",
+        "F. Grupp",
+        "S. V. H. Haugan",
+        "W. Holmes",
+        "I. Hook",
+        "F. Hormuth",
+        "A. Hornstrup",
+        "P. Hudelot",
+        "K. Jahnke",
+        "M. Jhabvala",
+        "B. Joachimi",
+        "E. Keihänen",
+        "S. Kermiche",
+        "A. Kiessling",
+        "B. Kubik",
+        "M. Kümmel",
+        "M. Kunz",
+        "H. Kurki-Suonio",
+        "Q. Le Boulc'h",
+        "S. Ligori",
+        "P. B. Lilje",
+        "V. Lindholm",
+        "I. Lloro",
+        "G. Mainetti",
+        "D. Maino",
+        "E. Maiorano",
+        "O. Mansutti",
+        "O. Marggraf",
+        "K. Markovic",
+        "M. Martinelli",
+        "N. Martinet",
+        "F. Marulli",
+        "R. Massey",
+        "S. Maurogordato",
+        "E. Medinaceli",
+        "S. Mei",
+        "Y. Mellier",
+        "E. Merlin",
+        "G. Meylan",
+        "A. Mora",
+        "M. Moresco",
+        "L. Moscardini",
+        "R. Nakajima",
+        "C. Neissner",
+        "S. -M. Niemi",
+        "C. Padilla",
+        "S. Paltani",
+        "F. Pasian",
+        "K. Pedersen",
+        "V. Pettorino",
+        "S. Pires",
+        "G. Polenta",
+        "M. Poncet",
+        "L. A. Popa",
+        "L. Pozzetti",
+        "F. Raison",
+        "R. Rebolo",
+        "A. Renzi",
+        "J. Rhodes",
+        "G. Riccio",
+        "E. Romelli",
+        "M. Roncarelli",
+        "R. Saglia",
+        "Z. Sakr",
+        "A. G. Sánchez",
+        "D. Sapone",
+        "B. Sartoris",
+        "J. A. Schewtschenko",
+        "M. Schirmer",
+        "P. Schneider",
+        "T. Schrabback",
+        "A. Secroun",
+        "E. Sefusatti",
+        "G. Seidel",
+        "M. Seiffert",
+        "S. Serrano",
+        "P. Simon",
+        "C. Sirignano",
+        "G. Sirri",
+        "G. Smadja",
+        "L. Stanco",
+        "J. Steinwagner",
+        "P. Tallada-Crespí",
+        "A. N. Taylor",
+        "I. Tereno",
+        "S. Toft",
+        "R. Toledo-Moreo",
+        "F. Torradeflot",
+        "I. Tutusaus",
+        "L. Valenziano",
+        "J. Valiviita",
+        "T. Vassallo",
+        "A. Veropalumbo",
+        "Y. Wang",
+        "J. Weller",
+        "G. Zamorani",
+        "E. Zucca",
+        "V. Allevato",
+        "M. Ballardini",
+        "M. Bolzonella",
+        "E. Bozzo",
+        "C. Burigana",
+        "R. Cabanac",
+        "M. Calabrese",
+        "D. Di Ferdinando",
+        "J. A. Escartin Vigo",
+        "L. Gabarra",
+        "M. Huertas-Company",
+        "S. Matthew",
+        "N. Mauri",
+        "A. A. Nucita",
+        "A. Pezzotta",
+        "M. Pöntinen",
+        "C. Porciani",
+        "V. Scottez",
+        "M. Tenti",
+        "M. Viel",
+        "M. Wiesmann",
+        "Y. Akrami",
+        "S. Alvi",
+        "I. T. Andika",
+        "S. Anselmi",
+        "M. Archidiacono",
+        "F. Atrio-Barandela",
+        "D. Bertacca",
+        "M. Bethermin",
+        "A. Blanchard",
+        "L. Blot",
+        "S. Borgani",
+        "M. L. Brown",
+        "S. Bruton",
+        "A. Calabro",
+        "B. Camacho Quevedo",
+        "A. Cappi",
+        "F. Caro",
+        "C. S. Carvalho",
+        "T. Castro",
+        "F. Cogato",
+        "S. Conseil",
+        "S. Contarini",
+        "A. R. Cooray",
+        "O. Cucciati",
+        "F. De Paolis",
+        "G. Desprez",
+        "A. Díaz-Sánchez",
+        "S. Di Domizio",
+        "J. M. Diego",
+        "P. Dimauro",
+        "A. Enia",
+        "Y. Fang",
+        "A. G. Ferrari",
+        "P. G. Ferreira",
+        "A. Finoguenov",
+        "A. Franco",
+        "K. Ganga",
+        "J. García-Bellido",
+        "T. Gasparetto",
+        "V. Gautard",
+        "E. Gaztanaga",
+        "F. Giacomini",
+        "F. Gianotti",
+        "G. Gozaliasl",
+        "M. Guidi",
+        "C. M. Gutierrez",
+        "A. Hall",
+        "W. G. Hartley",
+        "S. Hemmati",
+        "C. Hernández-Monteagudo",
+        "H. Hildebrandt",
+        "J. Hjorth",
+        "J. J. E. Kajava",
+        "Y. Kang",
+        "V. Kansal",
+        "D. Karagiannis",
+        "K. Kiiveri",
+        "C. C. Kirkpatrick",
+        "S. Kruk",
+        "M. Lattanzi",
+        "J. Le Graet",
+        "L. Legrand",
+        "M. Lembo",
+        "F. Lepori",
+        "G. Leroy",
+        "J. Lesgourgues",
+        "T. I. Liaudat",
+        "S. J. Liu",
+        "A. Loureiro",
+        "J. Macias-Perez",
+        "G. Maggio",
+        "M. Magliocchetti",
+        "F. Mannucci",
+        "R. Maoli",
+        "J. Martín-Fleitas",
+        "C. J. A. P. Martins",
+        "L. Maurin",
+        "M. Miluzio",
+        "P. Monaco",
+        "C. Moretti",
+        "G. Morgante",
+        "S. Nadathur",
+        "K. Naidoo",
+        "P. Natoli",
+        "A. Navarro-Alsina",
+        "S. Nesseris",
+        "F. Passalacqua",
+        "K. Paterson",
+        "L. Patrizii",
+        "A. Pisani",
+        "D. Potter",
+        "S. Quai",
+        "M. Radovich",
+        "I. Risso",
+        "P. -F. Rocci",
+        "S. Sacquegna",
+        "M. Sahlén",
+        "E. Sarpa",
+        "A. Schneider",
+        "M. Schultheis",
+        "D. Sciotti",
+        "E. Sellentin",
+        "M. Sereno",
+        "L. C. Smith",
+        "J. Stadel",
+        "K. Tanidis",
+        "C. Tao",
+        "G. Testera",
+        "R. Teyssier",
+        "S. Tosi",
+        "A. Troja",
+        "M. Tucci",
+        "C. Valieri",
+        "A. Venhola",
+        "D. Vergani",
+        "G. Vernardos",
+        "G. Verza",
+        "P. Vielzeuf",
+        "N. A. Walton"
+      ],
+      "abstract": "The Euclid mission aims to survey around 14000 deg^{2} of extragalactic sky, providing around 10^{5} gravitational lens images. Modelling of gravitational lenses is fundamental to estimate the total mass of the lens galaxy, along with its dark matter content. Traditional modelling of gravitational lenses is computationally intensive and requires manual input. In this paper, we use a Bayesian neural network, LEns MOdelling with Neural networks (LEMON), to model Euclid gravitational lenses with a singular isothermal ellipsoid mass profile. Our method estimates key lens mass profile parameters, such as the Einstein radius, while also predicting the light parameters of foreground galaxies and their uncertainties. We validate LEMON's performance on both mock Euclid datasets, real lenses observed with Hubble Space Telescope (HST), and real Euclid lenses, demonstrating the ability of LEMON to predict parameters of both simulated and real lenses. Results show promising accuracy and reliability in predicting the Einstein radius, mass and light ellipticities, effective radius, Sérsic index, lens magnitude, and unlensed source position for simulated lens galaxies. The application to real data, including the latest Quick Release 1 strong lens candidates, provides encouraging results in the recovery of the parameters for real lenses. We also verified that LEMON has the potential to accelerate traditional modelling methods, by giving to the classical optimiser the LEMON predictions as starting points, resulting in a speed-up of up to 26 times the original time needed to model a sample of gravitational lenses, a result that would be impossible with randomly initialised guesses. This work represents a significant step towards efficient, automated gravitational lens modelling, which is crucial for handling the large data volumes expected from Euclid.",
+      "link": "https://arxiv.org/abs/2503.15329v2",
+      "published": "2025-03-19T15:27:24+00:00",
+      "updated": "2026-01-27T14:16:19+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19626v1",
+      "title": "A self-consistent calculation of non-spherical Bose-Einstein correlation functions with Coulomb final-state interaction",
+      "authors": [
+        "Márton I. Nagy",
+        "Dániel Kincses",
+        "Máté Csanád"
+      ],
+      "abstract": "Particle correlations and femtoscopy are a rich subfield of high-energy physics. As the experimental data become more precise, there is an increasing need for the theoretical calculations to provide better and more general descriptions of the measurements. One of the important new directions is the investigation of the precise shape of the Bose-Einstein correlation functions utilizing Lévy-stable distributions. This work is a direct follow-up to our previous study, in which we developed a novel method for calculating Bose-Einstein correlation functions including the Coulomb final-state interaction. In this paper, we present a self-consistent generalization of the previous approach to non-spherical source functions and investigate the validity of the previously applied approximations assuming spherical symmetry. We present a software package that includes the calculation of a fully three-dimensional correlation function including the Coulomb interaction.",
+      "link": "https://arxiv.org/abs/2601.19626v1",
+      "published": "2026-01-27T14:04:18+00:00",
+      "updated": "2026-01-27T14:04:18+00:00",
+      "categories": [
+        "nucl-th",
+        "hep-ph",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19619v1",
+      "title": "How well does NRQCD describe quarkonium production?",
+      "authors": [
+        "Mathias Butenschoen"
+      ],
+      "abstract": "The question how well nonrelativistic QCD (NRQCD) factorization can describe quarkonium production has been subject to debate since its invention. We review our recent reanalysis of a classic next-to-leading order color octet (CO) long distance matrix element (LDME) fit to large transverse momentum $p_T$ $J/ψ$ and $η_c$ LHC production data. Our analysis differs from previous analyses of this kind not only by implementing for the first time a systematic treatment of scale uncertainties, but also by scrutinizing a much broader range of observables. Surprisingly, $J/ψ$ hadroproduction is well described up to the highest measured values of $p_T$. Potential NRQCD based relations nontrivially lead to a perfect description of $Υ(nS)$ production data. Furthermore, $J/ψ$ production in $γp$ and $γγ$ collisions is, contrary to prevailing conceptions, reproduced down to $p_T=1$ GeV, as long as the region of large inelasticity $z$ is excluded. The overall picture is much rosier than usually perceived, the more so as the remaining discrepancies appear in phase space regions where solutions via varying kinds of resummations have been proposed.",
+      "link": "https://arxiv.org/abs/2601.19619v1",
+      "published": "2026-01-27T13:54:37+00:00",
+      "updated": "2026-01-27T13:54:37+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19616v1",
+      "title": "On the rarity of rocket-driven Penrose extraction in Kerr spacetime",
+      "authors": [
+        "An T. Le"
+      ],
+      "abstract": "We present a Monte Carlo study of energy extraction from rotating (Kerr) black holes via the Penrose process using rocket propulsion. Through over 250,000 trajectory simulations, we establish sharp constraints on when Penrose extraction with escape to infinity succeeds. The mechanism requires that exhaust ejected inside the ergosphere carries negative Killing energy, which is kinematically accessible only via ultra-relativistic ejection deep within the ergosphere. We find that successful extraction with escape is statistically rare ($\\sim$1% in broad parameter scans) and is governed by strict thresholds: it requires high black hole spin (empirically $a/M \\gtrsim 0.89$) and ultra-relativistic exhaust velocity (onset at $v_e \\approx 0.91c$). When conditions are highly tuned to a specific \"sweet spot,\" success rates can reach 88.5%, representing a narrow extraction window rather than generic behavior. Furthermore, single-impulse thrust at periapsis achieves significantly higher cumulative efficiency ($η_{\\rm cum} \\approx 19\\%$) compared to continuous thrust ($\\sim$2--4%) due to path-averaging penalties. These constraints quantify the extreme fine-tuning required for material-based Penrose extraction, consistent with the astrophysical dominance of electromagnetic mechanisms. Simulation code is available at https://github.com/anindex/penrose_process.",
+      "link": "https://arxiv.org/abs/2601.19616v1",
+      "published": "2026-01-27T13:47:01+00:00",
+      "updated": "2026-01-27T13:47:01+00:00",
+      "categories": [
+        "astro-ph.HE",
+        "eess.SY",
+        "gr-qc",
+        "physics.comp-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2509.12309v2",
+      "title": "Taming the dark photon production via a non-minimal coupling to gravity",
+      "authors": [
+        "Oleg Lebedev",
+        "Jong-Hyun Yoon"
+      ],
+      "abstract": "Inflationary production of massive dark photons with non-minimal couplings to gravity shows surprising growth at large momenta. These couplings appear in the effective low energy description of a more fundamental theory. We find that the growth is absent in explicit gauge invariant UV-complete models. Such completions are also free of \"ghost\" instabilities, which often appear in the effective models.",
+      "link": "https://arxiv.org/abs/2509.12309v2",
+      "published": "2025-09-15T18:00:01+00:00",
+      "updated": "2026-01-27T13:06:41+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2509.01673v2",
+      "title": "Quark, lepton and right-handed neutrino production via inflation",
+      "authors": [
+        "Duarte Feiteira",
+        "Fotis Koutroulis",
+        "Oleg Lebedev",
+        "Stefan Pokorski"
+      ],
+      "abstract": "Inflationary expansion of space-time provides us with an efficient particle production mechanism in the Early Universe. The fermion production efficiency depends critically on the particle mass, which is generated via the Yukawa coupling and sensitive to the corresponding scalar field value. During inflation, scalar fields experience large quantum fluctuations driving the average field values to the Hubble scale and above. This applies, in particular, to the Higgs field, making the Standard Model fermions very heavy and facilitating their production. Using the Bogolyubov coefficient approach, we compute the corresponding fermion abundance taking into account time dependence of the mass term. We find that the Standard Model fermion and the right-handed neutrino production grows dramatically compared to the naive estimate based on the low energy masses. The inflationary production mechanism can be the leading source of the right handed neutrinos, if they gain a Majorana mass from the Yukawa coupling to a light scalar. We also find a lower bound on the mass of fermionic dark matter, which can be produced by inflation.",
+      "link": "https://arxiv.org/abs/2509.01673v2",
+      "published": "2025-09-01T18:00:13+00:00",
+      "updated": "2026-01-27T13:04:19+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19564v1",
+      "title": "Octet baryon electroweak form factors in dense nuclear matter",
+      "authors": [
+        "G. Ramalho",
+        "K. Tsushima",
+        "Myung-Ki Cheoun"
+      ],
+      "abstract": "Motivated by the necessity of developing theoretical models for studying the electroweak structure of baryons in a nuclear medium, we apply a covariant quark model to study interactions of baryons with nuclear matter. The electromagnetic and axial form factors of the octet baryons are determined by combining a covariant quark model that takes into account the meson cloud dressing of the baryon cores, developed for free space, with the quark-meson coupling model in the extension to the nuclear medium. We discuss the medium modifications on the electroweak form factors of octet baryons for the range of densities from $ρ=0$ up to $ρ=2 ρ_0$, where $ρ_0= 0.15$ fm$^{-3}$ is the normal nuclear matter density. We also study how the shape of the form factors is modified in finite nuclei due to the profile of the nuclear density distributions compared with calculations using the average density of the nucleus",
+      "link": "https://arxiv.org/abs/2601.19564v1",
+      "published": "2026-01-27T12:56:11+00:00",
+      "updated": "2026-01-27T12:56:11+00:00",
+      "categories": [
+        "nucl-th",
+        "hep-ex",
+        "hep-lat",
+        "hep-ph",
+        "nucl-ex"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19550v1",
+      "title": "Probing Solar Neutrino Deficit via Torsion-Induced Flavor Change in f(T) Gravity",
+      "authors": [
+        "H. Yazdani Ahmadabadi",
+        "H. Mohseni Sadjadi"
+      ],
+      "abstract": "We investigate whether the spacetime torsion can modify neutrino flavor oscillations in f(T) gravity. This offers a probe of modified teleparallel gravity in astrophysical environments. By using the Dirac action in teleparallel geometry, we derive an effective coupling between the torsion vector and neutrino current. In the weak-field limit around a spherical mass, we obtain analytical expressions for torsion-induced phase shifts and effective mass-squared differences. Our results indicate that both vacuum oscillations and the Mikheyev-Smirnov-Wolfenstein (MSW) resonance in matter are affected by these torsion-based modifications. Using solar neutrino data from Super-Kamiokande, SNO, Borexino, and KamLAND, we constrain the teleparallel model parameters and also the neutrino-torsion coupling.",
+      "link": "https://arxiv.org/abs/2601.19550v1",
+      "published": "2026-01-27T12:44:00+00:00",
+      "updated": "2026-01-27T12:44:00+00:00",
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2507.14926v2",
+      "title": "Tomographic constraints on the high-energy cosmic neutrino emission rate",
+      "authors": [
+        "Alberto Gálvez Ureña",
+        "Federico Urban",
+        "David Alonso"
+      ],
+      "abstract": "Despite growing efforts to find the sources of high energy neutrinos measured by IceCube, the bulk of the neutrinos remain with unknown origins. We aim to constrain the emissivity of cosmic high-energy neutrinos from extragalactic sources through their correlation with the large-scale structure. We use cross-correlations between the IceCube 10-year dataset and tomographic maps of the galaxy overdensity to place constraints on the bias-weighted high-energy neutrino emissivity out to redshift $z\\sim3$. We test two different models to describe the evolution of neutrino emissivity with redshift, a power law model $\\propto (1+z)^a$, and a model tracking the star formation history, assuming a simple power law model for the energy injection spectrum. We also consider a non-parametric reconstruction of the astrophysical neutrino emissivity as a function of redshift. We do not find any significant correlation, with our strongest results corresponding to a $1.9 σ$ deviation with respect to a model with zero signal. We use our measurements to place upper bounds on the bias-weighted astrophysical high-energy neutrino emission rate as a function of redshift for different source models. This analysis provides a new probe to test extragalactic neutrino source models. With future neutrino and galaxy datasets we expect the constraining and detection power of this type of analysis analysis to increase.",
+      "link": "https://arxiv.org/abs/2507.14926v2",
+      "published": "2025-07-20T11:47:58+00:00",
+      "updated": "2026-01-27T12:42:11+00:00",
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2512.18795v2",
+      "title": "Traversable wormholes inside anisotropic magnetized neutron stars: physical properties and potential observational imprints",
+      "authors": [
+        "Muhammad Lawrence Pattersons",
+        "Freddy Permana Zen",
+        "Hadyan Luthfan Prihadi",
+        "Muhammad F. A. R. Sakti"
+      ],
+      "abstract": "In this paper, we formulate wormhole-plus-neutron-star (WH+NS) systems supported by two scalar fields, allowing for both pressure anisotropy of the neutron fluid and magnetic field. In general, such WH+NS systems contain ghosts; however, these ghosts can be eliminated. We find that the wormhole remains traversable regardless of whether anisotropy of the neutron fluid and/or magnetic fields are included. In particular, the null energy condition (NEC) remains violated in the vicinity of the wormhole throat, ensuring the traversable nature of the geometry. For magnetized configurations, the resulting WH+NS systems can become extremely massive, with ADM masses exceeding $8\\,M_\\odot$, and can exhibit large surface redshifts exceeding $z \\simeq 1.5$. Furthermore, we analyze the gravitational-wave echo time of the systems, which serves as a potential observational imprint. Our results indicate that the echo time can vary depending on the fluid anisotropy and the magnetic field configuration, suggesting that WH+NS systems may provide distinctive signals of gravitational echo.",
+      "link": "https://arxiv.org/abs/2512.18795v2",
+      "published": "2025-12-21T16:15:44+00:00",
+      "updated": "2026-01-27T12:38:55+00:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2507.19278v2",
+      "title": "Is flavor discrete?",
+      "authors": [
+        "Alexei Y Smirnov"
+      ],
+      "abstract": "Relevance of the discrete symmetries for explanation of the observed flavor structures in the leptonic sector is considered. Achievements of the \"traditional'' discrete symmetry approach and the modular symmetry approach are confronted. Minimal models with small number of parameters do not work. Complication of symmetry prescriptions allow to introduce new free parameters and thus describe the data but simultaneously bring two connected problems: (i) problem of \"missing\" representations, and (ii) problem of selection of certain point in huge discrete parameter space formed by possible charge assignments. Both problems must be addressed in complete model. Alternatively, one can keep minimal symmetry prescription but extend models introducing new physics unrelated to the original flavor symmetry. The low energy predictions can be \"polluted\" by additional physics such as effects of coupling to hidden sector, RGE running, decoupling of heavy degrees of freedom, mixing with sterile neutrinos, {\\it etc.} The set up with discrete symmetries in the Hidden sector which communicates to the visible one via the neutrino portal and the basis fixing symmetry still looks promising.",
+      "link": "https://arxiv.org/abs/2507.19278v2",
+      "published": "2025-07-25T13:57:06+00:00",
+      "updated": "2026-01-27T12:28:03+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2506.23140v2",
+      "title": "Correlation between H$α$ emitters and their cosmic web environment at $z \\sim 1$",
+      "authors": [
+        "Ivan Rapoport",
+        "Vincent Desjacques",
+        "Ehud Behar",
+        "Ravi K. Sheth"
+      ],
+      "abstract": "Future near-infrared spectroscopic galaxy surveys will target high-redshift emission-line galaxies (ELGs) to test cosmological models. Deriving optimal constraints from emission-line galaxy clustering hinges on a robust understanding of their environmental dependence. Using the TNG300-1 simulation, we explore the correlation between properties of H$α$ emitters and their environment anisotropy rather than traditional density-based measures. Our galactic H$α$ emission model includes contributions from the warm interstellar medium. The environment anisotropy and type are assigned using a halo mass-dependent smoothing scale. We find that most luminous ELGs ($L_{\\rm{H}α}>10^{42}\\ \\rm{erg\\ s^{-1}}$) reside in filaments and knots. More generally, ELGs are more biased in strongly anisotropic environments. While correlations with galactic properties are found to be weak, they are statistically significant for host halo masses $M\\lesssim 10^{12}\\ M_\\odot/h$. Our analysis motivates further investigation into how environmental anisotropy influences galaxy evolution, and highlights the potential for leveraging these effects in the analyses of upcoming cosmological surveys.",
+      "link": "https://arxiv.org/abs/2506.23140v2",
+      "published": "2025-06-29T08:35:34+00:00",
+      "updated": "2026-01-27T12:22:56+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ]
+    },
+    {
+      "arxiv_id": "2408.01836v3",
+      "title": "Carroll black holes in (A)dS and their higher-derivative modifications",
+      "authors": [
+        "Poula Tadros",
+        "Ivan Kolář"
+      ],
+      "abstract": "We define the Carrollian black holes corresponding to the limit of Schwarzschild-(A)dS spacetime and its higher-derivative counterpart known as Schwarzschild-Bach-(A)dS spacetime, which is also a static spherically symmetric vacuum solution of quadratic gravity. By analyzing motion of massive particles in these geometries, we found that: In the case of Schwarzschild-(A)dS, a (nearly) tangential particle from infinity will wind around the extremal surface with a finite number of windings depending on the impact parameter and the cosmological constant. In Schwarzschild-Bach-(A)dS, a particle passing close enough to the extremal surface will have an infinite number of windings; hence, it will not escape to asymptotic infinity as in Schwarzschild-(A)dS. We also calculate the thermodynamical quantities for such black holes and argue that it is analogous to an incompressible thermodynamical system with divergent entropy when the temperature goes to zero (in the strict Carroll limit). We then define a divergent specific heat that can be positive, negative, or zero.",
+      "link": "https://arxiv.org/abs/2408.01836v3",
+      "published": "2024-08-03T18:24:11+00:00",
+      "updated": "2026-01-27T12:22:42+00:00",
+      "categories": [
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2401.00967v4",
+      "title": "Uniqueness of Galilean and Carrollian limits of gravitational theories and application to higher derivative gravity",
+      "authors": [
+        "Poula Tadros",
+        "Ivan Kolář"
+      ],
+      "abstract": "We show that the seemingly different methods used to derive non-Lorentzian (Galilean and Carrollian) gravitational theories from Lorentzian ones are equivalent. Specifically, the pre-nonrelativistic and the pre-ultralocal parametrizations can be constructed from the gauging of the Galilei and Carroll algebras, respectively. Also, the pre-ultralocal approach of taking the Carrollian limit is equivalent to performing the ADM decomposition and then setting the signature of the Lorentzian manifold to zero. We use this uniqueness to write a generic expansion for the curvature tensors and construct Galilean and Carrollian limits of all metric theories of gravity of finite order ranging from the $f(R)$ gravity to a completely generic higher derivative theory, the $f(g_{μν},R_{μνσρ},\\nabla_μ)$ gravity. We present an algorithm for calculation of the $n$-th order of the Galilean and Carrollian expansions that transforms this problem into a constrained optimization problem. We also derive the condition under which a gravitational theory becomes a modification of general relativity in both limits simultaneously.",
+      "link": "https://arxiv.org/abs/2401.00967v4",
+      "published": "2024-01-01T22:44:36+00:00",
+      "updated": "2026-01-27T12:16:42+00:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19530v1",
+      "title": "Radiative return at NLOPS accuracy",
+      "authors": [
+        "Ettore Budassi",
+        "Carlo M. Carloni Calame",
+        "Marco Ghilardi",
+        "Andrea Gurgone",
+        "Guido Montagna",
+        "Mauro Moretti",
+        "Oreste Nicrosini",
+        "Fulvio Piccinini",
+        "Francesco P. Ucci"
+      ],
+      "abstract": "The radiative return, together with the energy scan, is the method used at flavour factories to measure the pion form factor, which is a crucial input for the data-driven dispersive computation of the leading-order hadronic contribution to the muon anomalous magnetic moment. We consider the radiative hadronic and leptonic channels of main experimental interest, namely the processes $e^+e^-\\to X^+X^-γ$, with $X = \\{π\\, , μ\\}$. For such processes, we compute the exact next-to-leading order (NLO) corrections matched to a Parton Shower (PS) to describe exclusive multiple photon emission. All sources of radiative corrections from initial-state and final-state radiation, as well as their interference, are considered according to QED for $e^+e^-\\toμ^+μ^-γ$ and QED$\\oplus$F$\\times$sQED (Factorised scalar QED) for $e^+e^-\\toπ^+π^-γ$. We describe in detail the novel features of our PS approach to compute the fixed-order corrections in association with higher-order contributions to $2\\to3$ processes, with a hard photon in the final state. We present validation tests and comparisons with NLO predictions available in the literature to cross-check various ingredients of our formulation. We also show numerical results at NLOPS accuracy according to realistic event selection criteria for precision measurements at flavour factories. Our calculation is implemented in an updated version of the Monte Carlo event generator BabaYaga@NLO, which can be used for fully exclusive simulations and data analysis in radiative return experiments.",
+      "link": "https://arxiv.org/abs/2601.19530v1",
+      "published": "2026-01-27T12:16:22+00:00",
+      "updated": "2026-01-27T12:16:22+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ]
+    },
+    {
+      "arxiv_id": "2307.13760v3",
+      "title": "Carrollian limit of quadratic gravity",
+      "authors": [
+        "Poula Tadros",
+        "Ivan Kolář"
+      ],
+      "abstract": "We study the Carrollian limit of the (general) quadratic gravity in four dimensions. We find that in order for the Carrollian theory to be a modification of the Carrollian limit of general relativity, the parameters in the action must depend on the speed of light in a specific way. By focusing on the leading and the next-to-leading orders in the Carrollian expansion, we show that there are four such non equivalent Carrollian theories. Imposing conditions to remove tachyons (from the linearized theory), we end up with a classification of Carrollian theories according to the leading-order and next-to-leading-order actions. All modify the Carrollian limit of general relativity with quartic terms of the extrinsic curvature. To the leading order, we show that two theories are equivalent to general relativity, one to $R+R^2$ theory, and one to the general quadratic gravity. To the next-to-leading order, two are equivalent to $R+R^2$ while the other two to the general quadratic gravity. We study the two theories that are equivalent to $R+R^2$ to the leading order and write their magnetic limit actions.",
+      "link": "https://arxiv.org/abs/2307.13760v3",
+      "published": "2023-07-25T18:38:49+00:00",
+      "updated": "2026-01-27T12:09:12+00:00",
+      "categories": [
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2509.11631v4",
+      "title": "Hurst index of gamma-ray burst light curves and its statistical study",
+      "authors": [
+        "Ruo-Yu Guan",
+        "Fei-Fei Wang",
+        "Yuan-Chuan Zou"
+      ],
+      "abstract": "Gamma-ray bursts (GRBs) rank among the most powerful astrophysical phenomena, characterized by complex and highly variable prompt emission light curves that reflect the dynamics of their central engines. In this work, we analyze a sample of 163 long-duration GRBs detected by the Burst and Transient Source Experiment (BATSE), applying detrended fluctuation analysis (DFA) to derive the Hurst index as a quantitative descriptor of temporal correlations in the light curves. We further explore statistical correlations between the Hurst index and 12 other observational parameters through regression and correlation analyses. Our results reveal anti-correlations between the Hurst index and the burst durations ($T_{50}$, $T_{90}$), and moderate positive correlations with peak photon flux proxies ($P_{pk1}$--$P_{pk3}$). By contrast, the standard spectral parameters (including the low-energy index $α$) show no evidence for a linear dependence on the Hurst index in our sample. We do not find a clear monotonic weakening of the correlation strength from 64 ms to 1024 ms peak-flux measures; rather, the correlation coefficients for $P_{pk1}$--$P_{pk3}$ are comparable within uncertainties. The results offer new perspectives on the temporal structure of the GRB emission and its potential link to the underlying physical mechanisms driving these bursts.",
+      "link": "https://arxiv.org/abs/2509.11631v4",
+      "published": "2025-09-15T06:54:34+00:00",
+      "updated": "2026-01-27T12:01:16+00:00",
+      "categories": [
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2504.00994v3",
+      "title": "Interacting dark energy after DESI DR2: a challenge for $Λ$CDM paradigm?",
+      "authors": [
+        "Supriya Pan",
+        "Sivasish Paul",
+        "Emmanuel N. Saridakis",
+        "Weiqiang Yang"
+      ],
+      "abstract": "We investigate the scenario of interacting dark energy through a detailed confrontation with various observational datasets. We quantify the interaction in a general way, through the deviation from the standard scaling of the dark matter energy density. We use the cosmic microwave background (CMB) data from Planck 2018, data from Baryon Acoustic Oscillations (BAO) from the recently released DESI DR2, observational Hubble Data from Cosmic Chronometers (CC), and finally various Supernova Type Ia (SNIa) datasets (PantheonPlus, Union3 and DESY5). For the basic and simplest interacting model we find a mild preference of the interaction at slightly more than $1σ$ however still within $2σ$, and thus no strong evidence of interaction is found. However, comparison with $Λ$ cold dark matter ($Λ$CDM) scenario through $Δχ^2_{\\rm min}$, Akaike Information Criterion and Bayesian analysis, reveals a mixed picture, namely according to $Δχ^2_{\\rm min}$ the interaction is mildly favored by most of the datasets, while the remaining statistical measures are inclined toward $Λ$CDM.",
+      "link": "https://arxiv.org/abs/2504.00994v3",
+      "published": "2025-04-01T17:32:30+00:00",
+      "updated": "2026-01-27T11:43:13+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19495v1",
+      "title": "Probing EFT breakdown in the tails of $W^+ W^-$ observables",
+      "authors": [
+        "Daniel Gillies",
+        "Andrea Banfi",
+        "Adam Martin"
+      ],
+      "abstract": "In this letter, we test clipping effective field theory (EFT) simulations as a method of ensuring EFT validity. The procedure imposes that, at the level of the simulation, the invariant mass of a $W^+W^-$ pair $M_{WW}$ is less than the new physics scale $Λ$. We compare this to two other methods, comparison bin by bin of dimension-6 and dimension-8 squared contributions and implementing a cut on data. We find that setting $M_{WW} < Λ$ is not strict enough to ensure that the hierarchy of EFT operators is respected for dimension-6 and dimension-8 contributions. We also show that, even when using a stricter cut on $M_{WW}$, due to different correlations between $M_{WW}$ and $M_{eμ}$ at different EFT orders, the bins in $M_{eμ}$ (the invariant mass of the leptons originating from $W$ decays) used in an EFT fit may not truly be in the regime of EFT validity when performing a dimension-6 fit with $M_{WW} < Λ$. We also explore the correlations of three transverse mass observables: $M_{T1}, M_{T2}$ and $M_{T3}$, finding that $M_{T1}$ and $M_{T3}$ follow the $M_{WW}$ distribution more closely than $M_{eμ}$. We present sensitivity studies using both the $M_{T3}$ distribution and $M_{eμ}$ distribution. We test implementing an experimental cut on $M_{T3}$ in place of clipping the EFT simulation at $M_{WW} < Λ$. We finally comment that adding $M_{WW} < Λ$ cuts only to the EFT simulation could be interpreted as modifying the SMEFT expansion by a form factor and could therefore impact the model independence of EFT fits under this procedure.",
+      "link": "https://arxiv.org/abs/2601.19495v1",
+      "published": "2026-01-27T11:29:42+00:00",
+      "updated": "2026-01-27T11:29:42+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ]
+    },
+    {
+      "arxiv_id": "2506.16544v2",
+      "title": "Black holes as telescopes: Discovering supermassive binaries through quasi-periodic lensed starlight",
+      "authors": [
+        "Hanxi Wang",
+        "Miguel Zumalacárregui",
+        "Bence Kocsis"
+      ],
+      "abstract": "Supermassive black hole (SMBH) binary systems are unavoidable outcomes of galaxy mergers. Their dynamics encode information about their formation and growth, the composition of their host galactic nuclei, the evolution of galaxies, and the nature of gravity. Many SMBH binaries with separations pc-kpc have been found, but closer (sub-parsec) binaries remain to be confirmed. Identifying these systems may elucidate how binaries evolve past the ``final parsec'' until gravitational radiation drives them to coalescence. Here we show that SMBH binaries in non-active galactic nuclei can be identified and characterized by the gravitational lensing of individual bright stars, located behind them in the host galaxy. The rotation of `caustics' -- regions where sources are hugely magnified due to the SMBH binary's orbit and inspiral -- leads to Quasi-Periodic Lensing of Starlight (QPLS). The extreme lensing magnification of individual bright stars produces a significant variation in the host galaxies' luminosity; their lightcurve traces the orbit of the SMBH binary and its evolution. QPLS probes the population of sources observable by pulsar timing arrays and space detectors (LISA, TianQin), offering advance warning triggers for merging SMBHs for coincident or follow-up GW detections. SMBH population models predict $1-50\\; [190-5,000] \\left({n_\\star}/{\\rm pc}^{-3}\\right)$ QPLS binaries with period less than $10\\; [40]$ yr with comparable masses and $z<0.3$, where $n_\\star$ is the stellar number density. Additionally, stellar and orbital motion will lead to frequent instances of single/double flares caused by SMBHBs with longer periods. This novel signature can be searched for in a wealth of existing and upcoming time-domain photometric data: identifying quasi-periodic variability in galactic lightcurves will reveal an ensemble of binary systems and illuminate outstanding questions around them.",
+      "link": "https://arxiv.org/abs/2506.16544v2",
+      "published": "2025-06-19T19:01:44+00:00",
+      "updated": "2026-01-27T11:27:40+00:00",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.CO",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19483v1",
+      "title": "Event generation with exponential scaling in multiplicity using AmpliCol",
+      "authors": [
+        "Rikkert Frederix",
+        "Timea Vitos"
+      ],
+      "abstract": "Efficient generation of LHC events is hindered by the rapidly rising cost of evaluating QCD matrix elements with increasing multiplicity. We build on a recently proposed two-step strategy in which unweighted events are first generated using the leading-colour (LC) approximation and then reweighted to full-colour (FC) accuracy, utilising the LC integration efficiency while recovering the exact FC prediction. In this work we extend the method to general Standard Model processes and present AmpliCol, a standalone implementation designed for LHC collisions. We benchmark multi-jet, $t\\bar{t}$+jets, $ZZ$+jets, and Drell-Yan+jets production, measuring the time required to obtain a fixed number of unweighted events at FC accuracy. Across all processes, the runtime exhibits a stable exponential scaling with multiplicity, far milder than the factorial growth of conventional matrix-element generators. This demonstrates that the AmpliCol code enables efficient event generation at multiplicities that are otherwise computationally prohibitive.",
+      "link": "https://arxiv.org/abs/2601.19483v1",
+      "published": "2026-01-27T11:16:10+00:00",
+      "updated": "2026-01-27T11:16:10+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19480v1",
+      "title": "A highly ionised outflow in the X-ray binary 4U 1624-49 detected with XRISM",
+      "authors": [
+        "M. Díaz Trigo",
+        "E. Caruso",
+        "E. Costantini",
+        "T. Dotani",
+        "T. Kohmura",
+        "M. Shidatsu",
+        "M. Tsujimoto",
+        "T. Yoneyama",
+        "J. Neilsen",
+        "T. Yaqoob",
+        "J. M. Miller"
+      ],
+      "abstract": "The origin of accretion disc winds remains disputed to date. High inclination, dipping, neutron star Low Mass X-Ray Binaries (LMXBs) provide an excellent testbed to study the launching mechanism of such winds due to being persistently accreting and showing a nearly ubiquitous presence of highly-ionised plasmas. We aim to establish or rule out the presence of a wind in the high inclination LMXB 4U 1624-49, for which a highly ionised plasma has been repeatedly observed in X-ray spectra by Chandra and XMM-Newton, and a thermal-radiative pressure wind is expected. We leverage the exquisite spectral resolution of XRISM to perform phase-resolved spectroscopy of the full binary orbit to characterise the highly ionised plasma at all phases except during absorption dips. An outflow is clearly detected via phase-resolved spectroscopy of the source with XRISM/Resolve. Based on analysis of the radial velocity curve we determine an average velocity of ~200-320 km/s and a column density above 10$^{23}$ cm$^{-2}$. The line profiles are generally narrow, spanning from ~50 to ~100 km/s, depending on the orbital phase, pointing to a low velocity sheer or turbulence of the highly ionised outflow and a potential increase of turbulence as the absorption dip is approached, likely due to turbulent mixing. The line profiles, together with the derived launching radius and wind velocity are consistent with a wind being launched from the outskirts of the disc and without stratification, pointing to a thermal-radiative pressure origin.",
+      "link": "https://arxiv.org/abs/2601.19480v1",
+      "published": "2026-01-27T11:14:05+00:00",
+      "updated": "2026-01-27T11:14:05+00:00",
+      "categories": [
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19476v1",
+      "title": "On the stability of the objects of limiting compactness: Black hole and Buchdahl star",
+      "authors": [
+        "Soumya Chakrabarti",
+        "Chiranjeeb Singha",
+        "Naresh Dadhich"
+      ],
+      "abstract": "In General Relativity, there exist two objects of limiting compactness, one with a null boundary defining the horizon of a black hole and the other with a timelike boundary defining a Buchdahl star. The two are characterized by gravitational energy equal to or half the mass. Since non-gravitational mass-energy is the source of gravitational energy, both of these objects are manifestly stable. We demonstrate in this letter, in a simple and general way, that the equilibrium state defining the object is indeed stable, independent of the nature of the perturbation.",
+      "link": "https://arxiv.org/abs/2601.19476v1",
+      "published": "2026-01-27T11:07:27+00:00",
+      "updated": "2026-01-27T11:07:27+00:00",
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "math-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19475v1",
+      "title": "How transverse momentum conservation breaks azimuthal correlation factorization",
+      "authors": [
+        "Jia-Lin Pei",
+        "Guo-Liang Ma",
+        "Adam Bzdak"
+      ],
+      "abstract": "The breakdown of azimuthal two-particle correlation factorization, quantified by the ratios $r_2$ and $r_3$, serves as a sensitive probe of transverse-momentum-dependent flow fluctuations. While hydrodynamic models predict $r_3 \\leq 1$, experimental data from CMS in p-Pb collisions exhibit $r_3 > 1$, presenting a clear puzzle. We show that transverse momentum conservation (TMC) is the key mechanism dictating this factorization breakdown in small systems. We systematically calculate the effect of TMC as a function of the momentum difference between particles across various multiplicity and momentum ranges. Our results are in quantitative agreement with CMS p-Pb data for both $r_2$ and $r_3$. A central finding is a sign rule: under TMC, the deviation $r_n - 1$ follows $\\left ( - 1 \\right )^{n+1} $, being negative for even and positive for odd harmonic orders $n$. This work establishes an analytical framework to quantify transverse-momentum-dependent flow fluctuations and provides new insights into the origin of collectivity in small colliding systems.",
+      "link": "https://arxiv.org/abs/2601.19475v1",
+      "published": "2026-01-27T11:06:42+00:00",
+      "updated": "2026-01-27T11:06:42+00:00",
+      "categories": [
+        "nucl-th",
+        "hep-ph",
+        "nucl-ex"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19474v1",
+      "title": "The quasi-normal modes of relativistic Fokker-Planck kinetic theory",
+      "authors": [
+        "Lorenzo Gavassino"
+      ],
+      "abstract": "Employing the well-known unitary equivalence between Fokker-Planck operators and Schrödinger Hamiltonians, we compute the quasi-normal-mode spectrum of ultrarelativistic kinetic theories with momentum-space diffusion. We show that the collision operator reduces to a Dirac-delta Schrödinger problem in one spatial dimension, and to a Coulomb Schrödinger operator with hydrogenic spectrum in three dimensions. Finite spatial wavenumber appears as a perturbation of the associated quantum potential. The hydrodynamic mode is found to obey exact Fick-type diffusion at all real wavenumbers, whereas relativistic kinematics generically produces a continuous ballistic band in the non-hydrodynamic sector, a feature absent in the Newtonian regime.",
+      "link": "https://arxiv.org/abs/2601.19474v1",
+      "published": "2026-01-27T11:05:15+00:00",
+      "updated": "2026-01-27T11:05:15+00:00",
+      "categories": [
+        "nucl-th",
+        "gr-qc",
+        "hep-th",
+        "math-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2503.13087v2",
+      "title": "RelExt: A New Dark Matter Tool for the Exploration of Dark Matter Models",
+      "authors": [
+        "Rodrigo Capucha",
+        "Karim Elyaouti",
+        "Milada Margarete Mühlleitner",
+        "Johann Plotnikov",
+        "Rui Santos"
+      ],
+      "abstract": "We present the C++ program RelExt for Standard Model (SM) extensions that feature a Dark Matter (DM) candidate. The tool allows to efficiently scan the parameter spaces of these models to find parameter combinations that lead to relic density values which are compatible with the measured value within the uncertainty specified by the user. The code computes the relic density for freeze-out (co-)annihilation processes. The user can choose between several pre-installed models or any arbitrary other model featuring a discrete $\\mathbb{Z}_2$ symmetry, by solely providing the corresponding FeynRules model files. The code automatically generates the required (co-)annihilation amplitudes and thermally averaged cross sections, including the total widths in the $s$-channel mediators, and solves the Boltzmann equation to determine the relic density. It can easily be linked to other tools like e.g.~ScannerS to check for the relevant theoretical and experimental constraints, or to BSMPT to investigate the phase history of the model and possibly related gravitational waves signals.",
+      "link": "https://arxiv.org/abs/2503.13087v2",
+      "published": "2025-03-17T11:49:47+00:00",
+      "updated": "2026-01-27T10:47:36+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19464v1",
+      "title": "The diffusion equation is compatible with special relativity",
+      "authors": [
+        "Lorenzo Gavassino"
+      ],
+      "abstract": "Due to its parabolic character, the diffusion equation exhibits instantaneous spatial spreading, and becomes unstable when Lorentz-boosted. According to the conventional interpretation, these features reflect a fundamental incompatibility with special relativity. In this Letter, we show that this interpretation is incorrect by demonstrating that any smooth and sufficiently localized solution of the diffusion equation is the particle density of an exact solution of the relativistic Vlasov-Fokker-Planck equation. This establishes the existence of a causal, stable, and thermodynamically consistent relativistic kinetic theory whose hydrodynamic sector is governed exactly by diffusion at all wavelengths. We further demonstrate that the standard arguments for instability arise from considering solutions that admit no counterpart in kinetic theory, and that apparent violations of causality disappear once signals are defined in terms of the underlying microscopic data.",
+      "link": "https://arxiv.org/abs/2601.19464v1",
+      "published": "2026-01-27T10:47:32+00:00",
+      "updated": "2026-01-27T10:47:32+00:00",
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "math-ph",
+        "nucl-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19463v1",
+      "title": "Spectrum of radiation from global strings and the relic axion density",
+      "authors": [
+        "Richard A. Battye",
+        "Lukasz P. Bunio",
+        "Steven J. Cotterill",
+        "Pranav B. Gangrekalve Manoj"
+      ],
+      "abstract": "We discuss key aspects of the nature of radiation from global strings and its impact on the relic axion density. Using a simple model we demonstrate the dependence on the spectrum of radiation emitted by strings. We then study the radiation emitted by perturbed straight strings paying particular attention to the difference between the overall phase of the field and the small perturbations about the string solution which are the axions. We find that a significant correction is required to be sure that one is analyzing the axions and not the self-field of the string. Typically this requires one to excise a sizeable region around the string - something which is not usually done in the case of numerical field theory simulations of string networks. We have measured the spectrum of radiation from these strings and find that it is compatible with an exponential, as predicted by the Nambu-like Kalb-Ramond action, and in particular is not a ``hard'' spectrum often found in string network simulations. We conclude by attempting to assess the uncertainties on relic density and find that this leads to a range of possible axion masses when compared to the measured density from the Cosmic Microwave Background, albeit that they are typically higher than what is predicted by the Initial Misalignment Mechanism. If the decay is via a ``soft spectrum'' from loops produced close to the backreaction scale we find that $m_{\\rm a}\\approx 160\\,μ{\\rm eV}$ and a detection frequency $f\\approx 38\\,{\\rm GHz}$. If axions are emitted directly by the string network, and we use emission spectra reported in field theory simulations, then $m_{\\rm a}\\approx 4\\,μ{\\rm eV}$ and $f\\approx 1\\,{\\rm GHz}$, however this increases to $m_a \\approx 125\\,μ{\\rm eV}$ and $f\\approx 30\\,{\\rm GHz}$ using our spectra for the case of an oscillating string. In all scenarios there are significant remaining uncertainties that we delineate.",
+      "link": "https://arxiv.org/abs/2601.19463v1",
+      "published": "2026-01-27T10:46:36+00:00",
+      "updated": "2026-01-27T10:46:36+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19454v1",
+      "title": "Radiative Dirac neutrino masses and dark matter in a $U(1)_{B-L}$ extended model",
+      "authors": [
+        "Chayan Majumdar",
+        "Utkarsh Patel",
+        "Supriya Senapati",
+        "Sudhanwa Patra"
+      ],
+      "abstract": "We study a $U(1)_{B-L}$ extension of the Standard Model (SM) in which Dirac neutrino masses are generated radiatively at the one-loop level through the exchange of new beyond the SM fields. This framework establishes a direct connection between neutrino mass generation and the dark sector, with the stability of the dark matter ensured by a residual discrete $Z_6$ symmetry arising from the spontaneous breaking of $U(1)_{B-L}$. We investigate the resulting charged lepton flavor violating processes and dark matter phenomenology, saturating relic observations and direct-detection constraints, and analyze the collider signatures of the dark sector at the Large Hadron Collider and at a future muon collider. We have identified excellent prospects for observing the considered dark matter candidates in these colliders, even with lower integrated luminosities than the proposed one.",
+      "link": "https://arxiv.org/abs/2601.19454v1",
+      "published": "2026-01-27T10:39:21+00:00",
+      "updated": "2026-01-27T10:39:21+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19450v1",
+      "title": "Minkowski Functionals of the 21 cm Signal as a Probe of Primordial Features",
+      "authors": [
+        "Kanan Virkar",
+        "Suvedha Suresh Naik",
+        "Pravabati Chingangbam"
+      ],
+      "abstract": "The redshifted 21 cm signal from the cosmic dawn and Epoch of Reionization (EoR) encodes important information about both astrophysical processes and primordial physics, such as inflation. In this work, we use morphological statistics to explore the sensitivity of the 21 cm signal to inflationary features and EoR dynamics simultaneously. Focusing on primordial features from particle production during inflation we generate semi-numerical simulations of the 21 cm signal across redshifts 5 < z < 35, incorporating these features. Using Minkowski Functionals (MFs), we analyze the morphology of 21 cm fields: density, neutral hydrogen fraction, spin temperature, and brightness temperature. We demonstrate that MFs are highly sensitive to both the amplitude and scale of primordial features, capturing rich morphological information. In particular, we show that MFs can robustly identify inflationary features and distinguish them from the standard model. We further explore various EoR scenarios, and demonstrate that combining MFs across redshifts can disentangle the signatures of primordial features from EoR effects. This approach opens new avenues for probing inflation with upcoming 21 cm surveys.",
+      "link": "https://arxiv.org/abs/2601.19450v1",
+      "published": "2026-01-27T10:36:33+00:00",
+      "updated": "2026-01-27T10:36:33+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19438v1",
+      "title": "Large-scale Modeling of the Observed Power Spectrum Multipoles",
+      "authors": [
+        "Robin Y. Wen",
+        "Henry S. Grasshorn Gebhardt",
+        "Chen Heinrich",
+        "Olivier Doré"
+      ],
+      "abstract": "Current and upcoming large-scale structure surveys are pushing toward increasingly wide angular coverage, where wide-angle effects (arising from the varying line of sight across the curved sky) become critical for accurate modeling of the three-dimensional galaxy power spectrum. At the same time, these survey's broader redshift reach makes the effects of redshift evolution (beyond the effective-redshift approximation) non-negligible on large radial scales. Additional observational effects such as the survey window function and integral constraints also become significant on these large scales, necessitating a careful theoretical treatment to robustly constrain local primordial non-Gaussianities and relativistic effects. In this work, we present a consistent and accurate theoretical framework for modeling the commonly used power spectrum multipoles (PSM) on large scales using the discrete spherical Fourier-Bessel (dSFB) basis. This basis ensures numerical stability and allows an exact separation between angular and radial modes. Using the dSFB basis, we study the impact of wide-angle effects and redshift evolution on the PSM, and incorporate the effects of window function convolution and integral constraints. We validate our PSM modeling using lognormal mocks under radial integral constraints with realistic survey geometries, demonstrating the readiness of our framework for application to all-sky galaxy surveys.",
+      "link": "https://arxiv.org/abs/2601.19438v1",
+      "published": "2026-01-27T10:18:40+00:00",
+      "updated": "2026-01-27T10:18:40+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19434v1",
+      "title": "Extracting Nucleon Resonance Transition GPDs from $e^- N\\to e^-γNπ$ Deeply Virtual Compton Scattering",
+      "authors": [
+        "Matthew Rumley",
+        "Anthony W. Thomas"
+      ],
+      "abstract": "We investigate the process in which Deeply Virtual Compton Scattering (DVCS) excites a baryon resonance. In particular, we assess, in DVCS leading to the Roper resonance, the relative importance of a \"background'' process in which a pion is first emitted by the nucleon, which then undergoes a DVCS event. Our numerical results, using realistic DVCS kinematics, indicate that there can be measurable interference effects. They suggest that this process could substantially modify the experimentally observed cross sections at CLAS12-like kinematics, motivating their inclusion in precision analyses of DVCS experiments. We further find that in spite of this background, the transition to a Roper-like state through DVCS does contribute significantly to the $e^- N\\to e^-γNπ$ cross section in some kinematic regions. This suggests that the creation of nucleon resonances via DVCS is a useful method for extracting information about the nucleon transition GPDs and the internal structure of the excited states.",
+      "link": "https://arxiv.org/abs/2601.19434v1",
+      "published": "2026-01-27T10:15:21+00:00",
+      "updated": "2026-01-27T10:15:21+00:00",
+      "categories": [
+        "nucl-th",
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2501.10330v2",
+      "title": "Soft gluon resummation for gluon fusion $ZH$ production",
+      "authors": [
+        "Goutam Das",
+        "Chinmoy Dey",
+        "M. C. Kumar",
+        "Kajal Samanta"
+      ],
+      "abstract": "We examine the effects of soft gluons on Higgs boson production in association with a $Z$ boson at the Large Hadron Collider (LHC). Utilizing the universal cusp anomalous dimensions and splitting kernels, we analyze effects of soft gluons on the gluon fusion $ZH$ process, focusing on the total production cross-section as well as the invariant mass distribution at the next-to-leading logarithmic level. Additionally, we estimate the next-to-soft effects on this subprocess to the same level of accuracy. A detailed phenomenological analysis is performed for the $13.6$ TeV LHC. Finally, combining these results with those from other subprocesses, we provide comprehensive predictions for the $ZH$ production cross-section and the invariant mass distribution that will be valuable for comparison with experimental data from the upcoming LHC run as well as the future hadron colliders.",
+      "link": "https://arxiv.org/abs/2501.10330v2",
+      "published": "2025-01-17T17:58:37+00:00",
+      "updated": "2026-01-27T10:09:13+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.09558v2",
+      "title": "Quantum properties of heavy-fermion pairs at a lepton collider with polarised beams",
+      "authors": [
+        "Mohammad Mahdi Altakach",
+        "Priyanka Lamba",
+        "Fabio Maltoni",
+        "Kazuki Sakurai"
+      ],
+      "abstract": "We investigate the quantum properties of heavy-fermion pairs, such as $t\\bar t$ or $τ^+τ^-$, produced in lepton-lepton collisions with polarised beams. Focusing on spin correlations, entanglement, Bell-inequality violation, and quantum-information-theoretic measures such as purity and magic, we analyse how beam polarisation shapes the structure of the spin-density matrix. We derive analytic expressions for a wide range of helicity configurations, including both Standard Model contributions and generic new-physics effects parametrised by scalar, vector, and tensor four-fermion operators within an effective field theory framework. We show that beam polarisation unlocks a substantially richer set of spin configurations and significantly enhances sensitivity to non-standard interactions. As a phenomenological application, we study $t\\bar t$ production at a future linear collider and demonstrate that quantum observables provide a comprehensive and complementary probe of top-quark interactions and stronger constraints on the scale of new physics.",
+      "link": "https://arxiv.org/abs/2601.09558v2",
+      "published": "2026-01-14T15:28:49+00:00",
+      "updated": "2026-01-27T10:08:45+00:00",
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th",
+        "quant-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2507.02232v2",
+      "title": "Production of $Ξ(1530)$ in the $K^- p$ scattering process",
+      "authors": [
+        "Quan-Yun Guo",
+        "Jing Liu",
+        "Peiwen Wu",
+        "Dian-Yong Chen"
+      ],
+      "abstract": "In the present work, we examine the production of $Ξ(1530)$ in the $K^- p \\to K^{+} Ξ(1530)^{-}$ and $K^- p \\to K^{0} Ξ(1530)^{0}$ reactions utilizing an effective Lagrangian approach. To accurately fit the cross sections for both processes, we include nine $Λ$ and $Σ$ hyperons and their resonances in both $s$- and $u$-channel processes. Considering the discrepancy of the measured cross sections for $K^- p \\to K^+ Ξ(1530)^-$ within the range $\\sqrt{s}=[2.087, 2.168]\\ \\mathrm{GeV}$, we employ two distinct fitting strategies: a uniform weighting scheme (model A) and a different weighting approach (model B). A comparative analysis suggests that model A yields a superior global agreement with experimental data compared to model B. Beyond fitting the cross sections, we also estimate the individual contributions from various intermediate states. Our results reveal that the cross section arising from the $Σ(1193)$ intermediate process is dominant. Furthermore, we predict different cross sections for $K^- p\\to K^+Ξ(1530)^-$ and $K^- p\\to K^0Ξ(1530)^0$ at several representative center-of-mass energies, providing testable predictions for forthcoming J-PARC experiments.",
+      "link": "https://arxiv.org/abs/2507.02232v2",
+      "published": "2025-07-03T01:56:55+00:00",
+      "updated": "2026-01-27T10:06:09+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19424v1",
+      "title": "Union3.1: Self-consistent Measurements of Host Galaxy Properties for 2000 Type Ia Supernovae",
+      "authors": [
+        "Taylor J. Hoyt",
+        "David Rubin",
+        "Greg Aldering",
+        "Saul Perlmutter",
+        "Andrei Cuceu",
+        "Ravi Gupta"
+      ],
+      "abstract": "The determination of distances using time-series photometry of Type Ia supernovae (SNe Ia) relies on a ~5% empirical correction related to the properties of their host galaxies, e.g., global stellar mass. It is therefore crucial for unbiased cosmology inference that host galaxy properties be self-consistently determined across the full range of redshifts probed, which we undertake in this study for approximately 2000 SNe in the Union3 compilation (now Union3.1). We use aperture-matched, homogeneously-reduced, optical-infrared photometry from the DESI Legacy Imaging Surveys to derive global galaxy properties using the stellar population synthesis and SED-fitting code Prospector. We find that the host masses of $z<0.10$ SNe in Union3 were, on average, overestimated relative to the rest of the sample, while the opposite was true for $z<0.15$ SNe in Pantheon+. After correction, the two studies' average distance modulus estimated for low-redshift SNe, previously $>0.03$ mag discrepant, come into 0.01 mag agreement. We then update the UNITY SN analysis and find that the uncertainties on all standardization parameters shrink to 0.6-0.9x their previous sizes. For flat-$Λ$CDM, we find $Ω_m=0.344^{+0.026}_{-0.025}$, a -0.3$σ$ shift from Union3. We then combine with measurements of Baryon Acoustic Oscillations (BAO) and the Cosmic Microwave Background (CMB) exactly as done by DESI DR2 and find $w_0=-0.719\\pm0.084$, $w_a=-0.95^{+0.29}_{-0.26}$, corresponding to 3.4$σ$ evidence against a cosmological constant (down from 3.8$σ$). We also update the DESI combined probe analysis using our correction to Pantheon+ and the recent DES-SN5YR Dovekie recalibration, finding $3.2σ$ (up from 2.8$σ$) and 3.4$σ$ (down from 4.2$σ$) evidence against a cosmological constant in the $w_0w_a$ plane, altogether marking a significantly improved consistency across SN analyses.",
+      "link": "https://arxiv.org/abs/2601.19424v1",
+      "published": "2026-01-27T10:02:38+00:00",
+      "updated": "2026-01-27T10:02:38+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2510.02445v3",
+      "title": "Surveying the complex three Higgs doublet model with Machine Learning",
+      "authors": [
+        "Rafael Boto",
+        "João A. C. Matos",
+        "Jorge C. Romão",
+        "João P. Silva"
+      ],
+      "abstract": "The couplings of the 125 GeV Higgs are being measured with higher precision as the Run 3 stage of LHC continues. Models with multiple Higgs doublets allow potential deviations from the SM predictions. For more than two doublets, there are five possible types of models that avoid flavor changing neutral couplings at tree level by the addition of a symmetry. We consider a softly broken Z2xZ2 three-Higgs doublet model with explicit CP violation in the scalar sector, exploring all five possible types of coupling choices and all five mass orderings of the neutral scalar bosons. The phenomenological study is performed using a Machine Learning black box optimization algorithm that efficiently searches for the possibility of large pseudoscalar Yukawa couplings. We identify the model choices that allow a purely pseudoscalar coupling in light of all recent experimental limits, including direct searches for CP-violation, thus motivating increased effort into improving the experimental precision.",
+      "link": "https://arxiv.org/abs/2510.02445v3",
+      "published": "2025-10-02T18:00:07+00:00",
+      "updated": "2026-01-27T09:59:01+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19419v1",
+      "title": "Predictions of effective Majorana neutrino mass under radiative corrections to $μ-τ$ reflection symmetry",
+      "authors": [
+        "Prokash Pegu",
+        "Chandan Duarah"
+      ],
+      "abstract": "The search for neutrinoless double beta decay ($0νββ$) is currently one of the key objectives in neutrino physics research. The decay rate of $0νββ$ decay depends on the effective Majorana neutrino mass $|\\langle m \\rangle_{ee}|$. In this work we study the numerical prediction of $|\\langle m \\rangle_{ee}|$ in the scenario of deviation from the $μ$-$τ$ reflection symmetry due to radiative corrections, as an extension of our earlier work \\cite{pegu}. In \\cite{pegu}, we consider an exact $μ$-$τ$ reflection symmetry in the light effective Majorana neutrino mass matrix and in the corresponding lepton mixing matrix as well at the seesaw scale. We choose numerical values of all the mixing parameters and neutrino mass eigenvalues at the seesaw scale as inputs and estimate the values of mass eigenvalues and mixing parameters at the electroweak scale due to radiative corrections. We find these low energy predictions consistent with global $3σ$ oscillation data. In the present work, we compute the effective Majorana neutrino mass $|\\langle m \\rangle_{ee}|$ using these low energy values at the electroweak scale. We find that the low energy predictions of $|\\langle m \\rangle_{ee}|$ are consistent with the latest upper bound $|\\langle m \\rangle_{ee}|<(0.028-0.122)\\ eV$ provided by KamLAND-Zen Collaboration.",
+      "link": "https://arxiv.org/abs/2601.19419v1",
+      "published": "2026-01-27T09:57:05+00:00",
+      "updated": "2026-01-27T09:57:05+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2501.05543v3",
+      "title": "Kerr-AdS type higher dimensional black holes with non-spherical cross-sections of horizons",
+      "authors": [
+        "Piotr T. Chruściel",
+        "Wan Cong",
+        "Finnian Gray"
+      ],
+      "abstract": "We construct, in even spacetime dimensions, a family of singularity-free Kerr-Anti-de Sitter-like black holes with negatively curved cross-sections of conformal infinity and non-spherical cross-sections of horizons.",
+      "link": "https://arxiv.org/abs/2501.05543v3",
+      "published": "2025-01-09T19:28:27+00:00",
+      "updated": "2026-01-27T09:50:29+00:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19412v1",
+      "title": "A thin disk and a nearly universal accretion rate in luminous quasars",
+      "authors": [
+        "G. Risaliti",
+        "B. Trefoloni",
+        "M. Salvati"
+      ],
+      "abstract": "Quasars accretion models predict a broad range of optical and ultraviolet properties that depend primarily on black hole mass and accretion rate. Yet, most optically selected luminous quasars display strikingly similar continuum spectra. We show that this uniformity can be explained by a nearly constant luminosity to mass (Eddington) ratio, L_EDD and by thermal emission from a standard, optically thick, geometrically thin accretion disc. A standard disk with an Eddington ratio L_EDD=0.1 reproduces both the black hole mass/luminosity distribution of Sloan Digital Sky Survey (SDSS) quasars and their principal continuum properties. In this framework, the spectral energy distribution peaks beyond the observable ultraviolet range for nearly all sources. We show that the few quasars, expected to be cold enough to shift the peak into the observable region, indeed show this behaviour. This scenario is further supported by an analysis of the relation between the luminosity of the main broad emission lines and the continuum luminosity (i.e. the Baldwin effect). We find that 1) the observed slopes of the line to continuum relations match the expectations from the standard disk model, if we assume that the line emission is a good proxy of the ionizing luminosity; 2) the dispersions of the line-continuum luminosity relations are very small (as small as 0.13 dex), suggesting that the physics of the disk-broad line region system is dominated by only one parameter (the black hole mass) with a nearly constant Eddington ratio. Finally, we notice that our hypothesis of constant L_EDD=0.1 provides a black hole mass estimate (based on the observed luminosity) with a smaller error than the virial estimate.",
+      "link": "https://arxiv.org/abs/2601.19412v1",
+      "published": "2026-01-27T09:46:59+00:00",
+      "updated": "2026-01-27T09:46:59+00:00",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19409v1",
+      "title": "Dynamical and observational properties of weakly Proca-charged black holes",
+      "authors": [
+        "Abylaikhan Tlemissov",
+        "Arman Tursunov",
+        "Jiří Kovář",
+        "Zdeněk Stuchlík"
+      ],
+      "abstract": "The simplest approach to include a mass into the electromagnetic vector potential is to modify the Einstein-Maxwell action to the Einstein-Proca form. There are currently no exact analytical solutions for this scenario. However, by using perturbation theory, where both the Proca mass and the black hole charge are small parameters, it is possible to find an exact analytical solution. In this solution, the metric tensor remains unchanged, but the vector potential deviates from the Coulomb potential. In particular, even if the Proca mass is limited by the value $m_γ<10^{-48}\\text{g}$, which is the current experimental upper limit for photon mass, it makes a significant contribution to the dynamical equations. In this paper, we study the motion of neutral and charged particles in the vicinity of a weakly Proca-charged black hole, and test the observational implications of the solution of the Einstein-Proca equations for gravitational bending, the black hole shadow, and the fit to the orbits of the Galactic center flares observed by the near-infrared GRAVITY instrument. We find that only extremely cold photons, which are likely scattered before reaching a distant observer, could reveal the non-zero photon mass effect through the black hole shadow. For the Galactic center flare analysis we obtained constraints on the dimensionless Proca parameter to $μ\\leq 0.125$ for the electric interaction parameter in the range $-1.1 < \\mathrm{Q} < 0.5$, which can be potentially tested by future GRAVITY flare astrometry. Since the Proca parameter is coupled to the black hole mass, the effect of the Proca charge becomes more pronounced for supermassive black holes compared to stellar-mass objects. Our perturbative treatment remains valid essentially up to the horizon, with divergences appearing only in the immediate near-horizon region, where a fully non-perturbative analysis would be required.",
+      "link": "https://arxiv.org/abs/2601.19409v1",
+      "published": "2026-01-27T09:44:35+00:00",
+      "updated": "2026-01-27T09:44:35+00:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2510.20891v2",
+      "title": "Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals",
+      "authors": [
+        "Lorenzo Speri",
+        "Rodrigo Tenorio",
+        "Christian Chapman-Bird",
+        "Davide Gerosa"
+      ],
+      "abstract": "Extreme mass-ratio inspirals (EMRIs) are one of the key sources of gravitational waves for space-based detectors such as LISA. However, their detection remains a major data analysis challenge due to the signals' complexity and length. We present a semi-coherent, time-frequency search strategy for detecting EMRI harmonics without relying on full waveform templates. We perform an injection and search campaign of single mildly-eccentric equatorial EMRIs in stationary Gaussian noise. The detection statistic is constructed solely from the EMRI frequency evolution, which is modeled phenomenologically using a Singular Value Decomposition basis. The pipeline and the detection statistic are implemented in time-frequency, enabling efficient searches over one year of data in approximately one hour on a single GPU. The search pipeline achieves 94% detection probability at $\\mathrm{SNR} = 30$ for a false-alarm probability of $10^{-2}$, recovering the frequency evolution of the dominant harmonic to 1% relative error. By mapping the EMRI parameters consistent with the recovered frequency evolution, we show that the semi-coherent detection statistic enables a sub-percent precision estimation of the EMRI intrinsic parameters. These results establish a computationally efficient framework for constructing EMRI proposals for the LISA global fit.",
+      "link": "https://arxiv.org/abs/2510.20891v2",
+      "published": "2025-10-23T18:00:00+00:00",
+      "updated": "2026-01-27T09:43:35+00:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "astro-ph.IM"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19407v1",
+      "title": "Atomic clocks and gravitational waves as probes of non-metricity",
+      "authors": [
+        "Mohsen Khodadi",
+        "Emmanuel N. Saridakis"
+      ],
+      "abstract": "Non-metricity provides a natural extension of Riemannian geometry, yet its experimental signatures remain largely unexplored. In this work we investigate how spacetime non-metricity can be probed through high-precision observations, focusing on atomic clocks and gravitational waves as complementary tools. Working within Weyl geometry as a minimal realization of vectorial non-metricity, we formulate observable effects in a gauge-invariant manner and show that they are associated with path-dependent length transport governed by the Weyl field strength. We derive constraints from atomic-clock experiments and demonstrate that, although gravitational waves do not directly source the Weyl field at linear order, its dynamical contribution induces a backreaction on gravitational-wave propagation, leading to an anomalous strain. As a result, the absence of deviations from General Relativity in current gravitational-wave observations already places meaningful and strong constraints on dynamical non-metric degrees of freedom.",
+      "link": "https://arxiv.org/abs/2601.19407v1",
+      "published": "2026-01-27T09:43:09+00:00",
+      "updated": "2026-01-27T09:43:09+00:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ]
+    },
+    {
+      "arxiv_id": "2407.03903v2",
+      "title": "Characteristic Gluing with $Λ$: III. High-differentiability nonlinear gluing",
+      "authors": [
+        "Piotr T. Chruściel",
+        "Wan Cong",
+        "Finnian Gray"
+      ],
+      "abstract": "We prove a nonlinear characteristic $C^k$-gluing theorem for vacuum gravitational fields in Bondi gauge for a class of characteristic hypersurfaces near static vacuum $n$-dimensional backgrounds, $n\\ge 3$, with any finite $k$, with cosmological constant $ Λ\\in \\mathbb{R}$, near Birmingham-Kottler backgrounds. This generalises the $C^2$-gluing of Aretakis, Czimek and Rodnianski, carried-out near light cones in four-dimensional Minkowski spacetime.",
+      "link": "https://arxiv.org/abs/2407.03903v2",
+      "published": "2024-07-04T12:58:30+00:00",
+      "updated": "2026-01-27T09:42:43+00:00",
+      "categories": [
+        "gr-qc",
+        "math-ph",
+        "math.AP",
+        "math.DG"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19405v1",
+      "title": "Numerical simulations of black hole-neutron star mergers with equal and near-equal mass ratios",
+      "authors": [
+        "Ivan Markin",
+        "Mattia Bulla",
+        "Tim Dietrich"
+      ],
+      "abstract": "The detection of GW230529_181500 suggested the existence of more symmetric black hole-neutron star mergers where the black hole mass can be as low as 2.6 times that of the neutron star. Black hole-neutron star binaries with even more symmetric mass ratios are expected to leave behind massive disks capable of driving bright electromagnetic transients like kilonovae. Currently, there is only a limited number of numerical-relativity simulations of black hole-neutron star mergers in this regime, which are vital for accurate gravitational waveform models and analytical fitting formulas for the remnant properties. Insufficient accuracy of these may lead to misclassification of real events and potentially missed opportunities to locate their electromagnetic counterparts. To fill this gap in the parameter space coverage, we perform simulations of black hole-neutron star mergers with mass ratios $q \\in \\{1, 1/2, 1/3\\}$. We find the gravitational waveform models do not show good agreement with the numerical waveforms, with dephasing at the level of around 1 rad at the merger. We find that the masses of the dynamical ejecta and disk are in good agreement with the available fitting formulas. The analytical formulas for the remnant black hole are in excellent agreement for the black hole mass, but are less accurate with the predictions for its spin. Moreover, we analyze the remnant disk structure and dynamics, deriving the rotation law and identifying global trapped $g$-mode density oscillations. We distinguish three types of accretion in the postmerger and find modulation of the accretion rate by the global oscillations of the disk. Finally, we model the kilonova emission these systems would produce and find that most of them are potentially detectable by Vera C. Rubin Observatory within four days after merger, and by DECam within two days after merger if located at a distance of 200 Mpc.",
+      "link": "https://arxiv.org/abs/2601.19405v1",
+      "published": "2026-01-27T09:39:57+00:00",
+      "updated": "2026-01-27T09:39:57+00:00",
+      "categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19398v1",
+      "title": "Lepton flavor violating signals driven by CP symmetry of order 4",
+      "authors": [
+        "Bei Liu",
+        "Igor P. Ivanov"
+      ],
+      "abstract": "CP4 3HDM is a curious version of the three-Higgs-doublet model built upon a CP symmetry of order 4 (dubbed CP4). When extended to fermions, CP4 leads to unusually tight correlations between the scalar and Yukawa sectors and induces tree-level flavor changing neutral couplings. Still, viable scenarios exist, in which quark flavor changing signals remain within experimental limits. In this work, we extend CP4 to the lepton sector and investigate whether the lepton-Higgs couplings and lepton flavor violating (LFV) signals can also be kept under control. We consider two classes of LFV processes: tree-level lepton decays of the 125 GeV Higgs boson and one-loop radiative decay $μ\\rightarrow eγ$. For each CP4-invariant lepton Yukawa scenario, we perform a focused Yukawa sector scan that uses physical lepton properties as input and suppresses LFV effects. We identify a promising CP4 3HDM scenario compatible with the present-day experimental constraints, show that it can accommodate the recent CMS hint of a 146 GeV scalar decaying to $eμ$, and argue that this interpretation can be tested at future colliders.",
+      "link": "https://arxiv.org/abs/2601.19398v1",
+      "published": "2026-01-27T09:28:33+00:00",
+      "updated": "2026-01-27T09:28:33+00:00",
+      "categories": [
+        "hep-ph"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19397v1",
+      "title": "Probing New Physics and CP Violation in $ν_τn \\to Λ_c τ^- (π^- ν_τ)$ and $\\barν_τp \\to Λτ^+ (π^+ \\barν_τ)$",
+      "authors": [
+        "E. Hernández",
+        "J. Nieves",
+        "J. E. Sobczyk"
+      ],
+      "abstract": "We study the processes $ν_τn \\to Λ_c τ^- (π^- ν_τ)$ and $\\barν_τp \\to Λτ^+ (π^+ \\barν_τ)$, with particular emphasis on the pion energy and angular distributions, as a possible signal for lepton flavor universality violation, and in general of physics beyond the Standard Model (SM), as well as a sensitive probe of the $τ$ polarization vector. We work within an effective low-energy extension of the SM with all dimension-six four-fermion operators. In this framework, complex Wilson coefficients which encode new physics can generate CP-violating contributions. We propose an observable that provides a genuine CP-odd signal due to its sensitivity to particular transverse components of the $τ$ polarization vector. Namely, we show that the asymmetry in the azimuthal-angle distribution of the pion in the decay $τ^\\pm\\to π^\\pm ν_τ$ constitutes a smoking-gun prediction of such a beyond the SM scenario. We estimate the strength of this effect extrapolating nucleon-hyperon form factors recently obtained from lattice QCD calculations.",
+      "link": "https://arxiv.org/abs/2601.19397v1",
+      "published": "2026-01-27T09:28:08+00:00",
+      "updated": "2026-01-27T09:28:08+00:00",
+      "categories": [
+        "hep-ph",
+        "nucl-th"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19390v1",
+      "title": "Almanac: HMC sampling with bounded velocity",
+      "authors": [
+        "Javier Silva Lafaurie",
+        "Lorne Whiteway",
+        "Elena Sellentin",
+        "Kutay Nazli",
+        "Andrew H. Jaffe",
+        "Alan F. Heavens",
+        "Arthur Loureiro"
+      ],
+      "abstract": "In Hamiltonian Monte Carlo sampling, the shape of the potential and the choice of the momentum distribution jointly give rise to the Hamiltonian dynamics of the sampler. An efficient sampler propagates quickly in all regions of the parameter space, so that the chain has a low autocorrelation length and the sampler has a high acceptance rate, with the goal of optimising the number of near-independent samples for given computational cost. Standard Gaussian momentum distributions allow arbitrarily large velocities, which can lead to inefficient exploration in posteriors with ridges or funnel-like geometries. We investigate alternative momentum distributions based on relativistic and Student's t kinetic energies, which naturally limit particle velocities and may improve robustness. Using Almanac, a sampler for cosmological posterior distributions of sky maps and power spectra on the sphere, we test these alternatives in both low- and high-dimensional settings. We find that the choice of parameterization and momentum distribution can improve convergence and effective sample rate, though the achievable gains are generally modest and strongly problem-dependent, reaching up to an order of magnitude in favorable cases. Among the momentum distributions that we tested, those with moderately heavy tails achieved the best balance between efficiency and stability. These results highlight the importance of sampler design and encourage future work on adaptive and self-tuning strategies for kinetic energy parameter optimization in high-dimensional settings.",
+      "link": "https://arxiv.org/abs/2601.19390v1",
+      "published": "2026-01-27T09:20:51+00:00",
+      "updated": "2026-01-27T09:20:51+00:00",
+      "categories": [
+        "astro-ph.CO",
+        "stat.AP"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19386v1",
+      "title": "Constraints on Primordial Black Holes from Galactic Diffuse Synchrotron Emissions",
+      "authors": [
+        "Chen-Wei Du",
+        "Yu-Feng Zhou"
+      ],
+      "abstract": "We investigate the possibility of constraining primordial black holes (PBHs) with masses $M_\\mathrm{PBH}\\gtrsim 10^{15}\\,\\mathrm{g}$ through Galactic diffuse synchrotron emissions. Due to Hawking radiation, these types of PBHs are expected to be stable sources of cosmic-ray (CR) electrons and positrons with energies below $\\mathcal{O}(10\\,\\mathrm{MeV})$. In many CR propagation models with diffusive re-acceleration characterized by a significant Alfvén velocity $V_a\\sim \\mathcal{O}(10)\\,\\mathrm{km/s}$, the energies of the evaporated electrons/positrons can be further enhanced to $\\mathcal{O}(100)\\,\\mathrm{MeV}$ through their scattering with the Galactic random magnetic fields. Consequently, the observation of Galactic synchrotron emissions at frequencies above $\\sim 20\\,\\mathrm{MHz}$ can provide useful constraints on the abundance of PBHs. Using the AMS-02 and Voyager-1 data on the boron-to-carbon nuclei flux ratio, we confirm that a significant Alfvén velocity $V_a \\sim 20\\,\\mathrm{km/s}$ is favored in several benchmark diffusive re-acceleration models. We show that, in this scenario, the observed low-frequency synchrotron emissions (from 22 MHz to 1.4 GHz) can provide stringent constraints on PBH abundance. The obtained conservative constraints are stronger than those derived from the Voyager-1 all-electron (electron plus positron) data by more than one order of magnitude for $M_\\mathrm{PBH}\\gtrsim 1\\times 10^{16}\\,\\mathrm{g}$, and also stronger than our previous constraints derived from the AMS-02 positron data for $M_\\mathrm{PBH}\\gtrsim 2\\times 10^{16}\\,\\mathrm{g}$.",
+      "link": "https://arxiv.org/abs/2601.19386v1",
+      "published": "2026-01-27T09:17:54+00:00",
+      "updated": "2026-01-27T09:17:54+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE"
+      ]
+    },
+    {
+      "arxiv_id": "2508.15862v3",
+      "title": "Parameter estimation of Kerr-Bertotti-Robinson black holes using their shadows",
+      "authors": [
+        "Heena Ali",
+        "Sushant G. Ghosh"
+      ],
+      "abstract": "We investigate the shadow of Kerr-Bertotti-Robinson black holes (KBRBHs), which have a deviation parameter $B$ that captures the effect of an external magnetic field on the spacetime geometry. These spacetimes of Petrov type $D$ are asymptotically non-flat. We utilise the separability of the Hamilton-Jacobi equation to generate null geodesics and examine the crucial impact parameters for unstable photon orbits that define the black hole shadow. We carefully investigate how the magnetic field strength $B$ and spin parameter $a$ influence black hole shadows, discovering that increasing $B$ increases the shadow size while also introducing additional distortions, especially at high spins. We calculate the shadow observables, viz., area $A$ and oblateness $D$ and create contour plots in the parameter space $(a, B)$ to facilitate parameter estimation. We also investigate the dependence of the shadow on the observer's position, specifically by altering the radial coordinate $r_O$ and the inclination angle $θ$. For far viewers, the shadow approaches its asymptotic shape, but finite-distance observers perceive substantial deviations. The energy emission rate analysis reveals that the magnetic field parameter $B$ modifies the Hawking radiation spectrum, with increasing $B$ suppressing emission via backreaction, which lowers the Hawking temperature. Our findings confirm that KBRBH shadows encode imprints of magnetic deviations, thereby offering a potential avenue to distinguish Kerr from non-Kerr spacetimes and to probe magnetic effects in the strong-gravity regime.",
+      "link": "https://arxiv.org/abs/2508.15862v3",
+      "published": "2025-08-20T17:38:57+00:00",
+      "updated": "2026-01-27T09:11:39+00:00",
+      "categories": [
+        "gr-qc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "run_date": "2026-01-26",
+  "source": "arxiv",
+  "config_path": "config/config.yaml",
+  "profile_path": "profiles/group_profile.json",
+  "query": "cat:hep-ph OR cat:gr-qc OR cat:astro-ph.HE OR cat:hep-ex",
+  "fetched_at": "2026-01-26T11:58:13.689211+00:00",
+  "candidate_count": 50,
+  "selected_count": 3,
+  "rejected_count": 47,
+  "model": "gemini-2.5-flash-lite",
+  "prompt_version": "v2-short",
+  "papers": [
+    {
+      "arxiv_id": "2306.02168v2",
+      "title": "GALILEO: Galactic Axion Laser Interferometer Leveraging Electro-Optics",
+      "authors": [
+        "Reza Ebadi",
+        "David E. Kaplan",
+        "Surjeet Rajendran",
+        "Ronald L. Walsworth"
+      ],
+      "abstract": "We propose a novel experimental method for probing light dark matter candidates. We show that an electro-optical material's refractive index is modified in the presence of a coherently oscillating dark matter background. A high-precision resonant Michelson interferometer can be used to read out this signal. The proposed detection scheme allows for the exploration of an uncharted parameter space of dark matter candidates over a wide range of masses -- including masses exceeding a few tens of microelectronvolts, which is a challenging parameter space for microwave cavity haloscopes.",
+      "link": "https://arxiv.org/abs/2306.02168v2",
+      "published": "2023-06-03T18:19:44+00:00",
+      "updated": "2026-01-23T16:14:56+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "relevance_score": 89.5,
+      "why": "This paper proposes a novel experimental method for probing light dark matter candidates using an electro-optical material's refractive index modified by an oscillating dark matter background, directly aligning with our group's interest in dark matter detection and new light particles.",
+      "must_read": true
+    },
+    {
+      "arxiv_id": "2601.16903v1",
+      "title": "Cosmic ray electron boosted light dark matter: Implications of LZ 2025 data",
+      "authors": [
+        "Sk Jeesun",
+        "Anirban Majumdar"
+      ],
+      "abstract": "Current multi-ton detectors put stringent constraints on the GeV-scale galactic dark matter, pushing the allowed cross-section almost towards the neutrino fog, yet remain mostly insensitive to the light dark matter. Cosmic rays can upscatter the non-relativistic halo dark matter particles, making a sub-population of them gain sufficient kinetic energy to be discernible in current direct search experiments. In this work, we explore this alternate strategy to probe sub-MeV electrophilic dark matter boosted by cosmic rays with the latest data of LZ 2025 (WS2024 run) and improve the constraint on the MeV scale dark matter by almost $\\sim\\mathcal{O}(1)$ compared to the previous XENONnT limit for energy-independent cross-section. Using realistic energy-dependent cross-sections, we also analyse such a scenario, where the associated mediator mass plays a crucial role in governing the event rate and hence the expected limits too. With energy-dependent cross-sections, our obtained limits also remain stronger than the existing constraints from current direct detection experiments. Even compared to the limits from the neutrino detectors with a larger target size, LZ 2025 can put stringent constraints in certain parameter space of the mediator, excluding the previously unexplored regions.",
+      "link": "https://arxiv.org/abs/2601.16903v1",
+      "published": "2026-01-23T17:12:56+00:00",
+      "updated": "2026-01-23T17:12:56+00:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-ex"
+      ],
+      "relevance_score": 84.0,
+      "why": "The paper investigates cosmic ray electron boosted light dark matter and its implications for current detectors, directly addressing our interest in light dark matter and dark matter density.",
+      "must_read": false
+    },
+    {
+      "arxiv_id": "2601.16822v1",
+      "title": "Design and characterization of the POKERINO prototype for the POKER/NA64 experiment at CERN",
+      "authors": [
+        "Andrei Antonov",
+        "Pietro Bisio",
+        "Mariangela Bondì",
+        "Andrea Celentano",
+        "Anna Marini",
+        "Luca Marsicano"
+      ],
+      "abstract": "The NA64 experiment at CERN H4 beamline recently started a high-energy positron-beam program to search for light dark matter particles through a thick-target, missing-energy measurement. To fulfil the energy resolution requirement of the physics measurement $σ_E/E\\simeq2.5\\%/\\sqrt{E\\mathrm{[GeV}]} \\oplus 0.5\\%$ and cope with the constraints and performance requests of the NA64 setup, a new high-resolution homogeneous electromagnetic calorimeter PKR-CAL has been designed. The detector is based on PbWO$_4$ crystals, each read by multiple SiPM sensors to maximize the light collection. The PKR-CAL design has been optimized to mitigate and control unavoidable SiPM saturation effects at high light levels, as well as to minimize the gain fluctuations induced by instantaneous variations of the H4 beam intensity. The $R\\&D$ program culminated in the construction of a small-scale prototype, POKERINO. In this work, we present the results from the experimental characterization campaign of the POKERINO aiming at demonstrating that the obtained performances are compatible with the application requirements.",
+      "link": "https://arxiv.org/abs/2601.16822v1",
+      "published": "2026-01-23T15:20:39+00:00",
+      "updated": "2026-01-23T15:20:39+00:00",
+      "categories": [
+        "physics.ins-det",
+        "hep-ex"
+      ],
+      "relevance_score": 79.0,
+      "why": "This paper describes a prototype for an experiment at CERN searching for light dark matter through a missing-energy measurement, aligning with our group's focus on dark matter searches and experimental signatures.",
+      "must_read": false
+    }
+  ]
+}

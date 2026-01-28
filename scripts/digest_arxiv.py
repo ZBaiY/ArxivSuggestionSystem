@@ -29,6 +29,8 @@ FULLWIDTH_MAP = str.maketrans(
     }
 )
 
+PROMPT_VERSION = "v2-short"
+
 
 @dataclass
 class Paper:
@@ -233,8 +235,10 @@ def _write_run_artifact(
 
 def _compact_profile(profile: Dict[str, Any]) -> Dict[str, Any]:
     prefs = profile.get("preferences", {}) if isinstance(profile, dict) else {}
+
     def _cap(lst: List[str], n: int) -> List[str]:
         return lst[:n]
+
     return {
         "group_name": profile.get("group_name", "Group"),
         "keywords": _cap(profile.get("keywords", []) or [], 30),
@@ -256,7 +260,6 @@ def _paper_card(p: Paper, snippet_chars: int) -> Dict[str, Any]:
     return {
         "arxiv_id": p.arxiv_id,
         "title": _strip_markup(p.title),
-        "authors": p.authors[:4],
         "categories": p.categories[:6],
         "abstract_snippet": _strip_markup(p.summary)[:snippet_chars],
     }
@@ -284,7 +287,7 @@ def _local_pre_score(p: Paper, profile: Dict[str, Any]) -> int:
 def _select_candidates(papers: List[Paper], profile: Dict[str, Any], max_candidates: int) -> List[Paper]:
     if max_candidates <= 0 or len(papers) <= max_candidates:
         return papers
-    scored = [( _local_pre_score(p, profile), p) for p in papers]
+    scored = [(_local_pre_score(p, profile), p) for p in papers]
     scored.sort(key=lambda sp: (-sp[0], sp[1].updated))
     return [p for _, p in scored[:max_candidates]]
 
@@ -295,8 +298,27 @@ def _load_prompt(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-def _render_prompt(template: str, group_json: str, papers_json: str) -> str:
-    return template.replace("{{GROUP_PROFILE_JSON}}", group_json).replace("{{PAPERS_JSON}}", papers_json)
+def _render_prompt(
+    template: str,
+    group_json: str,
+    papers_json: str,
+    formula: str,
+    w_read: float,
+    w_dist: float,
+    w_insp: float,
+    w_act: float,
+    n_select: int,
+) -> str:
+    return (
+        template.replace("{{GROUP_PROFILE_JSON}}", group_json)
+        .replace("{{PAPERS_JSON}}", papers_json)
+        .replace("{{INSPIRING_FORMULA}}", formula)
+        .replace("{{W_READ}}", f"{w_read}")
+        .replace("{{W_DIST}}", f"{w_dist}")
+        .replace("{{W_INSP}}", f"{w_insp}")
+        .replace("{{W_ACT}}", f"{w_act}")
+        .replace("{{N_SELECT}}", str(n_select))
+    )
 
 
 def _gemini_generate(api_key: str, model: str, system_prompt: str, user_prompt: str, max_output_tokens: int) -> str:
@@ -307,7 +329,7 @@ def _gemini_generate(api_key: str, model: str, system_prompt: str, user_prompt: 
         "generationConfig": {"temperature": 0.2, "maxOutputTokens": max_output_tokens},
     }
     try:
-        resp = requests.post(url, json=body, timeout=60)
+        resp = requests.post(url, json=body, timeout=180)
     except requests.RequestException as e:
         raise RuntimeError(f"Gemini request failed: {e}")
     if resp.status_code != 200:
@@ -316,10 +338,42 @@ def _gemini_generate(api_key: str, model: str, system_prompt: str, user_prompt: 
     candidates = data.get("candidates", [])
     if not candidates:
         raise RuntimeError("Gemini response missing candidates")
+    finish_reason = candidates[0].get("finishReason", "")
+    if finish_reason == "MAX_TOKENS":
+        print(f"WARNING: Gemini output truncated due to MAX_TOKENS. Consider increasing max_output_tokens or reducing input size.", file=sys.stderr)
     parts = candidates[0].get("content", {}).get("parts", [])
     if not parts:
         raise RuntimeError("Gemini response missing content parts")
     return parts[0].get("text", "")
+
+
+def _extract_json_object(text: str) -> Optional[str]:
+    start = text.find("{")
+    if start == -1:
+        return None
+    depth = 0
+    in_string = False
+    escape = False
+    for i in range(start, len(text)):
+        ch = text[i]
+        if in_string:
+            if escape:
+                escape = False
+            elif ch == "\\":
+                escape = True
+            elif ch == "\"":
+                in_string = False
+            continue
+        if ch == "\"":
+            in_string = True
+            continue
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start : i + 1]
+    return None
 
 
 def _parse_gemini_json(text: str) -> Dict[str, Any]:
@@ -330,33 +384,66 @@ def _parse_gemini_json(text: str) -> Dict[str, Any]:
             raw = segments[1].strip()
             if raw.startswith("json"):
                 raw = raw[4:].strip()
-    if not raw.startswith("{"):
-        start = raw.find("{")
-        end = raw.rfind("}")
-        if start != -1 and end != -1 and end > start:
-            raw = raw[start : end + 1]
+    candidate = raw if raw.startswith("{") else _extract_json_object(raw)
+    if not candidate:
+        candidate = _extract_json_object(text)
+    if not candidate or not candidate.rstrip().endswith("}"):
+        tail = text[-300:]
+        raise RuntimeError(
+            "Likely truncated Gemini output (missing closing brace). "
+            "Reduce output size or increase max_output_tokens.\n" + tail
+        )
     try:
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        snippet = text[:800]
-        raise RuntimeError(f"Gemini returned invalid JSON. Response head:\n{snippet}")
+        return json.loads(candidate)
+    except Exception:
+        tail = text[-300:]
+        raise RuntimeError(f"Gemini returned invalid JSON. Tail:\n{tail}")
+
+
+def _gemini_json_with_retry(
+    api_key: str,
+    model: str,
+    system_prompt: str,
+    user_prompt: str,
+    max_output_tokens: int,
+    max_attempts: int = 1,
+) -> Dict[str, Any]:
+    last_err: Optional[Exception] = None
+    for attempt in range(1, max_attempts + 1):
+        prompt = user_prompt
+        if attempt > 1:
+            prompt = (
+                user_prompt
+                + "\n\nRETRY: Output STRICT JSON only. Ensure all strings are closed and JSON is valid."
+            )
+        text = _gemini_generate(api_key, model, system_prompt, prompt, max_output_tokens)
+        try:
+            return _parse_gemini_json(text)
+        except RuntimeError as e:
+            last_err = e
+            continue
+    if last_err:
+        raise last_err
+    raise RuntimeError("Gemini JSON parse failed")
 
 
 def _validate_relevant(data: Dict[str, Any]) -> None:
     if not isinstance(data, dict):
         raise RuntimeError("Relevant JSON must be an object")
-    if "highly_relevant" not in data or "rejected" not in data:
-        raise RuntimeError("Relevant JSON missing required keys")
+    if "highly_relevant" not in data:
+        raise RuntimeError("Relevant JSON missing required key")
 
 
 def _validate_inspiring(data: Dict[str, Any]) -> None:
     if not isinstance(data, dict):
         raise RuntimeError("Inspiring JSON must be an object")
-    if "inspiring" not in data or "not_inspiring" not in data:
-        raise RuntimeError("Inspiring JSON missing required keys")
+    if "inspiring" not in data:
+        raise RuntimeError("Inspiring JSON missing required key")
 
 
-def _enrich_paper(p: Paper) -> Dict[str, Any]:
+def _enrich_paper(p: Optional[Paper]) -> Dict[str, Any]:
+    if not p:
+        return {}
     return {
         "arxiv_id": p.arxiv_id,
         "title": _strip_markup(p.title),
@@ -414,23 +501,36 @@ def main() -> int:
     papers = _filter_by_days_back(papers, days_back)
 
     run_date = _run_date_utc()
-    raw_out_path = _write_run_artifact(
-        Path("artifacts/run"),
-        run_date,
-        config_path,
-        profile_path,
-        query,
-        papers,
-    )
+    output_cfg = config.get("output", {})
+    write_raw = bool(output_cfg.get("write_raw_run_artifact", False))
+    raw_out_path: Optional[Path] = None
+    if write_raw:
+        raw_out_path = _write_run_artifact(
+            Path("artifacts/run"),
+            run_date,
+            config_path,
+            profile_path,
+            query,
+            papers,
+        )
 
     gemini_cfg = config.get("gemini", {})
     model = gemini_cfg.get("model", "gemini-2.5-flash")
-    max_output_tokens = int(gemini_cfg.get("max_output_tokens", 2500))
-    output_cfg = config.get("output", {})
-    snippet_chars = int(output_cfg.get("abstract_snippet_chars", 500))
-    max_candidates = int(output_cfg.get("max_candidates_to_send_to_gemini", 80))
-    n_highly = int(output_cfg.get("n_highly_relevant", 10))
-    n_inspiring = int(output_cfg.get("n_inspiring", 10))
+    max_output_tokens = int(gemini_cfg.get("max_output_tokens", 1500))
+    max_attempts = int(gemini_cfg.get("max_attempts", 1))
+    snippet_chars = int(output_cfg.get("abstract_snippet_chars", 240))
+    max_candidates = int(output_cfg.get("max_candidates_to_send_to_gemini", 40))
+    n_highly = min(int(output_cfg.get("n_highly_relevant", 3)), 3)
+    n_inspiring = min(int(output_cfg.get("n_inspiring", 3)), 3)
+
+    weights = output_cfg.get("inspiring_weights", {}) or {}
+    w_read = float(weights.get("readability", 0.25))
+    w_dist = float(weights.get("distance", 0.20))
+    w_insp = float(weights.get("inspiration", 0.45))
+    w_act = float(weights.get("actionability", 0.20))
+    w_nov = float(weights.get("novelty", 0.0))
+    # NOTE: Prompt defines Q1..Q5; keep formula in that notation so Gemini computes scores consistently.
+    formula = f"{w_insp}*Q3 + {w_read}*Q1 + {w_act}*Q4 - {w_dist}*Q2 + {w_nov}*Q5"
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -450,21 +550,35 @@ def main() -> int:
     group_json = json.dumps(compact_profile, ensure_ascii=False)
     papers_json = json.dumps(paper_cards, ensure_ascii=False)
 
-    relevant_prompt = _render_prompt(relevant_user, group_json, papers_json)
-    relevant_text = _gemini_generate(api_key, model, relevant_system, relevant_prompt, max_output_tokens)
-    relevant_data = _parse_gemini_json(relevant_text)
+    relevant_prompt = _render_prompt(
+        relevant_user, group_json, papers_json, formula, w_read, w_dist, w_insp, w_act, n_highly
+    )
+    relevant_data = _gemini_json_with_retry(
+        api_key, model, relevant_system, relevant_prompt, max_output_tokens, max_attempts
+    )
     _validate_relevant(relevant_data)
 
-    highly = relevant_data.get("highly_relevant", [])[:n_highly]
+    highly = (relevant_data.get("highly_relevant", []) or [])[:n_highly]
     selected_ids = {item.get("arxiv_id") for item in highly if item.get("arxiv_id")}
 
     remaining_cards = [c for c in paper_cards if c.get("arxiv_id") not in selected_ids]
-    inspiring_prompt = _render_prompt(inspiring_user, group_json, json.dumps(remaining_cards, ensure_ascii=False))
-    inspiring_text = _gemini_generate(api_key, model, inspiring_system, inspiring_prompt, max_output_tokens)
-    inspiring_data = _parse_gemini_json(inspiring_text)
+    inspiring_prompt = _render_prompt(
+        inspiring_user,
+        group_json,
+        json.dumps(remaining_cards, ensure_ascii=False),
+        formula,
+        w_read,
+        w_dist,
+        w_insp,
+        w_act,
+        n_inspiring,
+    )
+    inspiring_data = _gemini_json_with_retry(
+        api_key, model, inspiring_system, inspiring_prompt, max_output_tokens, max_attempts
+    )
     _validate_inspiring(inspiring_data)
 
-    inspiring = inspiring_data.get("inspiring", [])[:n_inspiring]
+    inspiring = (inspiring_data.get("inspiring", []) or [])[:n_inspiring]
 
     papers_by_id = {p.arxiv_id: p for p in candidates}
 
@@ -472,13 +586,20 @@ def main() -> int:
         arxiv_id = item.get("arxiv_id", "")
         p = papers_by_id.get(arxiv_id)
         base = _enrich_paper(p) if p else {"arxiv_id": arxiv_id}
-        return {
+        out: Dict[str, Any] = {
             **base,
             "relevance_score": item.get("relevance_score"),
             "why": _normalize_generated_text(item.get("why", "")),
-            "must_read": bool(item.get("must_read", False)),
-            "tags": [_normalize_generated_text(str(t)) for t in (item.get("tags", []) or [])],
         }
+
+        must_read = bool(item.get("must_read", False))
+        if must_read:
+            out["must_read"] = True
+            tags = item.get("tags")
+            if isinstance(tags, list) and tags:
+                out["tags"] = tags[:4]
+
+        return out
 
     def _attach_inspiring(item: Dict[str, Any]) -> Dict[str, Any]:
         arxiv_id = item.get("arxiv_id", "")
@@ -490,6 +611,7 @@ def main() -> int:
             "distance": item.get("distance"),
             "inspiration": item.get("inspiration"),
             "actionability": item.get("actionability"),
+            "novelty": item.get("novelty"),
             "inspiring_score": item.get("inspiring_score"),
             "why": _normalize_generated_text(item.get("why", "")),
         }
@@ -504,18 +626,28 @@ def main() -> int:
         "profile_path": str(profile_path),
         "query": query,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "candidate_count": len(candidates),
+        "selected_count": len(highly_out),
+        "model": model,
+        "prompt_version": PROMPT_VERSION,
     }
 
     base_dir = Path("artifacts/run")
-    relevant_path = base_dir / f"{run_date}.highly_relevant.json"
-    inspiring_path = base_dir / f"{run_date}.inspiring.json"
+    relevant_path = base_dir / f"{run_date}_highly_relevant.json"
+    inspiring_path = base_dir / f"{run_date}_inspiring.json"
 
     _write_ranked_output(relevant_path, run_meta, highly_out)
     _write_ranked_output(inspiring_path, run_meta, inspiring_out)
 
+    inspiring_meta = dict(run_meta)
+    inspiring_meta["selected_count"] = len(inspiring_out)
+
+    _write_ranked_output(inspiring_path, inspiring_meta, inspiring_out)
+
+    wrote_raw = str(raw_out_path) if raw_out_path else "(raw disabled)"
     print(
         f"Fetched {len(papers)} papers; candidates {len(candidates)}. "
-        f"Wrote {raw_out_path}, {relevant_path}, {inspiring_path}"
+        f"Wrote {wrote_raw}, {relevant_path}, {inspiring_path}"
     )
     return 0
 

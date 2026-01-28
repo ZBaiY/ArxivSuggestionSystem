@@ -1,0 +1,88 @@
+{
+  "run_date": "2026-01-28",
+  "source": "arxiv",
+  "config_path": "config/config.yaml",
+  "profile_path": "profiles/group_profile.json",
+  "query": "cat:hep-ph OR cat:gr-qc OR cat:astro-ph.HE OR cat:astro-ph.CO",
+  "fetched_at": "2026-01-28T09:23:21.709786+00:00",
+  "candidate_count": 30,
+  "selected_count": 3,
+  "model": "gemini-2.5-flash-lite",
+  "prompt_version": "v2-short",
+  "papers": [
+    {
+      "arxiv_id": "2509.26218v2",
+      "title": "Event Tokenization and Masked-Token Prediction for Anomaly Detection at the Large Hadron Collider",
+      "authors": [
+        "Ambre Visive",
+        "Polina Moskvitina",
+        "Clara Nellist",
+        "Roberto Ruiz de Austri",
+        "Sascha Caron"
+      ],
+      "abstract": "We propose a novel use of Large Language Models (LLMs) as unsupervised anomaly detectors in particle physics. Using lightweight LLM-like networks with encoder-based architectures trained to reconstruct background events via masked-token prediction, our method identifies anomalies through deviations in reconstruction performance, without prior knowledge of signal characteristics. Applied to searches for simultaneous four-top-quark production, this token-based approach shows competitive performance against established unsupervised methods and effectively captures subtle discrepancies in collider data, suggesting a promising direction for model-independent searches for new physics.",
+      "link": "https://arxiv.org/abs/2509.26218v2",
+      "published": "2025-09-30T13:19:00+00:00",
+      "updated": "2026-01-27T18:47:49+00:00",
+      "categories": [
+        "hep-ex",
+        "hep-ph"
+      ],
+      "readability": 80,
+      "distance": 60,
+      "inspiration": 70,
+      "actionability": 70,
+      "novelty": 80,
+      "inspiring_score": 69.0,
+      "why": "Proposes using Large Language Models (LLMs) for unsupervised anomaly detection in particle physics. This offers a novel inference technique for identifying unexpected signals in complex datasets, potentially transferable to our search for new physics signatures."
+    },
+    {
+      "arxiv_id": "2601.19407v1",
+      "title": "Atomic clocks and gravitational waves as probes of non-metricity",
+      "authors": [
+        "Mohsen Khodadi",
+        "Emmanuel N. Saridakis"
+      ],
+      "abstract": "Non-metricity provides a natural extension of Riemannian geometry, yet its experimental signatures remain largely unexplored. In this work we investigate how spacetime non-metricity can be probed through high-precision observations, focusing on atomic clocks and gravitational waves as complementary tools. Working within Weyl geometry as a minimal realization of vectorial non-metricity, we formulate observable effects in a gauge-invariant manner and show that they are associated with path-dependent length transport governed by the Weyl field strength. We derive constraints from atomic-clock experiments and demonstrate that, although gravitational waves do not directly source the Weyl field at linear order, its dynamical contribution induces a backreaction on gravitational-wave propagation, leading to an anomalous strain. As a result, the absence of deviations from General Relativity in current gravitational-wave observations already places meaningful and strong constraints on dynamical non-metric degrees of freedom.",
+      "link": "https://arxiv.org/abs/2601.19407v1",
+      "published": "2026-01-27T09:43:09+00:00",
+      "updated": "2026-01-27T09:43:09+00:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "readability": 70,
+      "distance": 70,
+      "inspiration": 60,
+      "actionability": 60,
+      "novelty": 70,
+      "inspiring_score": 58.0,
+      "why": "Investigates probing non-metricity using atomic clocks and gravitational waves. This suggests a new class of high-precision observational probes for fundamental physics beyond standard GR, potentially inspiring new experimental strategies for light new particles."
+    },
+    {
+      "arxiv_id": "2601.19454v1",
+      "title": "Radiative Dirac neutrino masses and dark matter in a $U(1)_{B-L}$ extended model",
+      "authors": [
+        "Chayan Majumdar",
+        "Utkarsh Patel",
+        "Supriya Senapati",
+        "Sudhanwa Patra"
+      ],
+      "abstract": "We study a $U(1)_{B-L}$ extension of the Standard Model (SM) in which Dirac neutrino masses are generated radiatively at the one-loop level through the exchange of new beyond the SM fields. This framework establishes a direct connection between neutrino mass generation and the dark sector, with the stability of the dark matter ensured by a residual discrete $Z_6$ symmetry arising from the spontaneous breaking of $U(1)_{B-L}$. We investigate the resulting charged lepton flavor violating processes and dark matter phenomenology, saturating relic observations and direct-detection constraints, and analyze the collider signatures of the dark sector at the Large Hadron Collider and at a future muon collider. We have identified excellent prospects for observing the considered dark matter candidates in these colliders, even with lower integrated luminosities than the proposed one.",
+      "link": "https://arxiv.org/abs/2601.19454v1",
+      "published": "2026-01-27T10:39:21+00:00",
+      "updated": "2026-01-27T10:39:21+00:00",
+      "categories": [
+        "hep-ph"
+      ],
+      "readability": 70,
+      "distance": 30,
+      "inspiration": 50,
+      "actionability": 50,
+      "novelty": 60,
+      "inspiring_score": 44.0,
+      "why": "Studies radiative Dirac neutrino masses and dark matter in a $U(1)_{B-L}$ extension. The radiative generation mechanism for neutrino masses and its connection to dark matter could offer a new model-building strategy for generating small neutrino masses and a DM candidate."
+    }
+  ]
+}

@@ -7,9 +7,9 @@ include_seen: false  # if true, include already-seen papers in digest
 
 # arXiv query settings
 arxiv:
-  categories: ["hep-ph", "hep-th", "gr-qc", "astro-ph.CO", "astro-ph.HE", "hep-ex"]
+  categories: ["hep-ph", "gr-qc", "astro-ph.HE", "astro-ph.CO"]  # list of arXiv categories to include
   extra_query: ""           # optional arXiv query fragment, e.g. 'ti:"neutrino"'
-  days_back: 2               # include papers updated or published within this many workdays
+  days_back: 1               # include papers updated or published within this many workdays --- warning, making it too big may cause token window limit -- the maximum is around 2
   max_results: 120           # max records to request from arXiv API
 
 # Group profile and preference settings
@@ -17,7 +17,7 @@ profile:
   group_name: "Group"
   profile_path: "profiles/group_profile.json"   # output of build_profile.py
   preferences_path: "config/preferences.json"   # optional JSON merged into preferences
-  keywords: ["ultralight", "neutrino", "floquet", "superradiance"]
+  keywords: ["ultralight", "neutrino", "dark matter", "superradiance"]
   negative_keywords: []
   top_k_keywords: 40          # used by build_profile.py
   top_k_bigrams: 25           # used by build_profile.py
@@ -29,12 +29,12 @@ profile:
   years_back: 10
   years_back_hard: true
   preferences:
-    favorite_authors: ["A. Author", "B. Author"]          # strong boost
+    favorite_authors: ["Gilad Perez", "B. Author"]          # strong boost
     avoid_authors: ["C. Author"]                          # strong downrank
     favorite_categories: ["hep-ph", "hep-th"]            # boost if paper has these categories
     avoid_categories: ["q-bio", "cs.CV"]                  # downrank
     interest_tags: ["neutrino", "ultralight", "floquet"] # boost if appears in title/abstract
-    avoid_tags: ["protein", "diffusion"]                 # downrank if appears
+    avoid_tags: []                 # downrank if appears ["protein", "diffusion"]
     ranking_hints:
       core_definition: ""                                  # optional free text
       adjacent_definition: ""                              # optional free text
@@ -48,7 +48,7 @@ profile:
       tag_boost: 2
       tag_penalty: 4
 
-# INSPIRE-HEP profile builder settings
+# INSPIRE-HEP profile builder settings --- just for building group's profile
 inspire:
   query: 'a "Gilad Perez"'
   sort: "mostrecent"
@@ -60,14 +60,23 @@ inspire:
 gemini:
   model: "gemini-2.5-flash-lite"
   temperature: 0.2
-  max_output_tokens: 2500
+  max_output_tokens: 12000
+  max_attempts: 1              # retry attempts on JSON parse failure (1 = no retry)
 
 # Digest output settings
 output:
+  write_raw_run_artifact: false   # set true to write raw candidate list to artifacts/run/<date>.json
   title: "arXiv Daily (Group)"
   n_core: 6
   n_adjacent: 6
-  abstract_snippet_chars: 500
-  max_candidates_to_send_to_gemini: 80
-  n_highly_relevant: 10
-  n_inspiring: 10
+  abstract_snippet_chars: 250           # keep prompt small
+  max_candidates_to_send_to_gemini: 30  # reduced to avoid Gemini output truncation
+  n_highly_relevant: 3                  # max 3; hard-clamped by code
+  n_inspiring: 3                        # max 3; hard-clamped by code
+  inspiring_weights:
+    readability: 0.3        # Q1 weight -- "I can understand the paper"
+    distance: 0.10          # Q2 penalty weight (subtracted) -- too far from our field
+    inspiration: 0.3        # Q3 weight -- "I got inspired"
+    actionability: 0.3      # Q4 weight -- "I can quickly get a doable idea"
+    novelty: 0.10           # Q5 weight (optional) -- how novel it is within its own domain (secondary signal)
+  inspiring_score_threshold: 0  # optional threshold for later filtering

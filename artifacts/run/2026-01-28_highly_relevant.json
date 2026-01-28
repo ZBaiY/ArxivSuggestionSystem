@@ -1,0 +1,69 @@
+{
+  "run_date": "2026-01-28",
+  "source": "arxiv",
+  "config_path": "config/config.yaml",
+  "profile_path": "profiles/group_profile.json",
+  "query": "cat:hep-ph OR cat:gr-qc OR cat:astro-ph.HE OR cat:astro-ph.CO",
+  "fetched_at": "2026-01-28T09:23:21.709786+00:00",
+  "candidate_count": 30,
+  "selected_count": 3,
+  "model": "gemini-2.5-flash-lite",
+  "prompt_version": "v2-short",
+  "papers": [
+    {
+      "arxiv_id": "2601.19844v1",
+      "title": "Oscillating Resonances: Imprints of ultralight dark matter at colliders",
+      "authors": [
+        "Martin Bauer",
+        "Sreemanti Chakraborti"
+      ],
+      "abstract": "In models where ultralight fields constitute dark matter, the misalignment mechanism leads to coherent, low-amplitude oscillations in fundamental constants. This effect arises from effective operators that couple dark matter to Standard Model fields. We present different models that can induce these effective operators by integrating out a mediator field. For mediator masses within the reach of collider searches, an alternative way to discover ultralight dark matter is to search for a resonance. Due to being a mediator to dark matter, the mass of the mediator oscillates. The resonance therefore, should not appear as a single isolated peak, but is smeared out once data is averaged over an oscillation cycle or more. Remarkably, the oscillation period and amplitude are in the range of current and future collider searches, even though constraints from atomic clocks probing variations of the fine-structure constant and the electron mass are very strong. We recast existing searches and projections from Belle II, LHCb and SHiP for an `oscillating resonance', and discuss how the periodicity of the signal can be used to reconstruct the peak from mass-binned data. We further show that time-stamped data would allow to unfold the signal via a fast Fourier transform and determine the significance of the signal for different background levels. The discovery of an oscillating resonance at a collider, with characteristics as predicted in ultralight dark matter scenarios, would constitute a powerful probe of dark matter's underlying nature.",
+      "link": "https://arxiv.org/abs/2601.19844v1",
+      "published": "2026-01-27T17:50:17+00:00",
+      "updated": "2026-01-27T17:50:17+00:00",
+      "categories": [
+        "hep-ph"
+      ],
+      "relevance_score": 91,
+      "why": "Directly addresses ultralight dark matter oscillations and their coupling to Standard Model fields, a core interest. The mechanism of coherent oscillations in fundamental constants is a clear, actionable phenomenology. R1=95, R2=90, R3=85."
+    },
+    {
+      "arxiv_id": "2601.19397v1",
+      "title": "Probing New Physics and CP Violation in $ν_τn \\to Λ_c τ^- (π^- ν_τ)$ and $\\barν_τp \\to Λτ^+ (π^+ \\barν_τ)$",
+      "authors": [
+        "E. Hernández",
+        "J. Nieves",
+        "J. E. Sobczyk"
+      ],
+      "abstract": "We study the processes $ν_τn \\to Λ_c τ^- (π^- ν_τ)$ and $\\barν_τp \\to Λτ^+ (π^+ \\barν_τ)$, with particular emphasis on the pion energy and angular distributions, as a possible signal for lepton flavor universality violation, and in general of physics beyond the Standard Model (SM), as well as a sensitive probe of the $τ$ polarization vector. We work within an effective low-energy extension of the SM with all dimension-six four-fermion operators. In this framework, complex Wilson coefficients which encode new physics can generate CP-violating contributions. We propose an observable that provides a genuine CP-odd signal due to its sensitivity to particular transverse components of the $τ$ polarization vector. Namely, we show that the asymmetry in the azimuthal-angle distribution of the pion in the decay $τ^\\pm\\to π^\\pm ν_τ$ constitutes a smoking-gun prediction of such a beyond the SM scenario. We estimate the strength of this effect extrapolating nucleon-hyperon form factors recently obtained from lattice QCD calculations.",
+      "link": "https://arxiv.org/abs/2601.19397v1",
+      "published": "2026-01-27T09:28:08+00:00",
+      "updated": "2026-01-27T09:28:08+00:00",
+      "categories": [
+        "hep-ph",
+        "nucl-th"
+      ],
+      "relevance_score": 78,
+      "why": "Investigates CP violation and new physics in tau neutrino interactions, touching on neutrino properties and beyond the standard model physics. The focus on specific observables makes it potentially actionable. R1=75, R2=70, R3=75."
+    },
+    {
+      "arxiv_id": "2601.19883v1",
+      "title": "A Comprehensive Effective Field Theory Framework for Coherent Elastic Neutrino-Nucleus Scattering",
+      "authors": [
+        "Gang Li",
+        "Chuan-Qiang Song",
+        "Feng-Jie Tang",
+        "Jiang-Hao Yu"
+      ],
+      "abstract": "Coherent elastic neutrino-nucleus scattering (CE$ν$NS) stands out as a pivotal process for precision tests of the Standard Model electroweak sector, investigations of neutrino properties, and searches for new physics (NP). Recent experimental measurements by COHERENT, CONUS+, and ton-scale xenon detectors--including PandaX-4T and XENONnT--underscore the need for a systematic theoretical framework to bridge high-energy physics scenarios with low-energy observational data. In this work, we develop a comprehensive end-to-end effective field theory (EFT) framework for CE$ν$NS, encompassing the complete energy scale hierarchy spanning the ultraviolet (UV) regime down to the nuclear sector. We consider the low-energy EFT (LEFT) operators up to dimension 8, incorporating their QCD renormalization group running effects, and employ the systematic spurion method to achieve the matching between these operators and the chiral Lagrangian. A full power counting analysis is performed, extending to nuclear response functions, which evaluates contributions from LEFT operators up to dimension 8 while accounting for the nucleon number enhancement effect intrinsic to CE$ν$NS. Moreover, we match the relevant LEFT operators for CE$ν$NS onto operators up to dimension 8 within the Standard Model EFT. By also providing their complete tree-level ultraviolet completions, this procedure establishes a consistent top-down theoretical workflow. Leveraging a broad suite of CE$ν$NS experimental data, this framework enables a combined analysis to extract constraints on the scales of EFT operators and neutrino non-standard interaction parameters.",
+      "link": "https://arxiv.org/abs/2601.19883v1",
+      "published": "2026-01-27T18:50:50+00:00",
+      "updated": "2026-01-27T18:50:50+00:00",
+      "categories": [
+        "hep-ph"
+      ],
+      "relevance_score": 85,
+      "why": "Focuses on Coherent Elastic Neutrino-Nucleus Scattering (CEνNS) as a probe for new physics and neutrino properties, aligning with our interest in precision tests and beyond the standard model searches. R1=80, R2=80, R3=85."
+    }
+  ]
+}

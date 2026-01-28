@@ -57,9 +57,6 @@ def test_digest_creates_ranked_outputs(tmp_path, monkeypatch):
                 "tags": ["clock"],
             }
         ],
-        "rejected": [
-            {"arxiv_id": "2401.00002v1", "reason": "Not aligned"}
-        ],
     }
 
     inspiring_json = {
@@ -74,7 +71,6 @@ def test_digest_creates_ranked_outputs(tmp_path, monkeypatch):
                 "why": "Transferable idea.",
             }
         ],
-        "not_inspiring": [],
     }
 
     call_count = {"n": 0}
@@ -109,6 +105,7 @@ def test_digest_creates_ranked_outputs(tmp_path, monkeypatch):
         "profile": {"group_name": "Group", "profile_path": "profiles/group_profile.json"},
         "gemini": {"model": "gemini-2.5-flash", "max_output_tokens": 2000},
         "output": {
+            "write_raw_run_artifact": True,
             "abstract_snippet_chars": 200,
             "max_candidates_to_send_to_gemini": 10,
             "n_highly_relevant": 10,
@@ -126,8 +123,8 @@ def test_digest_creates_ranked_outputs(tmp_path, monkeypatch):
 
     run_date = da._run_date_utc()
     raw_path = tmp_path / "artifacts" / "run" / f"{run_date}.json"
-    rel_path = tmp_path / "artifacts" / "run" / f"{run_date}.highly_relevant.json"
-    insp_path = tmp_path / "artifacts" / "run" / f"{run_date}.inspiring.json"
+    rel_path = tmp_path / "artifacts" / "run" / f"{run_date}_highly_relevant.json"
+    insp_path = tmp_path / "artifacts" / "run" / f"{run_date}_inspiring.json"
 
     assert raw_path.exists()
     assert rel_path.exists()

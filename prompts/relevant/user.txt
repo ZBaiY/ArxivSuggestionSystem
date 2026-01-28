@@ -7,7 +7,7 @@ Paper cards (JSON list):
 You are a high-energy phenomenology PI/postdoc doing precision-first triage.
 Goal: select papers that are strongly aligned with our profile (high precision, conservative recall).
 
-For each candidate, judge using only title/snippet/categories/authors:
+For each candidate, judge using only title/snippet/categories:
 R1 Topic match (0-100): overlap with profile keywords/bigrams/preferences in a SPECIFIC way (not generic HEP).
 - 90: clearly about our core themes/mechanisms; 60: adjacent; 20: generic hep-ph.
 
@@ -25,22 +25,19 @@ Selection policy (conservative):
 - Otherwise reject.
 - Pick up to N items (N implied by caller); if fewer qualify, return fewer.
 
-must_read policy:
-- must_read=true only if relevance_score >= 88 AND (R2 >= 75) AND the paper seems directly actionable for our work.
-- Otherwise must_read=false.
+must_read policy (OPTIONAL field):
+- Add "must_read": true ONLY if relevance_score >= 88 AND R2 >= 75 AND directly actionable.
+- If must_read is true, also add "tags": 2-4 short theme tags.
+- Otherwise OMIT both must_read and tags entirely (do NOT output must_read:false).
 
-Tags:
-- 2–6 short tags capturing the specific theme/mechanism (e.g., “ULDM”, “Floquet”, “neutrino oscillations”, “superradiance”, “SMEFT”, “constraint method”).
-
-Output STRICT JSON only:
+Output STRICT JSON only (selected papers ONLY, no rejected list):
 {
   "highly_relevant": [
-    {"arxiv_id": "...", "relevance_score": 0-100, "why": "<=2 sentences; must mention the specific match>", "must_read": true/false, "tags": ["..."]}
-  ],
-  "rejected": [
-    {"arxiv_id": "...", "reason": "<=1 sentence; be concrete, e.g. 'generic BSM search, no profile match'>"}
+    {"arxiv_id": "...", "relevance_score": 0-100, "why": "<=2 sentences"}
   ]
 }
+If a paper qualifies as must_read, add those fields:
+    {"arxiv_id": "...", "relevance_score": 92, "why": "...", "must_read": true, "tags": ["ULDM", "superradiance"]}
 
 Rules:
 - Use only the provided paper cards; do not invent content.
